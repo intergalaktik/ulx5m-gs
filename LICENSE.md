@@ -1,5 +1,5 @@
 
-## ULX4M series
+## ULX5M series
 
 This hardware is licensed under CERN-OHL-S v2 or later.
 
