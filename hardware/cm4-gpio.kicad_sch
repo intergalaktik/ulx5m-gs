@@ -5694,7 +5694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "apparillo-lib:HRS_DF40C-100DP-0.4V_51_"
+		(property "Footprint" "ulx5m-gs:HRS_DF40C-100DP-0.4V_51_"
 			(at 152.4 88.9 0)
 			(effects
 				(font

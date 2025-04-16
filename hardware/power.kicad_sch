@@ -14679,7 +14679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 175.26 0)
 			(effects
 				(font
@@ -23321,7 +23321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "apparillo-lib:MPM3833CGRH-Z"
+		(property "Footprint" "ulx5m-gs:MPM3833CGRH-Z"
 			(at 63.5 24.384 0)
 			(effects
 				(font
