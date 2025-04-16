@@ -8501,6 +8501,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ulx4m-rescue:+3V3-power"
 			(power)
 			(pin_names
@@ -11126,26 +11251,6 @@
 			)
 		)
 	)
-	(global_label "SDRAM_A2"
-		(shape input)
-		(at 173.99 66.04 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "2faded65-3e64-4f4d-96cd-e9cd6ba15701")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDRAM_DQM0"
 		(shape input)
 		(at 203.2 64.77 180)
@@ -11386,26 +11491,6 @@
 			)
 		)
 	)
-	(global_label "SDRAM_A1"
-		(shape input)
-		(at 173.99 63.5 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "574a8368-24e2-442e-bae9-1481e24841ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDRAM_D14"
 		(shape input)
 		(at 104.14 77.47 0)
@@ -11598,26 +11683,6 @@
 		(uuid "837bb61c-1a67-4f33-8378-40aecf12192a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDRAM_A10"
-		(shape input)
-		(at 175.26 69.85 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "85e1d48d-e780-4ea6-a6d7-d61b214a41fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12539,7 +12604,7 @@
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
-		(at 78.74 27.94 0)
+		(at 148.59 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12547,7 +12612,7 @@
 		(dnp no)
 		(uuid "05e60f96-8baa-438d-8d3c-1b89abff7c98")
 		(property "Reference" "#PWR075"
-			(at 78.74 31.75 0)
+			(at 148.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,7 +12621,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 78.74 24.384 0)
+			(at 148.59 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 27.94 0)
+			(at 148.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12572,7 +12637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 27.94 0)
+			(at 148.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12580,7 +12645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 27.94 0)
+			(at 148.59 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12763,7 +12828,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 269.24 30.48 0)
+		(at 142.24 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12772,7 +12837,7 @@
 		(fields_autoplaced yes)
 		(uuid "105bcb23-bec7-46f8-919d-935fc413eec7")
 		(property "Reference" "#PWR083"
-			(at 269.24 34.29 0)
+			(at 142.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12781,7 +12846,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 269.24 25.4 0)
+			(at 142.24 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12789,7 +12854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 30.48 0)
+			(at 142.24 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12798,7 +12863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 30.48 0)
+			(at 142.24 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12807,7 +12872,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 30.48 0)
+			(at 142.24 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13563,6 +13628,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "353e220c-e77d-4b5a-bc6d-a1bb615bca2c")
+		(property "Reference" "#PWR0144"
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SDRAM_VCC"
+			(at 76.962 24.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42526ad4-3f2a-4354-bc71-a477e49c6fda")
+		)
+		(instances
+			(project ""
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 269.24 40.64 0)
 		(unit 1)
@@ -13952,6 +14082,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 86.36 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56b6bd33-e1f4-48c9-b20f-1ce9cadbe181")
+		(property "Reference" "#PWR0145"
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SDRAM_VCC"
+			(at 88.646 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 86.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1675da25-cd50-4903-a890-151bc16117f7")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 160.02 180.34 0)
 		(unit 1)
@@ -14322,6 +14517,71 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 269.24 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6170b96f-5e61-43f5-8675-24eb14a6261d")
+		(property "Reference" "#PWR0147"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SDRAM_VCC"
+			(at 271.272 25.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 269.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d775acb7-20c7-4817-9913-744368746e71")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -16316,6 +16576,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 172.72 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abfa14b9-9961-4e28-a9aa-b9de4cc03d48")
+		(property "Reference" "#PWR0146"
+			(at 172.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SDRAM_VCC"
+			(at 174.752 25.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 172.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb4690bb-2866-4b60-b124-9dbdf8d6ccb6")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 165.1 100.33 90)
 		(unit 1)
@@ -16746,7 +17071,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 172.72 30.48 0)
+		(at 148.59 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16755,7 +17080,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9655770-f5d6-460a-825b-1bd17fb767f2")
 		(property "Reference" "#PWR080"
-			(at 172.72 34.29 0)
+			(at 148.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16764,7 +17089,7 @@
 			)
 		)
 		(property "Value" "+2V5"
-			(at 172.72 25.4 0)
+			(at 148.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16772,7 +17097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 30.48 0)
+			(at 148.59 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16781,7 +17106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 30.48 0)
+			(at 148.59 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16790,7 +17115,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 30.48 0)
+			(at 148.59 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17666,7 +17991,7 @@
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
-		(at 86.36 27.94 0)
+		(at 142.24 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17674,7 +17999,7 @@
 		(dnp no)
 		(uuid "f3d0ebce-76bf-47b6-89d7-94065b13c405")
 		(property "Reference" "#PWR079"
-			(at 86.36 31.75 0)
+			(at 142.24 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17683,7 +18008,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 86.36 24.384 0)
+			(at 142.24 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17691,7 +18016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 27.94 0)
+			(at 142.24 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17699,7 +18024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 27.94 0)
+			(at 142.24 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17707,7 +18032,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 27.94 0)
+			(at 142.24 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
