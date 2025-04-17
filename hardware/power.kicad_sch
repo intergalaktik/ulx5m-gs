@@ -14679,7 +14679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 54.61 175.26 0)
 			(effects
 				(font
@@ -15085,7 +15085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -22119,7 +22119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -22515,7 +22515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 54.61 142.24 0)
 			(effects
 				(font
