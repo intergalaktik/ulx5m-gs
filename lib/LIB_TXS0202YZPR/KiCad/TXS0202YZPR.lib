@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TXS0202YZPR
+#/750120/88823/2.50/8/3/Integrated Circuit
+DEF TXS0202YZPR IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "TXS0202YZPR" 1150 200 50 H V L CNN
+F2 "BGA8C50P2X4_89X189X50" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/txs0202" 1150 0 50 H I L CNN
+F4 "Voltage-Level Shifter for IC-USB Interface" 1150 -100 50 H I L CNN "Description"
+F5 "0.5" 1150 -200 50 H I L CNN "Height"
+F6 "595-TXS0202YZPR" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXS0202YZPR?qs=UlfnwZ2x8nQXRQOkgBH1zw%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TXS0202YZPR" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X D+(B) A1 0 0 200 R 50 50 0 0 P
+X D-(B) A2 0 -100 200 R 50 50 0 0 P
+X GND B1 0 -200 200 R 50 50 0 0 P
+X VCCB B2 0 -300 200 R 50 50 0 0 P
+X VCCA C1 1300 0 200 L 50 50 0 0 P
+X OE C2 1300 -100 200 L 50 50 0 0 P
+X D+(A) D1 1300 -200 200 L 50 50 0 0 P
+X D-(A) D2 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

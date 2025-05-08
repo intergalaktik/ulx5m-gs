@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TXS0202YZPR
+D Voltage-Level Shifter for IC-USB Interface
+K
+F http://www.ti.com/lit/gpn/txs0202
+$ENDCMP
+#
+#End Doc Library

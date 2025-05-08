@@ -228,6 +228,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 16.002 16.002)
+		(end 59.182 27.432)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 58 146 255 1)
+		)
+		(uuid 10200e38-1026-4def-b8b5-568b15bb4ac7)
+	)
 	(text "DF40C-100DP-0.4V_51_"
 		(exclude_from_sim no)
 		(at 151.13 134.62 0)
@@ -249,6 +262,17 @@
 			(justify left bottom)
 		)
 		(uuid "74fba986-d4b2-46e8-8bf9-b795a3d7985e")
+	)
+	(text "${project_creator}\nLicense: ${project_license}\nYear: ${project_year}"
+		(exclude_from_sim no)
+		(at 17.78 17.78 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left top)
+		)
+		(uuid "af48de26-2b78-4180-9042-7791a5cb6498")
 	)
 	(text_box "# ULX5M Brainstorm\n\n* Power regulators\n  * [MPM3833C](https://www.monolithicpower.com/en/mpm3833c.html) 0.9V..1.1V V_core, 3A\n  * [TI62569](https://www.ti.com/lit/ds/symlink/tlv62569.pdf?ts=1709559273755) 1.2V, 1.8V, 2.5V, 3.3V V_io, 2A\n\n* GateMate\n  * compatibility to A1/A2/A4\n  * ext. clock: 100 MHz lvds (can be used for both serdes and pll), no other ext. clock required\n\n* programmer interface\n  * usb bootloader from ULX4 (TODO for patrick, check if sd boots @ 1V8)\n  * use usb-c connector\n  * select between flash and jtag config (DIP switch)\n\n* Gigabit Ethernet\n  * RTL8211E\n\n* SDRAM 1V8\n\n* Interfaces\n  * [X] SD Card (7 gpio) -- with levelshifter? (TODO for patrick)\n  * [X] RPi GPIO (26 gpio) -- 1V8 / 3V3 (user can select)\n  * [X] HDMI0 (8+2 gpio) -- at least\n  * [ ] HDMI1 (8+2 gpio)\n  * [X] MIPI-CSI0 (6 gpio) -- at least\n  * [X] MIPI-CSI1 (10 gpio)\n  * [ ] MIPI-DSI0 (6 gpio)\n  * [ ] MIPI-DSI1 (10 gpio)\n  * [X] USB (2 gpio) -- with levelshifter?\n\n"
 		(exclude_from_sim no)
@@ -274,13 +298,13 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 69.85) (xy 233.68 69.85)
+			(xy 220.98 106.68) (xy 233.68 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "070a5559-5f59-49d3-b11b-af9134ae16e6")
+		(uuid "1eb8a43e-26bf-4955-9470-663f35a3260f")
 	)
 	(bus
 		(pts
@@ -301,6 +325,16 @@
 			(type default)
 		)
 		(uuid "34d6e1c1-2f13-4674-9ef8-5c3708ae6d70")
+	)
+	(bus
+		(pts
+			(xy 220.98 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c42bc25-ee3b-4748-bd61-4810ba126201")
 	)
 	(bus
 		(pts
@@ -1088,8 +1122,28 @@
 			)
 		)
 		(pin "{CAM0}" bidirectional
-			(at 220.98 109.22 0)
+			(at 220.98 106.68 0)
 			(uuid "bb1c651d-1dbb-4097-9a41-a0b8393c2c70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DDMI0}" bidirectional
+			(at 220.98 109.22 0)
+			(uuid "9b57cfbf-3d96-47ab-8c9d-2710735bae50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DSI0}" bidirectional
+			(at 220.98 111.76 0)
+			(uuid "ede56576-88b9-43de-85de-adff6bcc43cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1194,7 @@
 			)
 		)
 		(pin "{DDMI0}" bidirectional
-			(at 233.68 69.85 180)
+			(at 233.68 109.22 180)
 			(uuid "9d093e20-e1a6-4eaf-9b79-89bba3ef9c13")
 			(effects
 				(font
@@ -1150,7 +1204,7 @@
 			)
 		)
 		(pin "{CAM0}" bidirectional
-			(at 233.68 109.22 180)
+			(at 233.68 106.68 180)
 			(uuid "966213fc-1c29-4f84-b9e3-918572c539fb")
 			(effects
 				(font
@@ -1179,8 +1233,8 @@
 				(justify left)
 			)
 		)
-		(pin "{DDMI1}" bidirectional
-			(at 233.68 72.39 180)
+		(pin "{DSI0}" bidirectional
+			(at 233.68 111.76 180)
 			(uuid "4927b987-d51b-445b-8be6-35adb574445f")
 			(effects
 				(font
@@ -1228,26 +1282,6 @@
 					(size 1.27 1.27)
 				)
 				(justify top)
-			)
-		)
-		(pin "{DDMI0}" bidirectional
-			(at 220.98 69.85 0)
-			(uuid "006a1276-7e4f-4b7f-a8d9-75bb23cca092")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{DDMI1}" bidirectional
-			(at 220.98 72.39 0)
-			(uuid "4a3fbef6-e3da-4200-91f4-9064c9feb481")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
