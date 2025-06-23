@@ -10392,28 +10392,6 @@
 		)
 		(uuid "c59d2a4a-372f-4eee-bb7f-baf221756eca")
 	)
-	(text_box "TODO\n\nNot connected to FPGA"
-		(exclude_from_sim no)
-		(at 147.32 152.4 0)
-		(size 35.56 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 194 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "e13b65a5-87d7-4f98-831f-cd0b4a8501cb")
-	)
 	(junction
 		(at 223.52 63.5)
 		(diameter 0)
@@ -10857,6 +10835,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea78ae0d-d0ac-4e5c-98bc-cc53fc54779f")
+	)
+	(junction
+		(at 68.58 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f719197a-0518-424a-898d-ad84aa68776a")
 	)
 	(no_connect
 		(at 52.07 76.2)
@@ -11376,6 +11360,16 @@
 			(type default)
 		)
 		(uuid "16e623d4-4f1e-4c9d-86ab-b6eedce81a4b")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 52.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a093fd-1aa8-4def-afee-0267d0706f99")
 	)
 	(bus
 		(pts
@@ -12019,6 +12013,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 168.91) (xy 80.01 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6a98f5-5137-4cb0-809c-c1732fbd1754")
+	)
+	(wire
+		(pts
 			(xy 198.12 20.32) (xy 198.12 21.59)
 		)
 		(stroke
@@ -12149,6 +12153,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 53.34) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c04ae2-706e-4e73-abeb-9af3445e8ae6")
+	)
+	(wire
+		(pts
 			(xy 187.96 38.1) (xy 177.8 38.1)
 		)
 		(stroke
@@ -12246,6 +12260,16 @@
 			(type default)
 		)
 		(uuid "685871c0-b0ea-45ae-be29-f2b3f80d9b82")
+	)
+	(wire
+		(pts
+			(xy 68.58 144.78) (xy 72.39 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc2c7c1-3bb4-4f68-afc5-69658d9827ab")
 	)
 	(wire
 		(pts
@@ -12469,6 +12493,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 149.86) (xy 68.58 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4cada0-c8bd-44e8-885a-2ca949c3cf21")
+	)
+	(wire
+		(pts
 			(xy 167.64 63.5) (xy 157.48 63.5)
 		)
 		(stroke
@@ -12556,6 +12590,16 @@
 			(type default)
 		)
 		(uuid "843b8d94-fc73-459b-ae67-3e8af61df1c4")
+	)
+	(wire
+		(pts
+			(xy 80.01 144.78) (xy 85.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849e6de3-2440-4a30-ac9d-4fceaaa5d3cd")
 	)
 	(bus
 		(pts
@@ -12649,6 +12693,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 166.37) (xy 80.01 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895ab44c-fe5d-4cc1-b5e3-da7ffb091648")
+	)
+	(wire
+		(pts
 			(xy 248.92 76.2) (xy 248.92 86.36)
 		)
 		(stroke
@@ -12739,6 +12793,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 45.72) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953ecdf7-91fd-4f55-908d-8dd765356dd4")
+	)
+	(wire
+		(pts
 			(xy 162.56 106.68) (xy 172.72 106.68)
 		)
 		(stroke
@@ -12746,6 +12810,16 @@
 			(type default)
 		)
 		(uuid "95be0b1c-ee60-420b-8a84-2bb9b594065f")
+	)
+	(wire
+		(pts
+			(xy 49.53 48.26) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dd95b7-369f-4594-a46a-7020b8d5ea65")
 	)
 	(wire
 		(pts
@@ -13086,6 +13160,16 @@
 			(type default)
 		)
 		(uuid "ad7a1382-89d7-4fde-b5a2-6500a197615e")
+	)
+	(wire
+		(pts
+			(xy 49.53 43.18) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad935ace-563a-4438-8569-b55bcfb87557")
 	)
 	(wire
 		(pts
@@ -13909,6 +13993,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 149.86) (xy 72.39 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7481c50-c1ff-4628-8480-32f04c451591")
+	)
+	(wire
+		(pts
 			(xy 120.65 179.07) (xy 121.92 179.07)
 		)
 		(stroke
@@ -14099,6 +14193,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 40.64) (xy 52.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51ac5d9-417e-4daa-bea2-e2ff002b31e8")
+	)
+	(wire
+		(pts
 			(xy 157.48 26.67) (xy 157.48 27.94)
 		)
 		(stroke
@@ -14109,7 +14213,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 149.86) (xy 72.39 149.86)
+			(xy 62.23 149.86) (xy 68.58 149.86)
 		)
 		(stroke
 			(width 0)
@@ -14166,6 +14270,16 @@
 			(type default)
 		)
 		(uuid "fbae2fe5-669c-43d3-8712-7334d16206ff")
+	)
+	(wire
+		(pts
+			(xy 49.53 38.1) (xy 52.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1cb710-2167-4e94-b3f5-0e442d3496e5")
 	)
 	(wire
 		(pts
@@ -14277,8 +14391,18 @@
 		)
 		(uuid "0606d9b9-9b38-47ce-92a1-2b51ecd34027")
 	)
+	(label "USB_PULL_P"
+		(at 49.53 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ac319ea-45dc-4b03-8acd-4c3b82781776")
+	)
 	(label "USB_P"
-		(at 116.84 139.7 180)
+		(at 77.47 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14297,7 +14421,7 @@
 		)
 		(uuid "0c76d05d-7de2-450e-a166-6ab80b13b83b")
 	)
-	(label "USB_P"
+	(label "USB25_P"
 		(at 22.86 185.42 180)
 		(effects
 			(font
@@ -14306,6 +14430,16 @@
 			(justify right bottom)
 		)
 		(uuid "0d7b78b7-3b94-41ec-824c-24923f46356d")
+	)
+	(label "USB25_N"
+		(at 49.53 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "101039f0-84cb-43dd-9a38-d583eaf281c7")
 	)
 	(label "RGMII_RX_CLK"
 		(at 39.37 104.14 0)
@@ -14428,7 +14562,7 @@
 		(uuid "3156af28-3b3b-485f-91bb-01e9ab60f06d")
 	)
 	(label "USB_N"
-		(at 116.84 142.24 180)
+		(at 77.47 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14507,6 +14641,36 @@
 		)
 		(uuid "57125567-99a7-4c33-8fec-1c0084cdde26")
 	)
+	(label "USB25_P"
+		(at 49.53 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5955d229-d4a6-4b6a-a2e6-148f4d348cf2")
+	)
+	(label "USB25_P"
+		(at 49.53 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d89728e-ce93-4a28-bbfa-bf6ef5bd0b3a")
+	)
+	(label "USB_D+"
+		(at 80.01 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e6e43c3-82a5-4a47-ba83-ee4f9c7b5c6e")
+	)
 	(label "LEDY"
 		(at 157.48 124.46 0)
 		(effects
@@ -14557,6 +14721,16 @@
 		)
 		(uuid "668fb2d2-93ed-47af-ac0b-3831e9fe039a")
 	)
+	(label "USB25_N"
+		(at 49.53 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6be16704-7f78-4279-b6ad-e087b86939bf")
+	)
 	(label "LEDG"
 		(at 283.21 158.75 180)
 		(effects
@@ -14568,7 +14742,7 @@
 		(uuid "72f7c536-71b4-46a4-8207-b4fd66e0f8d8")
 	)
 	(label "USB_OTG_ID"
-		(at 116.84 137.16 180)
+		(at 49.53 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14736,6 +14910,16 @@
 			(justify right bottom)
 		)
 		(uuid "9a593bd6-c16b-43c6-b474-3f36a18008f7")
+	)
+	(label "USB_PULL_N"
+		(at 49.53 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bdb70b3-47d5-4045-bdde-69b3176ad7c2")
 	)
 	(label "USB_D+"
 		(at 55.88 190.5 0)
@@ -14907,6 +15091,16 @@
 		)
 		(uuid "cb17f127-215e-47ed-886e-a537c532090d")
 	)
+	(label "USB_D-"
+		(at 80.01 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2ab3a34-a9de-445e-a308-8812d2a9e139")
+	)
 	(label "RGMII_RX_DV"
 		(at 102.87 81.28 180)
 		(effects
@@ -14927,7 +15121,7 @@
 		)
 		(uuid "d9bf8bee-7462-41d2-a62d-c9efec6f13fe")
 	)
-	(label "USB_N"
+	(label "USB25_N"
 		(at 22.86 187.96 180)
 		(effects
 			(font
@@ -15095,7 +15289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 62.23 158.75 90)
 			(effects
 				(font
@@ -15217,7 +15411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 109.22 179.07 90)
 			(effects
 				(font
@@ -15285,7 +15479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 109.22 173.99 90)
 			(effects
 				(font
@@ -16477,6 +16671,72 @@
 		)
 	)
 	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 85.09 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "150efc14-52e4-48bc-a9e7-3efa72645059")
+		(property "Reference" "#PWR0177"
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 90.424 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cccbb56-447b-4cc4-8820-9dcf9c64982b")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
 		(at 63.5 111.76 90)
@@ -16842,7 +17102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 64.77 158.75 90)
 			(effects
 				(font
@@ -17070,7 +17330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 109.22 163.83 90)
 			(effects
 				(font
@@ -20108,6 +20368,73 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 144.78 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "82733c6a-02a9-4deb-b1a3-1d5d232a2b29")
+		(property "Reference" "R58"
+			(at 76.2 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 76.2 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 76.2 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5ed95d-6bde-4826-b735-d4a780c46e0c")
+		)
+		(pin "2"
+			(uuid "9888e5c5-43be-4621-83af-c1794be2b7dc")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -23184,7 +23511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 109.22 158.75 90)
 			(effects
 				(font
