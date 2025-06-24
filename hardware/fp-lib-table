@@ -3,4 +3,6 @@
   (lib (name "ulx5m-gs")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib")(options "")(descr ""))
   (lib (name "IS42S16320D")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/IS42S16320D")(options "")(descr ""))
   (lib (name "TXS0202")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/LIB_TXS0202YZPR/KiCad")(options "")(descr ""))
+  (lib (name "Switch_EVPAA")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/Switch_EVPAA")(options "")(descr ""))
+  (lib (name "oscxo")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/oscxo.pretty")(options "")(descr ""))
 )
