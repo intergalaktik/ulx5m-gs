@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "ae1b4e08-ed8a-44fd-a578-ff7e3225e307")
 	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2025-06-24")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers

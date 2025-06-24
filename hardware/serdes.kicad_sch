@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "546c4a31-746e-4378-9683-78303b756178")
 	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2025-06-24")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+	)
 	(lib_symbols
 		(symbol "CCGM1A1_1"
 			(exclude_from_sim no)
@@ -14147,7 +14154,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 113.03) (xy 130.81 115.57)
+			(xy 130.81 111.76) (xy 130.81 115.57)
 		)
 		(stroke
 			(width 0)
@@ -14187,7 +14194,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 123.19 113.03)
+			(xy 123.19 110.49) (xy 123.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -14437,7 +14444,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 113.03) (xy 123.19 113.03)
+			(xy 124.46 111.76) (xy 123.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -14497,7 +14504,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 130.81 113.03)
+			(xy 129.54 111.76) (xy 130.81 111.76)
 		)
 		(stroke
 			(width 0)
@@ -14555,6 +14562,16 @@
 		)
 		(uuid "ffe77fdd-3698-49dc-999d-a9cd4f76c72e")
 	)
+	(label "SER_CK_P"
+		(at 118.11 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1269ce5e-995e-41f1-aaf8-f9ac2bde4aed")
+	)
 	(label "PCIe_CLK_N"
 		(at 210.82 55.88 180)
 		(effects
@@ -14565,7 +14582,7 @@
 		)
 		(uuid "195261fa-d3df-47a2-a5e1-39386aa8d46a")
 	)
-	(label "SER_CLK"
+	(label "SER_CLK_P"
 		(at 168.91 53.34 0)
 		(effects
 			(font
@@ -14575,7 +14592,17 @@
 		)
 		(uuid "2c401f09-938e-49fb-832d-81190b1c816b")
 	)
-	(label "SER_CLK"
+	(label "SER_CK_N"
+		(at 118.11 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46427bd6-faae-404f-9096-29ea91d4cfc8")
+	)
+	(label "SER_CLK_P"
 		(at 87.63 110.49 0)
 		(effects
 			(font
@@ -16177,7 +16204,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 120.65 109.22 90)
+			(at 115.57 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17800,7 +17827,7 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 127 113.03 90)
+		(at 127 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17808,15 +17835,15 @@
 		(dnp no)
 		(uuid "8bb7b12e-3c91-450b-94db-78f5034b6fd5")
 		(property "Reference" "R108"
-			(at 127 109.22 90)
+			(at 127 111.76 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.9 0.9)
 				)
 			)
 		)
 		(property "Value" "dnp"
-			(at 127 116.84 90)
+			(at 132.588 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17824,7 +17851,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 113.03 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17833,7 +17860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 113.03 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17842,7 +17869,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 113.03 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18500,7 +18527,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 120.65 114.3 90)
+			(at 115.57 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)

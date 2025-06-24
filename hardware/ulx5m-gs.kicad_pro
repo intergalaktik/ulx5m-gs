@@ -241,6 +241,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.35,
+          "drill": 0.2
+        },
+        {
           "diameter": 0.45,
           "drill": 0.3
         },
@@ -692,5 +696,11 @@
       "serdes"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "project_creator": "Intergalaktik d.o.o.",
+    "project_license": "CERN-OHL-S v2",
+    "project_name": "ULX5M-GS",
+    "project_version": "v001",
+    "project_year": "2025"
+  }
 }

@@ -5,7 +5,11 @@
 	(uuid "9e5cbfd6-8186-4817-919e-acd256336bc8")
 	(paper "A4")
 	(title_block
-		(date "2025-04-01")
+		(title "${project_name}")
+		(date "2025-06-24")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
 	)
 	(lib_symbols
 		(symbol "Graphic:Logo_Open_Hardware_Small"

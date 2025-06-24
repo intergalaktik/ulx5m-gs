@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "df06e000-54c5-482f-b023-6fa176883e2b")
 	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2025-06-24")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+	)
 	(lib_symbols
 		(symbol "+5V_1"
 			(power)
