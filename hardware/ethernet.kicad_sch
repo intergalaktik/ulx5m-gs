@@ -11650,6 +11650,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 20.32) (xy 118.11 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325aaf12-5d9e-4a14-9760-3631b564214c")
+	)
+	(wire
+		(pts
 			(xy 157.48 36.83) (xy 157.48 38.1)
 		)
 		(stroke
@@ -12780,16 +12790,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 20.32) (xy 118.11 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92ef2210-0f2f-4509-b868-6d93387b6ca9")
-	)
-	(wire
-		(pts
 			(xy 157.48 129.54) (xy 172.72 129.54)
 		)
 		(stroke
@@ -13127,16 +13127,6 @@
 			(type default)
 		)
 		(uuid "aa4078fa-3296-415a-a847-fa1f048c8541")
-	)
-	(wire
-		(pts
-			(xy 31.75 20.32) (xy 36.83 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab93076f-ca1f-4761-9089-c9b63d1676b6")
 	)
 	(wire
 		(pts
@@ -13950,6 +13940,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 20.32) (xy 36.83 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b835f0-7669-4a7b-b3c7-0b6af7f64acd")
+	)
+	(wire
+		(pts
 			(xy 82.55 27.94) (xy 92.71 27.94)
 		)
 		(stroke
@@ -14437,6 +14437,16 @@
 			(justify right bottom)
 		)
 		(uuid "0d7b78b7-3b94-41ec-824c-24923f46356d")
+	)
+	(label "VCC_EA"
+		(at 36.83 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ed07c8a-d29d-491a-b371-f6c82def062b")
 	)
 	(label "USB25_N"
 		(at 49.53 45.72 180)
@@ -15217,6 +15227,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec4569a8-45a4-484b-aeec-2c7ed32f9c23")
+	)
+	(label "VCC_EB"
+		(at 82.55 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f602fbcc-035d-4b93-93d3-7d27c0441e4e")
 	)
 	(label "ETH0_LEDG"
 		(at 257.81 158.75 0)

@@ -7651,250 +7651,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+1V8"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+2V5"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+2V5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -8525,6 +8281,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 31.75) (xy 187.96 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f33d21-0808-412d-8ab6-6e6390e86229")
+	)
+	(wire
+		(pts
 			(xy 243.84 38.1) (xy 243.84 39.37)
 		)
 		(stroke
@@ -8592,6 +8358,16 @@
 			(type default)
 		)
 		(uuid "1e9d244f-c98d-4737-8398-79571d4b824d")
+	)
+	(wire
+		(pts
+			(xy 265.43 31.75) (xy 269.24 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204e3290-10da-439b-85be-9cbb41d037a0")
 	)
 	(wire
 		(pts
@@ -8755,16 +8531,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 31.75) (xy 187.96 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d235b46-ff29-4e54-bb0c-b0eecbbc8b5b")
-	)
-	(wire
-		(pts
 			(xy 172.72 31.75) (xy 172.72 33.02)
 		)
 		(stroke
@@ -8845,7 +8611,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 31.75) (xy 177.8 31.75)
+			(xy 172.72 31.75) (xy 179.07 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9075,16 +8841,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 31.75) (xy 269.24 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26cc436-59c9-427e-9b7b-de275b61a6b5")
-	)
-	(wire
-		(pts
 			(xy 233.68 31.75) (xy 243.84 31.75)
 		)
 		(stroke
@@ -9115,13 +8871,33 @@
 	)
 	(wire
 		(pts
-			(xy 254 31.75) (xy 259.08 31.75)
+			(xy 254 31.75) (xy 260.35 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fdcb4d21-b3d0-401b-b828-7420f22e0c47")
+	)
+	(label "VCC_WC"
+		(at 243.84 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24573bf0-6248-4bfb-930e-65f3d27d3cc6")
+	)
+	(label "VCC_WB"
+		(at 198.12 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a112ba83-9993-4643-bed9-3b1b81049897")
 	)
 	(global_label "SDRAM_D5"
 		(shape input)
@@ -10687,69 +10463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ulx4m-rescue:+3V3-power")
-		(at 148.59 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05e60f96-8baa-438d-8d3c-1b89abff7c98")
-		(property "Reference" "#PWR075"
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 148.59 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fad39a25-54d0-436e-8fc9-0352f19ed2e3")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 144.78 180.34 0)
 		(unit 1)
@@ -10845,71 +10558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 142.24 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "105bcb23-bec7-46f8-919d-935fc413eec7")
-		(property "Reference" "#PWR083"
-			(at 142.24 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 142.24 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1f20315-c7c3-407c-a110-12d40692e860")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
 		(at 78.74 104.14 0)
 		(unit 1)
@@ -10974,7 +10622,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 261.62 31.75 90)
+		(at 262.89 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10982,7 +10630,7 @@
 		(dnp no)
 		(uuid "1d582ace-79c7-4fbe-903f-60b5f5afd12d")
 		(property "Reference" "R119"
-			(at 261.62 26.67 90)
+			(at 262.89 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +10638,7 @@
 			)
 		)
 		(property "Value" "4R7"
-			(at 261.62 29.21 90)
+			(at 262.89 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +10646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 261.62 31.75 0)
+			(at 262.89 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11007,7 +10655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 31.75 0)
+			(at 262.89 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +10664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 31.75 0)
+			(at 262.89 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,7 +11359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 180.34 31.75 90)
+		(at 181.61 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11719,7 +11367,7 @@
 		(dnp no)
 		(uuid "370bbca7-07f2-4acd-a278-e046d5fb05ac")
 		(property "Reference" "R120"
-			(at 180.34 26.67 90)
+			(at 181.61 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11375,7 @@
 			)
 		)
 		(property "Value" "4R7"
-			(at 180.34 29.21 90)
+			(at 181.61 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,7 +11383,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 180.34 31.75 0)
+			(at 181.61 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11744,7 +11392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 31.75 0)
+			(at 181.61 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11753,7 +11401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 31.75 0)
+			(at 181.61 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13871,71 +13519,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 148.59 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9655770-f5d6-460a-825b-1bd17fb767f2")
-		(property "Reference" "#PWR080"
-			(at 148.59 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 148.59 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "394a03f7-865d-43e2-8e28-82072062c5f4")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 208.28 35.56 0)
 		(unit 1)
@@ -14385,69 +13968,6 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulx4m-rescue:+3V3-power")
-		(at 142.24 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3d0ebce-76bf-47b6-89d7-94065b13c405")
-		(property "Reference" "#PWR079"
-			(at 142.24 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 142.24 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adc54b65-83de-4981-97ab-5aae69ee68f0")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
