@@ -8275,10 +8275,6 @@
 		(uuid "8bd11889-9b03-4d79-875e-31e504970404")
 	)
 	(no_connect
-		(at 170.18 99.06)
-		(uuid "a1e2e8ab-e24c-4b6e-bb45-422d392c3f80")
-	)
-	(no_connect
 		(at 134.62 63.5)
 		(uuid "a678ab09-1f81-468f-8568-01c1fdf25bce")
 	)
@@ -10570,7 +10566,7 @@
 		)
 		(uuid "71fc6409-1e14-45e7-8e48-1bef0fd88556")
 	)
-	(label "+1V2_SA"
+	(label "+2V5_SA"
 		(at 129.54 38.1 0)
 		(effects
 			(font
@@ -11032,6 +11028,26 @@
 		(uuid "5a314e30-f5b0-4b3c-991c-4dff4632b8ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.83 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_25MHz"
+		(shape input)
+		(at 170.18 99.06 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "a422b663-3c7e-46c6-bd26-7eae1c1982e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
