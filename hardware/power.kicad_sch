@@ -11855,6 +11855,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 72.39) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb7e1fb-5a22-46c3-ba6f-6e8e03095781")
+	)
+	(wire
+		(pts
 			(xy 106.68 43.18) (xy 116.84 43.18)
 		)
 		(stroke
@@ -12042,6 +12052,16 @@
 			(type default)
 		)
 		(uuid "cae4f1d3-5e05-4d8c-86bb-96cddb88f693")
+	)
+	(wire
+		(pts
+			(xy 166.37 138.43) (xy 166.37 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc25de93-e8d9-439a-bdee-b77918a321ea")
 	)
 	(wire
 		(pts
@@ -12802,6 +12822,16 @@
 			(type default)
 		)
 		(uuid "fb03cc95-2bf4-4d6b-b894-48f9355c9314")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc482465-2107-458d-8475-563797ca56ec")
 	)
 	(wire
 		(pts
@@ -15534,7 +15564,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 148.59 76.2 0)
+		(at 166.37 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15542,7 +15572,7 @@
 		(dnp no)
 		(uuid "4c634cd0-dd64-441f-bc4c-4f3e22f8a4bb")
 		(property "Reference" "TP8"
-			(at 148.59 68.58 0)
+			(at 166.37 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15550,7 +15580,7 @@
 			)
 		)
 		(property "Value" "VDD_SER_PLL"
-			(at 142.24 71.12 0)
+			(at 160.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15559,7 +15589,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 153.67 76.2 0)
+			(at 171.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15568,7 +15598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 76.2 0)
+			(at 171.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15577,7 +15607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 76.2 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18501,7 +18531,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 148.59 109.22 0)
+		(at 166.37 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18509,7 +18539,7 @@
 		(dnp no)
 		(uuid "857e8a3f-2d74-4033-b9e5-8043f5dc5301")
 		(property "Reference" "TP10"
-			(at 148.59 101.6 0)
+			(at 166.37 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18517,7 +18547,7 @@
 			)
 		)
 		(property "Value" "VDD_SER"
-			(at 144.78 104.14 0)
+			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18526,7 +18556,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 153.67 109.22 0)
+			(at 171.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18535,7 +18565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 109.22 0)
+			(at 171.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18544,7 +18574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 109.22 0)
+			(at 166.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19581,7 +19611,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 148.59 142.24 0)
+		(at 166.37 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19589,7 +19619,7 @@
 		(dnp no)
 		(uuid "a02aaa3f-632d-4e4a-b22c-2f3b6de376df")
 		(property "Reference" "TP6"
-			(at 148.59 134.62 0)
+			(at 166.37 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19597,7 +19627,7 @@
 			)
 		)
 		(property "Value" "VDD_PLL"
-			(at 144.78 137.16 0)
+			(at 162.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19606,7 +19636,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 153.67 142.24 0)
+			(at 171.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19615,7 +19645,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 142.24 0)
+			(at 171.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19624,7 +19654,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 142.24 0)
+			(at 166.37 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
