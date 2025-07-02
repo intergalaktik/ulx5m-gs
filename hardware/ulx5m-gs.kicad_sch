@@ -312,7 +312,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 109.22) (xy 189.23 109.22)
+			(xy 176.53 85.09) (xy 189.23 85.09)
 		)
 		(stroke
 			(width 0)
@@ -322,13 +322,33 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 69.85) (xy 189.23 69.85)
+			(xy 176.53 72.39) (xy 189.23 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34d6e1c1-2f13-4674-9ef8-5c3708ae6d70")
+	)
+	(bus
+		(pts
+			(xy 176.53 97.79) (xy 189.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d21fc4a-c803-47b6-b58c-2bc384de7f33")
+	)
+	(bus
+		(pts
+			(xy 176.53 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e36e2fa-9666-4b64-8cb0-be5157924891")
 	)
 	(bus
 		(pts
@@ -352,6 +372,26 @@
 	)
 	(bus
 		(pts
+			(xy 176.53 90.17) (xy 189.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d760b9-0804-4fbf-82c5-0a7e17155357")
+	)
+	(bus
+		(pts
+			(xy 220.98 87.63) (xy 233.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a62a4e-875e-48c2-a783-05a9818dbb26")
+	)
+	(bus
+		(pts
 			(xy 220.98 109.22) (xy 233.68 109.22)
 		)
 		(stroke
@@ -362,7 +402,17 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 72.39) (xy 189.23 72.39)
+			(xy 176.53 87.63) (xy 189.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969972ac-a9c9-4244-ae95-259bd2fe06cb")
+	)
+	(bus
+		(pts
+			(xy 176.53 74.93) (xy 189.23 74.93)
 		)
 		(stroke
 			(width 0)
@@ -392,7 +442,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 90.17) (xy 189.23 90.17)
+			(xy 176.53 92.71) (xy 189.23 92.71)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +912,7 @@
 			)
 		)
 		(pin "{GPIO}" bidirectional
-			(at 176.53 69.85 0)
+			(at 176.53 72.39 0)
 			(uuid "4516df80-8c55-4432-9dad-76597c583a0f")
 			(effects
 				(font
@@ -872,7 +922,7 @@
 			)
 		)
 		(pin "{ETH}" bidirectional
-			(at 176.53 90.17 0)
+			(at 176.53 92.71 0)
 			(uuid "e2634f74-7d4c-49f4-a688-ef6847941815")
 			(effects
 				(font
@@ -892,7 +942,7 @@
 			)
 		)
 		(pin "{SD}" bidirectional
-			(at 176.53 72.39 0)
+			(at 176.53 74.93 0)
 			(uuid "45a570dc-1e4a-4c8a-b9e0-d950d229f60f")
 			(effects
 				(font
@@ -902,13 +952,143 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 176.53 109.22 0)
+			(at 176.53 85.09 0)
 			(uuid "25b9db1d-3f78-44d3-b6ce-54380694b9a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "EEPROM_nWP" output
+			(at 151.13 55.88 180)
+			(uuid "a62f53d8-d068-49e7-a2ba-c3352c640821")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_SYNC_O" bidirectional
+			(at 151.13 58.42 180)
+			(uuid "603658ac-cdeb-4c9a-9f6c-ac4b65fe862d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_PWM" input
+			(at 176.53 67.31 0)
+			(uuid "f901b819-5e75-4bf0-ab91-97f1416b88e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_TACHO" input
+			(at 176.53 69.85 0)
+			(uuid "2cdfb89b-9640-4f07-b744-030613e85e53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_VREF" output
+			(at 151.13 77.47 180)
+			(uuid "b037ad4f-f7dc-401c-83ad-cd55b849dc6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_SC" bidirectional
+			(at 176.53 97.79 0)
+			(uuid "ccbf89ad-7fbb-437f-95c1-e627a0602f8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID_SD" bidirectional
+			(at 176.53 95.25 0)
+			(uuid "4fdeac10-4032-4378-b4d6-2b0d14678ffe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_nPWR" output
+			(at 176.53 120.65 0)
+			(uuid "d2a20c4b-a144-4c94-a835-70718e32f5c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRpiBOOT" input
+			(at 151.13 74.93 180)
+			(uuid "e4a26934-3cbb-4b94-a0ae-6f06609c1c19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_BTN" input
+			(at 151.13 80.01 180)
+			(uuid "789ae12a-45af-4ed4-8ea6-1e734a6db3bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_CC1" passive
+			(at 176.53 87.63 0)
+			(uuid "55bf855e-2ab5-4da1-8e4f-43d43d8dea78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_CC2" passive
+			(at 176.53 90.17 0)
+			(uuid "a3120035-08c3-4421-b492-1f9887809398")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT" output
+			(at 151.13 120.65 180)
+			(uuid "1e02f0f9-87e0-4d35-b185-b9abd609dcdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -962,7 +1142,7 @@
 	)
 	(sheet
 		(at 189.23 83.82)
-		(size 31.75 12.7)
+		(size 31.75 16.764)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -985,7 +1165,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 205.74 97.79 0)
+			(at 209.296 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,8 +1184,68 @@
 			)
 		)
 		(pin "{ETH}" bidirectional
-			(at 189.23 90.17 180)
+			(at 189.23 92.71 180)
 			(uuid "5ed832ea-40a5-47ad-8284-0c32f34f51af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDMI1}" bidirectional
+			(at 220.98 87.63 0)
+			(uuid "3defa5af-6577-4d30-b4ea-3df954769344")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 189.23 85.09 180)
+			(uuid "b3019909-46fb-49f8-b23b-8d30a702ec85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_SC" bidirectional
+			(at 189.23 97.79 180)
+			(uuid "4d85c8a9-e4f7-41a8-99a4-2df7f32ee4f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_SD" bidirectional
+			(at 189.23 95.25 180)
+			(uuid "f1e55ce5-d5bd-4ca4-9fc5-39c0a39b7414")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_CC1" passive
+			(at 189.23 87.63 180)
+			(uuid "403f1350-bfa9-4652-a57f-1f0d084b08db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_CC2" passive
+			(at 189.23 90.17 180)
+			(uuid "aedf7fea-d496-42ff-b75b-dcc10c6656e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1295,7 @@
 			)
 		)
 		(pin "{GPIO}" bidirectional
-			(at 189.23 69.85 180)
+			(at 189.23 72.39 180)
 			(uuid "8ffd0d4a-ec82-4446-b1fa-d4019af789f4")
 			(effects
 				(font
@@ -1065,7 +1305,7 @@
 			)
 		)
 		(pin "{SD}" bidirectional
-			(at 189.23 72.39 180)
+			(at 189.23 74.93 180)
 			(uuid "3d4509a5-2ff5-4270-be89-df737a425049")
 			(effects
 				(font
@@ -1115,17 +1355,7 @@
 				(justify top)
 			)
 		)
-		(pin "{I2C}" bidirectional
-			(at 189.23 109.22 180)
-			(uuid "22d28342-5644-4408-814f-0d2dd072699b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{CAM0}" bidirectional
+		(pin "{MIPI0}" bidirectional
 			(at 220.98 106.68 0)
 			(uuid "bb1c651d-1dbb-4097-9a41-a0b8393c2c70")
 			(effects
@@ -1145,7 +1375,7 @@
 				(justify right)
 			)
 		)
-		(pin "{DSI0}" bidirectional
+		(pin "{MIPI1}" bidirectional
 			(at 220.98 111.76 0)
 			(uuid "ede56576-88b9-43de-85de-adff6bcc43cb")
 			(effects
@@ -1207,7 +1437,7 @@
 				(justify left)
 			)
 		)
-		(pin "{CAM0}" bidirectional
+		(pin "{MIPI0}" bidirectional
 			(at 233.68 106.68 180)
 			(uuid "966213fc-1c29-4f84-b9e3-918572c539fb")
 			(effects
@@ -1237,9 +1467,29 @@
 				(justify left)
 			)
 		)
-		(pin "{DSI0}" bidirectional
+		(pin "{MIPI1}" bidirectional
 			(at 233.68 111.76 180)
 			(uuid "4927b987-d51b-445b-8be6-35adb574445f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DDMI1}" bidirectional
+			(at 233.68 87.63 180)
+			(uuid "92b4b625-6cf7-4f02-a63a-5cd77a32df12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USB3_0}" bidirectional
+			(at 233.68 101.6 180)
+			(uuid "1705f55b-4942-4e17-af52-cb093deccbbe")
 			(effects
 				(font
 					(size 1.27 1.27)
