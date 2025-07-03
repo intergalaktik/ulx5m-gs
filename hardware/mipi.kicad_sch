@@ -10263,7 +10263,7 @@
 		(uuid "29a76968-c965-4f5e-921f-a0c78d2f486b")
 	)
 	(label "LED6"
-		(at 173.99 71.12 0)
+		(at 173.99 73.66 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10713,7 +10713,7 @@
 		(uuid "ae7a6511-c904-4600-b909-fee794b315f0")
 	)
 	(label "LED7"
-		(at 173.99 73.66 0)
+		(at 173.99 71.12 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10743,7 +10743,7 @@
 		(uuid "b2dcae33-9390-4912-a103-3c18efa80858")
 	)
 	(label "LED4"
-		(at 173.99 66.04 0)
+		(at 173.99 68.58 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10783,7 +10783,7 @@
 		(uuid "bae1d654-6f21-49d1-b9f0-18d71cdf822a")
 	)
 	(label "LED5"
-		(at 173.99 68.58 0)
+		(at 173.99 66.04 0)
 		(effects
 			(font
 				(size 1 1)

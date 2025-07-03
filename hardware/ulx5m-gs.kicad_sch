@@ -313,20 +313,12 @@
 		(uuid "12677166-fcef-43d7-9e68-17fec024acf6")
 	)
 	(no_connect
-		(at 176.53 57.15)
-		(uuid "1fd05b83-aa08-434b-84f5-f99b6cc09350")
-	)
-	(no_connect
 		(at 176.53 121.92)
 		(uuid "2ac3d24f-5139-4b81-a2db-8b507681ee41")
 	)
 	(no_connect
 		(at 176.53 119.38)
 		(uuid "3c70628b-a242-430e-8380-d513fa77c441")
-	)
-	(no_connect
-		(at 176.53 64.77)
-		(uuid "57f52280-5e57-40e5-a2b6-c856854a9f39")
 	)
 	(no_connect
 		(at 176.53 114.3)
@@ -351,14 +343,6 @@
 	(no_connect
 		(at 189.23 67.31)
 		(uuid "98d87322-7141-48e4-a6e7-9ba328ab5f1f")
-	)
-	(no_connect
-		(at 176.53 59.69)
-		(uuid "b347b414-244f-4d59-8456-71dc02d4ce7a")
-	)
-	(no_connect
-		(at 176.53 62.23)
-		(uuid "c7027282-b519-4005-8909-491420ad364d")
 	)
 	(no_connect
 		(at 176.53 129.54)
@@ -393,16 +377,6 @@
 			(type default)
 		)
 		(uuid "05763080-73ee-488f-bb01-ba61a18498e8")
-	)
-	(wire
-		(pts
-			(xy 176.53 69.85) (xy 189.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb05267-b855-4b48-b48c-d645524166e6")
 	)
 	(bus
 		(pts
@@ -1165,56 +1139,6 @@
 				(justify right)
 			)
 		)
-		(pin "SD_DAT1" input
-			(at 176.53 69.85 0)
-			(uuid "cb22c414-a57a-463f-92c0-d4ba6c6a4031")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD_DAT4" input
-			(at 176.53 64.77 0)
-			(uuid "dcb16af0-944c-4dbc-87ad-4e6dbd6ca1b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD_DAT5" input
-			(at 176.53 62.23 0)
-			(uuid "9aeb0b96-9d14-480c-8669-1a865de0497c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD_DAT6" input
-			(at 176.53 59.69 0)
-			(uuid "5b13292f-2d50-4347-96d6-fa3a09f8c709")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD_DAT7" input
-			(at 176.53 57.15 0)
-			(uuid "d3e0c483-283f-4c04-8f6b-60ee91b3d7e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8"
@@ -1441,16 +1365,6 @@
 		(pin "{SD}" bidirectional
 			(at 189.23 74.93 180)
 			(uuid "3d4509a5-2ff5-4270-be89-df737a425049")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SD_DAT1" input
-			(at 189.23 69.85 180)
-			(uuid "3e70f25c-de7a-4e35-9b27-214786cf7dd0")
 			(effects
 				(font
 					(size 1.27 1.27)

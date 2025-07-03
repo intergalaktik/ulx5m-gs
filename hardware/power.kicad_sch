@@ -14968,7 +14968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 161.29 76.2 0)
 			(effects
 				(font
@@ -22256,10 +22256,10 @@
 		(lib_id "Device:L_Small")
 		(at 161.29 142.24 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b740a6b2-0008-4fc2-bf39-6beff1c15581")
 		(property "Reference" "L5"
@@ -24524,7 +24524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 161.29 109.22 0)
 			(effects
 				(font
@@ -24930,7 +24930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ulx5m-gs:MPM3833CGRH-Z"
 			(at 63.5 24.384 0)
 			(effects
 				(font
