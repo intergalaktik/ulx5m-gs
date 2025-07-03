@@ -300,6 +300,16 @@
 		)
 		(uuid "5281d742-ed96-4f4e-98f6-3d79433c53e4")
 	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb05267-b855-4b48-b48c-d645524166e6")
+	)
 	(bus
 		(pts
 			(xy 220.98 106.68) (xy 233.68 106.68)
@@ -309,6 +319,16 @@
 			(type default)
 		)
 		(uuid "1eb8a43e-26bf-4955-9470-663f35a3260f")
+	)
+	(wire
+		(pts
+			(xy 211.074 67.31) (xy 212.852 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff21597-aafa-4cd6-bc13-d923670f1de5")
 	)
 	(bus
 		(pts
@@ -329,6 +349,16 @@
 			(type default)
 		)
 		(uuid "34d6e1c1-2f13-4674-9ef8-5c3708ae6d70")
+	)
+	(wire
+		(pts
+			(xy 211.074 76.2) (xy 212.852 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5a886f-d27d-4682-bc37-07ef5ef59cc9")
 	)
 	(bus
 		(pts
@@ -369,6 +399,16 @@
 			(type default)
 		)
 		(uuid "6af18f7d-d28b-4a21-a7c1-3620e2a3e4a3")
+	)
+	(wire
+		(pts
+			(xy 211.074 71.12) (xy 212.852 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8e5193-494b-4d35-93f7-73a7df746c71")
 	)
 	(bus
 		(pts
@@ -420,6 +460,16 @@
 		)
 		(uuid "9aa4897c-89fc-4ddf-946a-01c6fb1306c1")
 	)
+	(bus
+		(pts
+			(xy 226.06 71.12) (xy 233.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad962ec0-8842-4b3a-8c1f-783ba0b52d5c")
+	)
 	(wire
 		(pts
 			(xy 176.53 52.07) (xy 189.23 52.07)
@@ -429,16 +479,6 @@
 			(type default)
 		)
 		(uuid "b5fd341c-7e31-4213-b9b0-0aa093a12e26")
-	)
-	(bus
-		(pts
-			(xy 220.98 72.39) (xy 233.68 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba9dc392-b86c-47c8-889d-3d5643605368")
 	)
 	(bus
 		(pts
@@ -982,7 +1022,7 @@
 			)
 		)
 		(pin "FAN_PWM" input
-			(at 176.53 67.31 0)
+			(at 176.53 62.23 0)
 			(uuid "f901b819-5e75-4bf0-ab91-97f1416b88e3")
 			(effects
 				(font
@@ -992,7 +1032,7 @@
 			)
 		)
 		(pin "FAN_TACHO" input
-			(at 176.53 69.85 0)
+			(at 176.53 64.77 0)
 			(uuid "2cdfb89b-9640-4f07-b744-030613e85e53")
 			(effects
 				(font
@@ -1089,6 +1129,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SD_DAT1" input
+			(at 176.53 69.85 0)
+			(uuid "cb22c414-a57a-463f-92c0-d4ba6c6a4031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1263,7 +1313,7 @@
 	)
 	(sheet
 		(at 189.23 64.77)
-		(size 12.7 12.7)
+		(size 21.844 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1307,6 +1357,56 @@
 		(pin "{SD}" bidirectional
 			(at 189.23 74.93 180)
 			(uuid "3d4509a5-2ff5-4270-be89-df737a425049")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM_A1" input
+			(at 211.074 67.31 0)
+			(uuid "cefa0b30-d68e-4e61-bea7-611cc4ccb580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDRAM_A2" input
+			(at 211.074 71.12 0)
+			(uuid "1ea6acab-72db-497c-afd6-379ea794b10f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDRAM_A10" input
+			(at 211.074 76.2 0)
+			(uuid "d091323a-298f-4d05-8395-8bab2e6a0070")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_DAT1" input
+			(at 189.23 69.85 180)
+			(uuid "3e70f25c-de7a-4e35-9b27-214786cf7dd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NC1" input
+			(at 189.23 67.31 180)
+			(uuid "cde49fe9-3795-4dec-9d24-eb264658e1fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,6 +1483,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "NC2" input
+			(at 189.23 111.76 180)
+			(uuid "18e5f759-5c23-4941-8ee1-533858cec45f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1506,8 +1616,8 @@
 		)
 	)
 	(sheet
-		(at 208.28 64.77)
-		(size 12.7 12.7)
+		(at 212.852 64.77)
+		(size 13.462 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1521,7 +1631,7 @@
 		)
 		(uuid "e7f41e58-8517-469c-9a21-6f6a704f2114")
 		(property "Sheetname" "gpdi-ram"
-			(at 208.28 64.0584 0)
+			(at 212.852 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,12 +1640,42 @@
 			)
 		)
 		(property "Sheetfile" "ram.kicad_sch"
-			(at 214.63 78.74 0)
+			(at 219.202 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify top)
+			)
+		)
+		(pin "SDRAM_A1" input
+			(at 212.852 67.31 180)
+			(uuid "c6bdb3b8-a85e-4bf7-9bb9-34c847c80d7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM_A2" input
+			(at 212.852 71.12 180)
+			(uuid "2b19d86a-d3b3-40bf-9f56-88bcf4d25561")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM_A10" input
+			(at 212.852 76.2 180)
+			(uuid "52478cde-686d-4fa7-a202-6cb8eb948c3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

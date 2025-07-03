@@ -8939,26 +8939,6 @@
 			)
 		)
 	)
-	(global_label "SDRAM_A2"
-		(shape input)
-		(at 63.5 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08d39997-c7f1-482c-8119-73a91ebeb027")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDRAM_D4"
 		(shape input)
 		(at 104.14 49.53 0)
@@ -9451,26 +9431,6 @@
 		(uuid "57c89de3-6e71-4896-830d-3ecb0a714285")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDRAM_A10"
-		(shape input)
-		(at 63.5 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58d2ddc1-901c-4cba-8187-e413e26d5fb6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,26 +10319,6 @@
 			)
 		)
 	)
-	(global_label "SDRAM_A0"
-		(shape input)
-		(at 63.5 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe0c5f6e-3d4a-43fc-9b31-16079d4512d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDRAM_D11"
 		(shape input)
 		(at 104.14 67.31 0)
@@ -10398,6 +10338,39 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SDRAM_A1"
+		(shape input)
+		(at 63.5 39.37 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "195a8ee2-d853-4756-8d90-26d1124c6c73")
+	)
+	(hierarchical_label "SDRAM_A2"
+		(shape input)
+		(at 63.5 44.45 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "2d03991f-d9af-4e9d-976f-c4ac568c0754")
+	)
+	(hierarchical_label "SDRAM_A10"
+		(shape input)
+		(at 63.5 64.77 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "a8b5e037-fa81-4f0f-9e56-e40842352cee")
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")

@@ -7652,7 +7652,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 63.5) (xy 134.62 63.5)
+			(xy 132.08 63.5) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7822,7 +7822,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 134.62 55.88)
+			(xy 132.08 55.88) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8422,7 +8422,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 58.42) (xy 134.62 58.42)
+			(xy 132.08 58.42) (xy 134.62 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8720,16 +8720,6 @@
 		)
 		(uuid "62d36d07-0a16-4a75-9878-92fb2032c30e")
 	)
-	(label "SD_DAT5"
-		(at 76.2 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6acd209c-23af-44ef-ba98-7f8bebb2fd3d")
-	)
 	(label "SD_DAT3"
 		(at 124.46 66.04 0)
 		(effects
@@ -8770,16 +8760,6 @@
 		)
 		(uuid "778d60ad-10e7-4a32-9b86-5382195e8724")
 	)
-	(label "SD_DAT7"
-		(at 76.2 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f86dbc4-5669-4e99-8a5e-a5d5ee298330")
-	)
 	(label "VCC_NA"
 		(at 129.54 38.1 0)
 		(effects
@@ -8789,16 +8769,6 @@
 			(justify left bottom)
 		)
 		(uuid "90c5da9c-24ce-46e1-b694-15af9f677551")
-	)
-	(label "SD_DAT6"
-		(at 76.2 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "929cd579-4f95-4180-956f-df4138762553")
 	)
 	(label "GPIO25"
 		(at 171.45 55.88 0)
@@ -8920,16 +8890,6 @@
 		)
 		(uuid "e34bacdc-9706-41e1-8efb-b74e8c0a93cf")
 	)
-	(label "SD_DAT4"
-		(at 76.2 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5dc66d9-d573-47bc-a20c-36c0361db536")
-	)
 	(label "GPIO2"
 		(at 124.46 86.36 0)
 		(effects
@@ -8970,110 +8930,6 @@
 		)
 		(uuid "f8de9a32-d90c-457d-9283-86e8d8eae1b6")
 	)
-	(global_label "SDRAM_A10"
-		(shape input)
-		(at 125.73 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33667014-3eb2-46ef-b63b-d381586e6d53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT1"
-		(shape input)
-		(at 172.72 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48fdbd35-9ec6-4250-91f3-39401af653c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.688 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDRAM_A2"
-		(shape input)
-		(at 124.46 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "923a8f4b-1983-47de-95d6-0308b7c6e62c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ID_SD"
-		(shape input)
-		(at 172.72 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.5 0.5)
-			)
-			(justify left)
-		)
-		(uuid "e5794b2d-54ab-47e3-9f52-03f8acb2c588")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.9906 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDRAM_A1"
-		(shape input)
-		(at 124.46 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff4d4205-cc49-4779-95f8-edea00baee19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "{SD}"
 		(shape bidirectional)
 		(at 116.84 71.12 180)
@@ -9084,6 +8940,50 @@
 			(justify right)
 		)
 		(uuid "0f2ce8c4-951d-4772-8456-67ccbb5bec98")
+	)
+	(hierarchical_label "SDRAM_A10"
+		(shape input)
+		(at 132.08 63.5 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "5f848c91-78de-4c80-944f-17985be9f4aa")
+	)
+	(hierarchical_label "SDRAM_A2"
+		(shape input)
+		(at 132.08 58.42 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "a27752fc-f0ab-4aed-ba44-c7b802657a4e")
+	)
+	(hierarchical_label "SD_DAT1"
+		(shape input)
+		(at 172.72 83.82 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left)
+		)
+		(uuid "c48d4ad0-9759-423a-bf7a-92ecfc1f6ca1")
+	)
+	(hierarchical_label "SDRAM_A1"
+		(shape input)
+		(at 132.08 55.88 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "cf82b0bb-9bf4-4260-9081-24d3e1649ad1")
 	)
 	(hierarchical_label "{GPIO}"
 		(shape bidirectional)
@@ -9106,6 +9006,17 @@
 			(justify left)
 		)
 		(uuid "e959ef83-7ca1-4e23-a931-603e94311bd7")
+	)
+	(hierarchical_label "NC1"
+		(shape input)
+		(at 172.72 71.12 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left)
+		)
+		(uuid "f329690b-ddd0-451d-9d19-b5b039cb253a")
 	)
 	(symbol
 		(lib_id "Device:R_Small")

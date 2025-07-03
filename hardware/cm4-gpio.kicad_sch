@@ -2936,15 +2936,6 @@
 		(uuid "2a81116a-64ad-4008-b915-07dfe1d3dc35")
 	)
 	(bus_entry
-		(at 208.28 110.49)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3911fec7-c171-4e43-9289-e5cd471e203c")
-	)
-	(bus_entry
 		(at 259.08 39.37)
 		(size 2.54 2.54)
 		(stroke
@@ -3323,16 +3314,6 @@
 			(type default)
 		)
 		(uuid "02e60ece-c4bf-4be0-a582-679e383e4304")
-	)
-	(bus
-		(pts
-			(xy 205.74 113.03) (xy 205.74 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03eee302-e60f-4526-a21e-8b919c3abf37")
 	)
 	(wire
 		(pts
@@ -3966,6 +3947,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 109.22) (xy 217.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6612bdfc-f297-4f3e-811f-6efc33dedeee")
+	)
+	(wire
+		(pts
 			(xy 246.38 90.17) (xy 248.92 90.17)
 		)
 		(stroke
@@ -4346,6 +4337,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 110.49) (xy 220.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93026208-5de3-4d4b-b088-c47f64afbcb0")
+	)
+	(wire
+		(pts
 			(xy 218.44 54.61) (xy 218.44 67.31)
 		)
 		(stroke
@@ -4686,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 110.49) (xy 220.98 110.49)
+			(xy 215.9 109.22) (xy 217.17 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +4827,7 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 107.95) (xy 205.74 113.03)
+			(xy 205.74 107.95) (xy 205.74 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5554,16 +5555,6 @@
 		)
 		(uuid "9bc124d1-36a1-4cc6-b563-3014f1ab3627")
 	)
-	(label "SD_DAT1"
-		(at 208.28 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac7cbb43-1073-44d6-998c-b1fab4205656")
-	)
 	(label "GPIO7"
 		(at 208.28 72.39 0)
 		(effects
@@ -5847,6 +5838,17 @@
 			(justify right)
 		)
 		(uuid "a98b91bb-f2b6-4eb1-8710-05183df43304")
+	)
+	(hierarchical_label "SD_DAT1"
+		(shape input)
+		(at 215.9 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1b3c5c2-32a8-4ca8-a379-5222003e7325")
 	)
 	(hierarchical_label "EEPROM_nWP"
 		(shape output)
