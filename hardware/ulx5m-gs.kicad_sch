@@ -349,10 +349,6 @@
 		(uuid "77551443-85e3-4614-b946-864838c28f4c")
 	)
 	(no_connect
-		(at 233.68 101.6)
-		(uuid "81acc3f4-e747-42b8-a66d-06f3bf04df5d")
-	)
-	(no_connect
 		(at 189.23 67.31)
 		(uuid "98d87322-7141-48e4-a6e7-9ba328ab5f1f")
 	)
@@ -457,16 +453,6 @@
 			(type default)
 		)
 		(uuid "49203bcc-36d2-4398-bb6f-dfa7146fd68f")
-	)
-	(wire
-		(pts
-			(xy 220.98 92.71) (xy 233.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "548aea6e-61b9-43e4-95ed-3f8217622c37")
 	)
 	(bus
 		(pts
@@ -1401,16 +1387,6 @@
 				(justify left)
 			)
 		)
-		(pin "USB_OTG_ID" input
-			(at 220.98 92.71 0)
-			(uuid "33c87d33-0756-480a-a4e7-252854206f7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8"
@@ -1655,29 +1631,9 @@
 				(justify left)
 			)
 		)
-		(pin "{USB3_0}" bidirectional
-			(at 233.68 101.6 180)
-			(uuid "1705f55b-4942-4e17-af52-cb093deccbbe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{MIPI1}" bidirectional
 			(at 233.68 113.03 180)
 			(uuid "f2c99811-5262-4968-8b0b-fd3cd99593e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_OTG_ID" input
-			(at 233.68 92.71 180)
-			(uuid "d9eac4fb-f839-4d0c-8520-8f4e05640a50")
 			(effects
 				(font
 					(size 1.27 1.27)

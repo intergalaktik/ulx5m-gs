@@ -7428,7 +7428,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
+			(property "Reference" "U"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -7499,7 +7499,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 0 0 0)
 					(length 7.62)
 					(name "IN"
@@ -7517,7 +7517,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "IN"
@@ -7553,7 +7553,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "SW"
@@ -7571,7 +7571,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "SW"
@@ -7589,7 +7589,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 0 -17.78 0)
 					(length 7.62)
 					(name "SW"
@@ -7607,7 +7607,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 0 -20.32 0)
 					(length 7.62)
 					(name "SW"
@@ -7715,7 +7715,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin output line
 					(at 40.64 0 180)
 					(length 7.62)
 					(name "OUT"
@@ -7733,7 +7733,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 40.64 -2.54 180)
 					(length 7.62)
 					(name "OUT"
@@ -7751,7 +7751,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "OUT"
@@ -7769,7 +7769,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 40.64 -7.62 180)
 					(length 7.62)
 					(name "OUT_S"
@@ -7787,7 +7787,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 40.64 -15.24 180)
 					(length 7.62)
 					(name "FB"
@@ -24930,7 +24930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ulx5m-gs:MPM3833CGRH-Z"
+		(property "Footprint" ""
 			(at 63.5 24.384 0)
 			(effects
 				(font

@@ -3,4 +3,5 @@
   (lib (name "MPM3833C")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/MPM3833C.kicad_sym")(options "")(descr ""))
   (lib (name "DF40C-100DP-0.4V_51_")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/DF40C-100DP-0.4V_51_.kicad_sym")(options "")(descr ""))
   (lib (name "SparkFun-Connector")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/SparkFun-Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "TXS0202YZPR")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/LIB_TXS0202YZPR/KiCad/TXS0202YZPR.kicad_sym")(options "")(descr ""))
 )
