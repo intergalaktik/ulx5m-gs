@@ -7649,7 +7649,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 35.56) (xy 234.95 38.1)
+			(xy 101.6 80.01) (xy 101.6 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7709,7 +7709,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 35.56) (xy 229.87 38.1)
+			(xy 96.52 80.01) (xy 96.52 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7989,7 +7989,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 25.4) (xy 234.95 30.48)
+			(xy 101.6 69.85) (xy 101.6 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8129,7 +8129,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 30.48) (xy 224.79 25.4)
+			(xy 91.44 74.93) (xy 91.44 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8149,7 +8149,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 35.56) (xy 224.79 38.1)
+			(xy 91.44 80.01) (xy 91.44 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8279,7 +8279,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 25.4) (xy 229.87 30.48)
+			(xy 96.52 69.85) (xy 96.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8951,7 +8951,7 @@
 	)
 	(global_label "VDD_CLK"
 		(shape passive)
-		(at 229.87 25.4 90)
+		(at 96.52 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8961,7 +8961,7 @@
 		)
 		(uuid "76844c09-3e75-431c-8cd6-375ba58242ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 15.3618 90)
+			(at 96.52 59.8118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9216,7 +9216,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 229.87 33.02 180)
+		(at 96.52 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9224,7 +9224,7 @@
 		(dnp no)
 		(uuid "44f4bf0b-eac5-4066-b1d3-137148b0fc5e")
 		(property "Reference" "R117"
-			(at 227.33 33.02 90)
+			(at 93.98 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,7 +9232,7 @@
 			)
 		)
 		(property "Value" "dnp"
-			(at 229.87 33.02 90)
+			(at 96.52 77.47 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9240,7 +9240,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 229.87 33.02 0)
+			(at 96.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 33.02 0)
+			(at 96.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9258,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 229.87 33.02 0)
+			(at 96.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +9283,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 229.87 38.1 180)
+		(at 96.52 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9291,7 +9291,7 @@
 		(dnp no)
 		(uuid "4ba68ec1-1081-4334-b130-5153f4cbc662")
 		(property "Reference" "#PWR0152"
-			(at 229.87 34.29 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9300,7 @@
 			)
 		)
 		(property "Value" "SDRAM_VCC"
-			(at 227.584 44.958 90)
+			(at 94.234 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,7 +9308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 38.1 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 38.1 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 229.87 38.1 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10724,7 @@
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 234.95 25.4 0)
+		(at 101.6 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10732,7 +10732,7 @@
 		(dnp no)
 		(uuid "8f46c71a-f218-4524-9d76-634e7a6c473b")
 		(property "Reference" "#PWR0135"
-			(at 234.95 29.21 0)
+			(at 101.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +10741,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 234.95 20.32 90)
+			(at 101.6 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10749,7 +10749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 25.4 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10758,7 +10758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 25.4 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +10767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 234.95 25.4 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11057,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 234.95 33.02 180)
+		(at 101.6 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11065,7 +11065,7 @@
 		(dnp no)
 		(uuid "acd34359-4844-471b-9f0e-09f7a7a30af2")
 		(property "Reference" "R115"
-			(at 232.41 33.02 90)
+			(at 99.06 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11073,7 +11073,7 @@
 			)
 		)
 		(property "Value" "dnp"
-			(at 234.95 33.02 90)
+			(at 101.6 77.47 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11081,7 +11081,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 234.95 33.02 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,7 +11090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 33.02 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,7 +11099,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 234.95 33.02 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11124,7 +11124,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 224.79 25.4 0)
+		(at 91.44 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11132,7 +11132,7 @@
 		(dnp no)
 		(uuid "b0dd8b1a-dfba-46d2-9116-6cc6a3273466")
 		(property "Reference" "#PWR091"
-			(at 224.79 29.21 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,7 +11141,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 224.79 20.32 90)
+			(at 91.44 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 25.4 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,7 +11158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 25.4 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11167,7 +11167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 224.79 25.4 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11189,7 +11189,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 234.95 38.1 180)
+		(at 101.6 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11197,7 +11197,7 @@
 		(dnp no)
 		(uuid "b7f5376f-d3ac-4109-9417-cde6c76a2466")
 		(property "Reference" "#PWR0151"
-			(at 234.95 34.29 0)
+			(at 101.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +11206,7 @@
 			)
 		)
 		(property "Value" "SDRAM_VCC"
-			(at 232.664 44.958 90)
+			(at 99.314 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +11214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 38.1 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11223,7 +11223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 38.1 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11232,7 +11232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 234.95 38.1 0)
+			(at 101.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11591,7 +11591,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 224.79 38.1 180)
+		(at 91.44 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11599,7 +11599,7 @@
 		(dnp no)
 		(uuid "ecc863ea-9278-48a5-a2fe-8a1f3feaa535")
 		(property "Reference" "#PWR0150"
-			(at 224.79 34.29 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11608,7 +11608,7 @@
 			)
 		)
 		(property "Value" "SDRAM_VCC"
-			(at 222.504 44.958 90)
+			(at 89.154 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11616,7 +11616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 38.1 0)
+			(at 91.44 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11625,7 +11625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 38.1 0)
+			(at 91.44 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11634,7 +11634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 224.79 38.1 0)
+			(at 91.44 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11656,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 224.79 33.02 180)
+		(at 91.44 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11664,7 +11664,7 @@
 		(dnp no)
 		(uuid "f2d42eec-46e3-4bfe-b4c0-844ee084c507")
 		(property "Reference" "R116"
-			(at 223.012 32.766 90)
+			(at 89.662 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11672,7 +11672,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 224.79 33.02 90)
+			(at 91.44 77.47 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11680,7 +11680,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 224.79 33.02 0)
+			(at 91.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +11689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 33.02 0)
+			(at 91.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +11698,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 224.79 33.02 0)
+			(at 91.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
