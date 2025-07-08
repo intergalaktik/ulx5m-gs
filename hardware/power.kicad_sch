@@ -8854,6 +8854,26 @@
 		)
 		(uuid 6c6772b2-f36a-478b-bd70-2e3cbb8c8a36)
 	)
+	(text "1277AS-H-2R2M=P2"
+		(exclude_from_sim no)
+		(at 54.61 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "062bbe59-b7cf-4f50-8178-891b4c5270da")
+	)
+	(text "1277AS-H-2R2M=P2"
+		(exclude_from_sim no)
+		(at 56.388 134.874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a99dbc6-abaf-4cc6-8f90-5282d1d8e1fe")
+	)
 	(text "0.6*(1+(150/47))=2.515"
 		(exclude_from_sim no)
 		(at 68.58 193.04 0)
@@ -8930,6 +8950,26 @@
 			(justify left bottom)
 		)
 		(uuid "b5cc65b2-a10e-463f-9514-942bd01225f8")
+	)
+	(text "1277AS-H-2R2M=P2"
+		(exclude_from_sim no)
+		(at 55.118 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f18bb7de-633c-49f0-8060-ca7631fb042c")
+	)
+	(text "1277AS-H-2R2M=P2"
+		(exclude_from_sim no)
+		(at 56.134 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fff9ea56-bcae-4c5b-9963-e8db660b72dd")
 	)
 	(junction
 		(at 68.58 109.22)
@@ -15598,6 +15638,15 @@
 				)
 			)
 		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/1277AS-H-2R2M%3dP2?qs=4tuKoHGzn104DGWhEjLPYA%3D%3D"
+			(at 54.61 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3ad48b2-6132-4ebc-96ab-17ff5bc57661")
 		)
@@ -16072,6 +16121,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/1277AS-H-2R2M%3dP2?qs=4tuKoHGzn104DGWhEjLPYA%3D%3D"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23678,6 +23736,15 @@
 				)
 			)
 		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/1277AS-H-2R2M%3dP2?qs=4tuKoHGzn104DGWhEjLPYA%3D%3D"
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1887cf50-bf89-4682-a689-e7510f205a64")
 		)
@@ -24077,6 +24144,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/1277AS-H-2R2M%3dP2?qs=4tuKoHGzn104DGWhEjLPYA%3D%3D"
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

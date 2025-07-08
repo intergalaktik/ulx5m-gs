@@ -19087,7 +19087,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ab5eb27-41d3-4f96-bc56-8b16cbe02dc3")
 		(property "Reference" "FB3"
 			(at 264.1981 49.53 90)
@@ -19097,8 +19096,8 @@
 				)
 			)
 		)
-		(property "Value" "??"
-			(at 264.1981 52.07 90)
+		(property "Value" "BLM18PG121SN1D"
+			(at 261.112 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19129,6 +19128,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/BLM18PG121SN1D?qs=tY8e8KZalarVxhnmnUYZ1A%3D%3D"
+			(at 264.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21520,7 +21528,7 @@
 				)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "BLM18PG121SN1D"
 			(at 167.6781 34.29 90)
 			(effects
 				(font
@@ -21552,6 +21560,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/BLM18PG121SN1D?qs=tY8e8KZalarVxhnmnUYZ1A%3D%3D"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25578,7 +25595,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d61e090e-fb9e-4ef8-a9ff-f55d0ea630e4")
 		(property "Reference" "FB2"
 			(at 254.0381 31.75 90)
@@ -25588,8 +25604,8 @@
 				)
 			)
 		)
-		(property "Value" "??"
-			(at 254.0381 34.29 90)
+		(property "Value" "BLM18PG121SN1D"
+			(at 251.46 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25620,6 +25636,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/BLM18PG121SN1D?qs=tY8e8KZalarVxhnmnUYZ1A%3D%3D"
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

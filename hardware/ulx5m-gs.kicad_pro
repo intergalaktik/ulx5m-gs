@@ -304,84 +304,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|1193800|876300|90fe60df-2c19-429e-bb70-796a71f515f0|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1485900|1130300|3b672eff-6a6b-4ae0-81c0-da765b852024|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1485900|508000|577c59bc-fac0-478a-a40f-b6edad1a4384|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1524000|787400|7f951aea-59a7-4aca-bf7f-cd64e4bc0991|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1524000|787400|b53448a8-e757-40dd-976f-12c20b8946d6|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|2209800|723900|86f550f3-a259-4698-ab15-ca51be54e2bb|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|2336800|1130300|c203f88e-ef7a-4ec6-a926-155b938b28ca|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|736600|673100|3ee6bbf0-eec8-4c38-948d-5b23913ebad5|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "multiple_net_names|673100|2146300|aae96be8-026d-4c04-8ab6-67c483f4ebeb|e43ba273-e439-4def-a699-f3c61c680c2f|/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84|/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84|/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84",
-        ""
-      ],
-      [
-        "multiple_net_names|990600|1739900|2f2d0bb3-67f8-4d56-b7ce-fd784b067cf7|749119c1-55cf-4df9-9b2d-a74086261e9d|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
-        ""
-      ],
-      [
-        "no_connect_connected|317500|2387600|7bd7b2b1-e047-462d-a6c0-23079019b2cc|a152c443-315d-412c-9bbe-bb95dff34036|/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84||",
-        ""
-      ],
-      [
-        "no_connect_connected|381000|2387600|3a2a753c-d243-431b-bba2-412cc7923d8e|d4c1eb89-729c-4bdb-a500-6ed08f2b62af|/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84||",
-        ""
-      ],
-      [
-        "pin_to_pin|431800|431800|72ed9c6b-683e-4577-9d2c-6a1f10d26510|bab8a7cc-dafe-4f9e-a525-9c58b30edd75|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
-        ""
-      ],
-      [
-        "pin_to_pin|431800|457200|bab8a7cc-dafe-4f9e-a525-9c58b30edd75|440822f6-f61d-412d-93b7-6072406420c4|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
-        ""
-      ],
-      [
-        "pin_to_pin|431800|482600|440822f6-f61d-412d-93b7-6072406420c4|8c093e29-f4e3-40d6-adc7-6db2410cb8c9|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
-        ""
-      ],
-      [
-        "pin_to_pin|838200|304800|1804aba3-89bc-448b-af9c-6dac1663b99c|e39d5af2-fc75-4571-96ea-83eb689de84a|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
-        ""
-      ],
-      [
-        "pin_to_pin|838200|330200|e39d5af2-fc75-4571-96ea-83eb689de84a|208971ea-e166-4c95-b69a-1263ca3caa54|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
-        ""
-      ],
-      [
-        "pin_to_pin|838200|381000|1c1ffc14-2511-415b-bdf7-0c8d5c04469b|208971ea-e166-4c95-b69a-1263ca3caa54|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
-        ""
-      ],
-      [
-        "pin_to_pin|838200|457200|6f098638-9412-47b1-b5a8-1f009384dd7f|0761b7cc-7252-402b-a9c9-7ba8f0a1c6d5|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42|/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -755,21 +678,249 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP_COPY",
+          "name": "DNP_COPY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey",
+          "name": "DigiKey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Koncar",
+          "name": "Koncar",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MNF1_URL",
+          "name": "MNF1_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MNF3_URL",
+          "name": "MNF3_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN2",
+          "name": "MPN2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN3",
+          "name": "MPN3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouse_r2",
+          "name": "Mouse_r2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Newark",
+          "name": "Newark",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PLACE",
+          "name": "PLACE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Side",
+          "name": "Side",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price100_Digikey",
+          "name": "price100_Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price200_Mouser",
+          "name": "price200_Mouser",
+          "show": false
         },
         {
           "group_by": true,
@@ -781,7 +932,7 @@
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
