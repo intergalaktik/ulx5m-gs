@@ -446,16 +446,6 @@
 		)
 		(uuid "9aa4897c-89fc-4ddf-946a-01c6fb1306c1")
 	)
-	(bus
-		(pts
-			(xy 95.25 64.77) (xy 102.87 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad962ec0-8842-4b3a-8c1f-783ba0b52d5c")
-	)
 	(wire
 		(pts
 			(xy 45.72 45.72) (xy 58.42 45.72)
@@ -1536,6 +1526,36 @@
 		(pin "{MIPI0}" input
 			(at 102.87 101.6 180)
 			(uuid "084f3268-06d2-41cb-a865-b25a7ed633b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe_CLK_nREQ" passive
+			(at 102.87 41.91 180)
+			(uuid "b498568a-0674-49c2-b07f-8ae4fc3281f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe_nWAKE" passive
+			(at 102.87 44.45 180)
+			(uuid "d719a160-1072-4675-92f9-f914d52a7914")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCInRES" passive
+			(at 102.87 46.99 180)
+			(uuid "05e008e4-5926-4edc-86cc-6b481e188aa6")
 			(effects
 				(font
 					(size 1.27 1.27)

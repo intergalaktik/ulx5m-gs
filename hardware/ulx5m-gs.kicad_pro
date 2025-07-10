@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -631,23 +631,135 @@
       },
       {
         "clearance": 0.1,
+        "name": "BTN",
+        "pcb_color": "rgb(194, 0, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.125,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DDMI0",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "name": "Ethernet",
+        "pcb_color": "rgb(194, 194, 194)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "name": "GPIO",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "name": "JTAG",
+        "pcb_color": "rgb(255, 255, 194)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "name": "LED",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.24,
+        "diff_pair_width": 0.125,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MIPI0",
+        "pcb_color": "rgb(0, 0, 194)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.125,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MIPI1",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
         "diff_pair_gap": 0.24,
         "diff_pair_width": 0.125,
         "name": "PCIe",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.178562,
         "via_diameter": 0.35,
         "via_drill": 0.2
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.1,
+        "name": "SDCARD",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "name": "SDRAM",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.35,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(0, 132, 132)",
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.35,
@@ -707,6 +819,114 @@
       {
         "netclass": "PCIe",
         "pattern": "/serdes/SER_CK_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/ethernet/USB_PULL_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/cm4-hsio/USB_OTG_ID"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/cm4-hsio/USB_P"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/cm4-hsio/USB*"
+      },
+      {
+        "netclass": "DDMI0",
+        "pattern": "/mipi/DDMI0*"
+      },
+      {
+        "netclass": "MIPI0",
+        "pattern": "/cm4-hsio/MIPI0"
+      },
+      {
+        "netclass": "MIPI0",
+        "pattern": "/cm4-hsio/MIPI0*"
+      },
+      {
+        "netclass": "MIPI1",
+        "pattern": "/cm4-hsio/MIPI1*"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "SDRAM*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/ethernet/RGMII*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/cm4-gpio/GPIO*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/ethernet/LEDG"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/ethernet/LEDY"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/cm4-gpio/ETH*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/ethernet/USB*"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "/mipi/LED*"
+      },
+      {
+        "netclass": "BTN",
+        "pattern": "/ethernet/BTN*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/ethernet/FPD1*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/cm4-gpio/ID_*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/cm4-gpio/SDA0"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/cm4-gpio/SCL0"
+      },
+      {
+        "netclass": "SDCARD",
+        "pattern": "/cm4-gpio/SD_*"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "/config/JTAG*"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "/config/SPI_*"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/serdes/SER_PORT_ADJ"
+      },
+      {
+        "netclass": "PCIe",
+        "pattern": "/serdes/SER_RST_N"
+      },
+      {
+        "netclass": "DDMI0",
+        "pattern": "/cm4-hsio/DDMI0*"
       }
     ]
   },
@@ -715,7 +935,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../production/",
+      "plot": "../production/v2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

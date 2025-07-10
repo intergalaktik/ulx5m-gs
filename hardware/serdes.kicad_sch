@@ -14452,6 +14452,16 @@
 		)
 		(uuid "1269ce5e-995e-41f1-aaf8-f9ac2bde4aed")
 	)
+	(label "SER_RST_N"
+		(at 125.73 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1914356d-553b-4f77-85d5-448bb2c516f3")
+	)
 	(label "PCIe_CLK_N"
 		(at 171.45 39.37 180)
 		(effects
@@ -14491,6 +14501,16 @@
 			(justify left bottom)
 		)
 		(uuid "46427bd6-faae-404f-9096-29ea91d4cfc8")
+	)
+	(label "SER_PORT_ADJ"
+		(at 127 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5558e246-a520-44b6-aaaf-49fef98d4135")
 	)
 	(label "SER_CLK_P"
 		(at 48.26 86.36 0)
