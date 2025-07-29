@@ -12,7 +12,7 @@ ULX5M with GateMate with SDRAM
 
 
 #### ULX5M-v02 bringup
-[![ULX5M blinks LEDs on its own](6.PCB.advanced/0.doc/ulx5m-gs.v02.4.debug.jpg)](https://www.youtube.com/watch?v=LA20pfW7X00 "ULX5M is counting!")
+[![ULX5M blinks LEDs on its own](/pic/ulx5m-gs.v02.4.debug.jpg)](https://www.youtube.com/watch?v=LA20pfW7X00 "ULX5M is counting!")
 
 DVI OUT
 
