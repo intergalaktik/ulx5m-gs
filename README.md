@@ -9,6 +9,15 @@ ULX5M with GateMate with SDRAM
 
 ![Green](/pic/v1-green.jpg)
 
+
+
+#### ULX5M-v02 bringup
+[![ULX5M blinks LEDs on its own](6.PCB.advanced/0.doc/ulx5m-gs.v02.4.debug.jpg)](https://www.youtube.com/watch?v=LA20pfW7X00 "ULX5M is counting!")
+
+DVI OUT
+
+![V002](/pic/ULX5M-GS-v002.jpg)
+
 * Power regulators
   * [MPM3833C](https://www.monolithicpower.com/en/mpm3833c.html) 0.9V..1.1V V_core, 3A
   * [TI62569](https://www.ti.com/lit/ds/symlink/tlv62569.pdf?ts=1709559273755) 1.2V, 1.8V, 2.5V, 3.3V V_io, 2A
