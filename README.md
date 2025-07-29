@@ -5,11 +5,13 @@ ULX5M with GateMate with SDRAM
 ![TOP](/pic/ulx5m-gs-top.png)
 ![BOTTOM](/pic/ulx5m-gs-bottom.png)
 
+#### ULX5M-GS V001
+
 ![Assembled](/pic/v1-assembled.jpg)
 
+#### V001 LED ON
+
 ![Green](/pic/v1-green.jpg)
-
-
 
 #### ULX5M-v02 bringup
 
