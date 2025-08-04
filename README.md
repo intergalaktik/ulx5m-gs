@@ -1,6 +1,8 @@
 # Work in progress!!! 
 
-# Please wait fot V003 that should be good enough for all experiments you need!
+# V003 should be good enough for all experiments you need!
+
+# Please check the list of confirmed working
 
 # ULX5M-GS
 ULX5M with GateMate with SDRAM
@@ -60,9 +62,22 @@ ULX5M with GateMate with SDRAM
 
  * Tested and confirmed working ov V002 ( with patches ) 
   * [X] LEDs
-  * [X] BTNs
+  * [X] BTNs - work on v002 but better use v003
   * [X] Video output ( DVI )
   * [X] GPIO output
-  * [X] TinyDFU USB Bootloader
+  * [X] USB-C TinyDFU USB Bootloader
   * [X] Serial Over GPIO
+  * [X] VGA Over GPIO
   * [X] JTAG
+  * [X] LVDS - rapicam*
+  * [X] DIP SW - they work as FLASH BOOT SELECT
+  * [X] FLASH - I can put bitstream in flash and boot from flash
+  * [ ] SDRAM - not tested but should work from V002
+  * [ ] Ethernet - not tested - needs V003
+  * [ ] PCIe - not tested
+  * [ ] SD - not tested        
+
+*DVI - only with nextpnr and with many tries with SEED= - so HW is OK but we have timming issues
+   
+*LVDS I can get cam stream not to trow any error but without and output 
+  if I add output cam trows errors - there are some timming issues in the core... 
