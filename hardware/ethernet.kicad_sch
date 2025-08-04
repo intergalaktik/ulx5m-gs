@@ -11268,17 +11268,6 @@
 		)
 		(uuid "15bd736e-94b7-44fc-8751-76b6831879e7")
 	)
-	(text "Deviation from USB specification in\npulldowns for BOM simplificaton.\nWith series diode, correct value R2 R4 \nshould be 12k but 15k is used."
-		(exclude_from_sim no)
-		(at 95.758 234.442 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "1de00790-247a-4a8f-abf6-a4e59fe78c65")
-	)
 	(text "MODE0"
 		(exclude_from_sim no)
 		(at 83.82 121.92 0)
@@ -11321,6 +11310,17 @@
 			(justify left bottom)
 		)
 		(uuid "40201b93-eead-4cd0-bba7-ab4956e154ca")
+	)
+	(text "If you use TXS0202YZPR use 3V6 ZENER\nIf you use just resistor use 2V7 ZENER"
+		(exclude_from_sim no)
+		(at 47.498 216.662 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ef94f6e-7877-4601-a4dd-faa351a0a499")
 	)
 	(text "MODE2"
 		(exclude_from_sim no)
@@ -11375,17 +11375,6 @@
 			)
 		)
 		(uuid "bb0243e6-af89-4796-a18e-8efd243c2294")
-	)
-	(text "D5,D7: Schottky 2A/30V \nLow drop Vfmax=0.375V\nParts reduction: Only D5 is required."
-		(exclude_from_sim no)
-		(at 46.99 215.9 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc7908c8-3bc3-467e-92ad-c1a89dde2516")
 	)
 	(text "D- 1.5k pullp for \nlow speed device\nmode USB1.0"
 		(exclude_from_sim no)
@@ -17225,7 +17214,7 @@
 				)
 			)
 		)
-		(property "Value" "3.6V"
+		(property "Value" "2.7V"
 			(at 76.454 199.39 0)
 			(effects
 				(font
@@ -18486,7 +18475,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "12k1"
 			(at 133.35 219.71 90)
 			(effects
 				(font
@@ -19371,7 +19360,7 @@
 				)
 			)
 		)
-		(property "Value" "3.6V"
+		(property "Value" "2.7V"
 			(at 83.82 199.39 0)
 			(effects
 				(font
@@ -22138,7 +22127,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "12k1"
 			(at 133.35 204.47 90)
 			(effects
 				(font
