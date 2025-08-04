@@ -13554,10 +13554,6 @@
 		(color 0 0 0 0)
 		(uuid "faa13bfa-40df-406e-a3db-b59acee4b4d7")
 	)
-	(no_connect
-		(at 27.94 88.9)
-		(uuid "a7d39ff6-26ba-48bb-83e1-c0e4ad2912f9")
-	)
 	(bus_entry
 		(at 171.45 31.75)
 		(size 2.54 2.54)
@@ -13784,6 +13780,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 78.74) (xy 16.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32deb013-75c5-414f-bf3a-54d7d822fbc5")
+	)
+	(wire
+		(pts
 			(xy 127 101.6) (xy 139.7 101.6)
 		)
 		(stroke
@@ -13831,6 +13837,16 @@
 			(type default)
 		)
 		(uuid "45c27a05-9ae0-4609-94e2-8cee564a5222")
+	)
+	(wire
+		(pts
+			(xy 16.51 88.9) (xy 27.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536dad77-8b00-457b-ab2b-bd58a04ee5e2")
 	)
 	(wire
 		(pts
@@ -14292,6 +14308,16 @@
 		)
 		(uuid "d021436d-3026-4e61-acae-e383e30429cd")
 	)
+	(wire
+		(pts
+			(xy 16.51 86.36) (xy 16.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17c05ef-006b-4b0b-99db-e3914aa168f9")
+	)
 	(bus
 		(pts
 			(xy 173.99 31.75) (xy 173.99 34.29)
@@ -14708,6 +14734,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_CLK"
+		(shape passive)
+		(at 16.51 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e695a38f-401d-4572-ad45-cbf00b4f8cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 68.7018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18017,6 +18065,76 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1df60d8c-4085-48d0-b19e-6bdaeb1198b0"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 16.51 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a70a7e2c-34e0-4c2d-8e47-df6c240ff5e1")
+		(property "Reference" "R143"
+			(at 19.05 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 19.05 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 16.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 16.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "546c2a8f-ebac-47a7-b1e0-8a669df38c6e")
+		)
+		(pin "1"
+			(uuid "5103a173-ce23-4104-ad3c-ab588abbd682")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1df60d8c-4085-48d0-b19e-6bdaeb1198b0"
+					(reference "R143")
 					(unit 1)
 				)
 			)
