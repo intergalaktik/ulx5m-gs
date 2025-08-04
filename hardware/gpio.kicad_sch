@@ -9070,8 +9070,8 @@
 		)
 		(uuid "e959ef83-7ca1-4e23-a931-603e94311bd7")
 	)
-	(hierarchical_label "NC1"
-		(shape input)
+	(hierarchical_label "FAN_PWM"
+		(shape output)
 		(at 172.72 71.12 0)
 		(effects
 			(font
@@ -9705,7 +9705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CCGM1A1"
+		(property "Value" "GateMate-CCGM1A1"
 			(at 148.59 95.25 0)
 			(effects
 				(font

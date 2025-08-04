@@ -7339,6 +7339,12 @@
 		(uuid "06d00f56-dbbc-424c-90bf-2e350984927e")
 	)
 	(junction
+		(at 67.31 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d18ad68-52b4-4a71-a763-00826502327b")
+	)
+	(junction
 		(at 175.26 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8244,6 +8250,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 119.38) (xy 64.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef74708-4882-4b4d-a53b-9ea4bf9dfee0")
+	)
+	(wire
+		(pts
 			(xy 251.46 53.34) (xy 261.62 53.34)
 		)
 		(stroke
@@ -8291,6 +8307,16 @@
 			(type default)
 		)
 		(uuid "36343c34-5479-417a-b8b0-6ad976594f34")
+	)
+	(wire
+		(pts
+			(xy 64.77 111.76) (xy 64.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ae0524-db7c-4a06-a611-46119b9b1598")
 	)
 	(wire
 		(pts
@@ -8631,6 +8657,16 @@
 			(type default)
 		)
 		(uuid "5ee781e6-05ae-405e-ab75-f20cc51fdd7e")
+	)
+	(wire
+		(pts
+			(xy 64.77 106.68) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f655129-5945-4528-828b-13ab21c16bae")
 	)
 	(wire
 		(pts
@@ -11159,7 +11195,7 @@
 		)
 		(uuid "cc826a56-df27-434c-acb7-b16678e0c7ce")
 	)
-	(hierarchical_label "NC2"
+	(hierarchical_label "PWR_BTN"
 		(shape input)
 		(at 176.53 101.6 0)
 		(effects
@@ -11189,7 +11225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FNETHE025"
+		(property "Value" "ASE2-25.000MHZ-L-C-T"
 			(at 76.835 116.205 0)
 			(effects
 				(font
@@ -11207,7 +11243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/FNETHE025.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/3/ASE2series-3624434.pdf"
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11225,7 +11261,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNF1_URL" "www.diodes.com"
+		(property "MNF1_URL" "https://eu.mouser.com/ProductDetail/ABRACON/ASE2-25.000MHZ-L-C-T?qs=s46Hw6dZPL6z06Y74PH7Lg%3D%3D"
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11234,7 +11270,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FNETHE025"
+		(property "MPN" "ASE2-25.000MHZ-L-C-T"
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11243,7 +11279,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "SiT8008BC-81-33E-25.000000X"
+		(property "MPN2" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11252,7 +11288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MNF3_URL" "https://datasheet.lcsc.com/szlcsc/1912111437_Shenzhen-SCTF-Elec-S7D25-000000D20F30T_C387026.pdf"
+		(property "MNF3_URL" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11261,7 +11297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "S7D25.000000D20F30T"
+		(property "MPN3" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11270,7 +11306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "729-FNETHE025"
+		(property "Mouser" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11279,7 +11315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouse_r2" "788-8008BC8133E25X "
+		(property "Mouse_r2" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11288,7 +11324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "FNETHE025CT-ND"
+		(property "Digikey" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11297,7 +11333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Newark" "80AC8624"
+		(property "Newark" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11306,7 +11342,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C390569"
+		(property "LCSC" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11315,7 +11351,7 @@
 				(hide yes)
 			)
 		)
-		(property "price100_Digikey" "0.7942$"
+		(property "price100_Digikey" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11324,7 +11360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Koncar" "FQ001"
+		(property "Koncar" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11333,7 +11369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Side" "T"
+		(property "Side" ""
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -11493,6 +11529,72 @@
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/b5a4e16b-0077-47a1-907a-7465e5b4a9ce"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0228c99d-2c4e-43c9-99e1-7780d364d888")
+		(property "Reference" "C4"
+			(at 63.5 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 63.5 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c76712e7-93e5-47ab-86a5-ae5538270a1d")
+		)
+		(pin "2"
+			(uuid "b61bfd75-a379-43b3-8eb4-6ec0fb0a6b12")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/b5a4e16b-0077-47a1-907a-7465e5b4a9ce"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14366,7 +14468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CCGM1A1"
+		(property "Value" "GateMate-CCGM1A1"
 			(at 147.32 110.49 0)
 			(effects
 				(font
@@ -16333,6 +16435,72 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/b5a4e16b-0077-47a1-907a-7465e5b4a9ce"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7dd5a59-9760-40f2-b50b-b173ae965e0c")
+		(property "Reference" "#PWR059"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7290db7-cfcd-4906-9929-1aee357100f3")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/b5a4e16b-0077-47a1-907a-7465e5b4a9ce"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)

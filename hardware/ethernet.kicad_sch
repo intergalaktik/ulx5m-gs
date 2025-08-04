@@ -11366,6 +11366,16 @@
 		)
 		(uuid "b27faa07-2e10-4fcf-b776-8c2e8d6e3eef")
 	)
+	(text "Use EB-A3 as clock source\nOr use EB-A3 as input and place X1, C118, R104"
+		(exclude_from_sim no)
+		(at 262.128 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb0243e6-af89-4796-a18e-8efd243c2294")
+	)
 	(text "D5,D7: Schottky 2A/30V \nLow drop Vfmax=0.375V\nParts reduction: Only D5 is required."
 		(exclude_from_sim no)
 		(at 46.99 215.9 0)
@@ -12217,7 +12227,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 134.62) (xy 262.89 134.62)
+			(xy 256.54 134.62) (xy 267.97 134.62)
 		)
 		(stroke
 			(width 0)
@@ -15217,7 +15227,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 134.62) (xy 245.11 134.62)
+			(xy 238.76 134.62) (xy 251.46 134.62)
 		)
 		(stroke
 			(width 0)
@@ -16415,6 +16425,16 @@
 		)
 		(uuid "6c32dd5a-81e8-443f-93fe-5bd12c7b678c")
 	)
+	(label "ETH_CLK"
+		(at 93.98 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cb82708-34bc-476e-9b3a-cf419a77e06d")
+	)
 	(label "LEDG"
 		(at 314.96 137.16 180)
 		(effects
@@ -16656,7 +16676,7 @@
 		(uuid "a1b7363d-b994-4d15-90fd-285272154fa0")
 	)
 	(label "PHY_CLK"
-		(at 262.89 134.62 180)
+		(at 267.97 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16684,6 +16704,16 @@
 			(justify right bottom)
 		)
 		(uuid "a8f618be-74b7-4b20-90a5-90624df8bb72")
+	)
+	(label "ETH_CLK"
+		(at 241.3 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acb3cc25-e2f2-4714-bb54-4a07863e67ac")
 	)
 	(label "RGMII_MDC"
 		(at 106.68 80.01 180)
@@ -17155,28 +17185,6 @@
 			(justify right)
 		)
 		(uuid "d923067b-5404-40d4-ae0e-c992b6730aae")
-	)
-	(hierarchical_label "NC3"
-		(shape input)
-		(at 93.98 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1020af4-06a7-4362-8ea4-aa6648e9a8ce")
-	)
-	(hierarchical_label "{ETH}"
-		(shape bidirectional)
-		(at 250.19 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "edb24d5c-18ae-47c0-9a77-f2ea66ba1984")
 	)
 	(hierarchical_label "{ETH}"
 		(shape bidirectional)
@@ -20193,7 +20201,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CCGM1A1"
+		(property "Value" "GateMate-CCGM1A1"
 			(at 69.85 83.82 0)
 			(effects
 				(font
@@ -22205,7 +22213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 306.705 119.38 0)
 			(effects
 				(font
@@ -23811,7 +23819,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9ce1c034-f1c7-4704-877a-a612ddf538ae")
 		(property "Reference" "X1"
 			(at 307.34 77.47 0)
@@ -24355,16 +24363,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 247.65 134.62 270)
+		(at 254 134.62 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b33110aa-a43d-45c8-8adc-85b07742e341")
 		(property "Reference" "R104"
-			(at 242.57 133.35 90)
+			(at 253.746 136.652 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24372,7 +24380,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 252.73 133.35 90)
+			(at 254 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24380,7 +24388,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.65 134.62 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24389,7 +24397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 134.62 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24398,7 +24406,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 247.65 134.62 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25128,7 +25136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 306.705 139.7 0)
 			(effects
 				(font
@@ -26432,7 +26440,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e4f0452e-3379-4551-a63e-1d4b04a6e686")
 		(property "Reference" "C118"

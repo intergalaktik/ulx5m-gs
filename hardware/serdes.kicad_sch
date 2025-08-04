@@ -15139,7 +15139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CCGM1A1"
+		(property "Value" "GateMate-CCGM1A1"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -16510,7 +16510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CCGM1A1"
+		(property "Value" "GateMate-CCGM1A1"
 			(at 80.01 46.99 0)
 			(effects
 				(font

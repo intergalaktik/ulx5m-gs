@@ -18832,7 +18832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25-Series Flash"
+		(property "Value" "AT25QL321-MBUE-T"
 			(at 255.27 83.82 0)
 			(effects
 				(font
@@ -19042,7 +19042,7 @@
 		(at 148.59 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -20008,7 +20008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CCGM1A1"
+		(property "Value" "GateMate-CCGM1A1"
 			(at 115.57 104.14 0)
 			(effects
 				(font
@@ -21165,9 +21165,9 @@
 		(at 256.54 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a0035bb0-5731-4e37-a513-ca52eedcb84f")
 		(property "Reference" "J4"
@@ -21588,9 +21588,9 @@
 		(at 76.2 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cac3a9fd-5ebf-415f-a289-51ca0f64a19a")
 		(property "Reference" "JP1"
 			(at 76.2 97.79 0)
