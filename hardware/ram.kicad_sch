@@ -8821,7 +8821,7 @@
 			)
 		)
 	)
-	(global_label "SDRAM_D14"
+	(global_label "SDRAM_D15"
 		(shape input)
 		(at 214.63 64.77 0)
 		(effects
@@ -9001,7 +9001,7 @@
 			)
 		)
 	)
-	(global_label "SDRAM_D15"
+	(global_label "SDRAM_D14"
 		(shape input)
 		(at 214.63 59.69 0)
 		(effects
@@ -9281,7 +9281,7 @@
 			)
 		)
 	)
-	(global_label "SDRAM_D14"
+	(global_label "SDRAM_D15"
 		(shape input)
 		(at 104.14 77.47 0)
 		(effects
@@ -9321,7 +9321,7 @@
 			)
 		)
 	)
-	(global_label "SDRAM_D15"
+	(global_label "SDRAM_D14"
 		(shape input)
 		(at 104.14 74.93 0)
 		(effects
