@@ -18414,7 +18414,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 243.84 128.27 90)
 			(effects
 				(font
@@ -18691,7 +18691,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 243.84 120.65 90)
 			(effects
 				(font
@@ -19873,7 +19873,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 243.84 123.19 90)
 			(effects
 				(font
@@ -21533,7 +21533,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "27R"
 			(at 243.84 125.73 90)
 			(effects
 				(font
@@ -22077,7 +22077,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "27R"
 			(at 228.6 76.2 90)
 			(effects
 				(font

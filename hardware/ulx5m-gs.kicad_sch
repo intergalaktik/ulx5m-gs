@@ -595,6 +595,16 @@
 		)
 		(uuid "b5fd341c-7e31-4213-b9b0-0aa093a12e26")
 	)
+	(wire
+		(pts
+			(xy 45.72 63.5) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd54df71-f8bb-4f56-84fd-75de64910123")
+	)
 	(bus
 		(pts
 			(xy 45.72 88.9) (xy 58.42 88.9)
@@ -1447,7 +1457,7 @@
 			)
 		)
 		(pin "GPIO_VREF" output
-			(at 45.72 120.65 0)
+			(at 45.72 63.5 0)
 			(uuid "b037ad4f-f7dc-401c-83ad-cd55b849dc6e")
 			(effects
 				(font
@@ -1732,7 +1742,7 @@
 		)
 		(uuid "a29a432d-2cca-4e45-9947-735d9a1918bd")
 		(property "Sheetname" "gpio"
-			(at 68.072 60.452 0)
+			(at 73.406 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,6 +1789,16 @@
 				(justify left)
 			)
 		)
+		(pin "GPIO_VREF" output
+			(at 58.42 63.5 180)
+			(uuid "ab4a41a9-f4c2-464a-8007-ff598cdbcbde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8"
@@ -1802,7 +1822,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b5a4e16b-0077-47a1-907a-7465e5b4a9ce")
-		(property "Sheetname" "mipi"
+		(property "Sheetname" "lvds"
 			(at 71.882 99.822 0)
 			(effects
 				(font
@@ -1811,7 +1831,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mipi.kicad_sch"
+		(property "Sheetfile" "lvds.kicad_sch"
 			(at 74.93 111.76 0)
 			(effects
 				(font
@@ -1840,9 +1860,9 @@
 				(justify left)
 			)
 		)
-		(pin "{MIPI1}" bidirectional
-			(at 90.17 106.68 0)
-			(uuid "dcb74689-a9ab-4983-aaaa-02ee71ee3ecf")
+		(pin "{LVDS0}" input
+			(at 90.17 101.6 0)
+			(uuid "21e71d71-d658-4b93-bfc8-b32ee26108fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,9 +1870,9 @@
 				(justify right)
 			)
 		)
-		(pin "{MIPI0}" input
-			(at 90.17 101.6 0)
-			(uuid "a38689b7-abf8-4369-ad7f-5a769bd61924")
+		(pin "{LVDS1}" bidirectional
+			(at 90.17 106.68 0)
+			(uuid "5d1ced9f-1779-48b2-9ac0-344d675bf370")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,26 +1962,6 @@
 				(justify left)
 			)
 		)
-		(pin "{MIPI1}" bidirectional
-			(at 102.87 106.68 180)
-			(uuid "f2c99811-5262-4968-8b0b-fd3cd99593e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{MIPI0}" input
-			(at 102.87 101.6 180)
-			(uuid "084f3268-06d2-41cb-a865-b25a7ed633b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PCIe_CLK_nREQ" passive
 			(at 102.87 41.91 180)
 			(uuid "b498568a-0674-49c2-b07f-8ae4fc3281f6")
@@ -1985,6 +1985,26 @@
 		(pin "PCInRES" passive
 			(at 102.87 46.99 180)
 			(uuid "05e008e4-5926-4edc-86cc-6b481e188aa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{LVDS0}" input
+			(at 102.87 101.6 180)
+			(uuid "4b06da41-12f0-4051-9475-bfb0ef6b3ca6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{LVDS1}" bidirectional
+			(at 102.87 106.68 180)
+			(uuid "a7037577-00b0-46e8-b2fb-e910f76dbe7a")
 			(effects
 				(font
 					(size 1.27 1.27)

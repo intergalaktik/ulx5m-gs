@@ -2353,14 +2353,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "MIPI0"
-		(members "MIPI0_D0_P" "MIPI0_D0_N" "MIPI0_D1_P" "MIPI0_D1_N" "MIPI0_D2_P"
-			"MIPI0_D2_N" "MIPI0_C_P" "MIPI0_C_N" "MIPI0_D3_P" "MIPI0_D3_N"
+	(bus_alias "LVDS0"
+		(members "LVDS0_D0_P" "LVDS0_D0_N" "LVDS0_D1_P" "LVDS0_D1_N" "LVDS0_D2_P"
+			"LVDS0_D2_N" "LVDS0_C_P" "LVDS0_C_N" "LVDS0_D3_P" "LVDS0_D3_N"
 		)
 	)
-	(bus_alias "MIPI1"
-		(members "MIPI1_D0_P" "MIPI1_D0_N" "MIPI1_D1_P" "MIPI1_D1_N" "MIPI1_D2_P"
-			"MIPI1_D2_N" "MIPI1_D3_P" "MIPI1_D3_N" "MIPI1_C_P" "MIPI1_C_N"
+	(bus_alias "LVDS1"
+		(members "LVDS1_D0_P" "LVDS1_D0_N" "LVDS1_D1_P" "LVDS1_D1_N" "LVDS1_D2_P"
+			"LVDS1_D2_N" "LVDS1_D3_P" "LVDS1_D3_N" "LVDS1_C_P" "LVDS1_C_N"
 		)
 	)
 	(bus_alias "PCIe"
@@ -2405,7 +2405,7 @@
 		)
 		(uuid "1a780a26-b14c-4245-8812-0bc9fa4c7dad")
 	)
-	(text "MIPI0"
+	(text "LVDS0"
 		(exclude_from_sim no)
 		(at 26.924 54.61 90)
 		(effects
@@ -2497,7 +2497,7 @@
 		)
 		(uuid "752274fb-fa0f-4121-9de1-6f655b442f0d")
 	)
-	(text "MIPI1"
+	(text "LVDS1"
 		(exclude_from_sim no)
 		(at 28.702 135.128 90)
 		(effects
@@ -2544,7 +2544,7 @@
 		)
 		(uuid "97a1801f-6069-4d92-8f1e-9c176433b799")
 	)
-	(text "MIPI1"
+	(text "LVDS1"
 		(exclude_from_sim no)
 		(at 117.094 160.02 0)
 		(effects
@@ -4969,7 +4969,7 @@
 		)
 		(uuid "0214d865-f939-43f5-8ebb-19244694393b")
 	)
-	(label "MIPI1_D1_P"
+	(label "LVDS1_D1_P"
 		(at 57.15 132.08 180)
 		(effects
 			(font
@@ -4989,7 +4989,7 @@
 		)
 		(uuid "03836bda-aa63-4de8-b0d9-b8f87315dc0f")
 	)
-	(label "MIPI0_D0_N"
+	(label "LVDS0_D0_N"
 		(at 57.15 45.72 180)
 		(effects
 			(font
@@ -5029,7 +5029,7 @@
 		)
 		(uuid "21b8c8df-3cbd-474d-95c2-3ab8d646e43e")
 	)
-	(label "MIPI1_D3_N"
+	(label "LVDS1_D3_N"
 		(at 88.9 144.78 0)
 		(effects
 			(font
@@ -5059,7 +5059,7 @@
 		)
 		(uuid "32cbe1ae-437a-4d88-a05b-dea7c7f54b1d")
 	)
-	(label "MIPI1_D3_P"
+	(label "LVDS1_D3_P"
 		(at 88.9 147.32 0)
 		(effects
 			(font
@@ -5079,7 +5079,7 @@
 		)
 		(uuid "3af90163-3696-4371-90c3-1e91ec51460d")
 	)
-	(label "MIPI0_D2_P"
+	(label "LVDS0_D2_P"
 		(at 57.15 71.12 180)
 		(effects
 			(font
@@ -5089,7 +5089,7 @@
 		)
 		(uuid "4a1af337-f436-4a4e-81bf-ca42b265de84")
 	)
-	(label "MIPI0_D3_P"
+	(label "LVDS0_D3_P"
 		(at 57.15 78.74 180)
 		(effects
 			(font
@@ -5099,7 +5099,7 @@
 		)
 		(uuid "4a5a0330-0d2b-43f2-bbec-74ca6e628a67")
 	)
-	(label "MIPI1_C_P"
+	(label "LVDS1_C_P"
 		(at 57.15 139.7 180)
 		(effects
 			(font
@@ -5109,7 +5109,7 @@
 		)
 		(uuid "5d4a3699-3adf-400e-b6bb-c2961e2800fb")
 	)
-	(label "MIPI0_C_P"
+	(label "LVDS0_C_P"
 		(at 57.15 63.5 180)
 		(effects
 			(font
@@ -5149,7 +5149,7 @@
 		)
 		(uuid "67a6cb01-aaf2-410c-bca1-553b9bd800b1")
 	)
-	(label "MIPI0_D2_N"
+	(label "LVDS0_D2_N"
 		(at 57.15 68.58 180)
 		(effects
 			(font
@@ -5159,7 +5159,7 @@
 		)
 		(uuid "684e21c4-9644-4c1a-abc5-bd7e44c215b4")
 	)
-	(label "MIPI0_D0_P"
+	(label "LVDS0_D0_P"
 		(at 57.15 48.26 180)
 		(effects
 			(font
@@ -5179,7 +5179,7 @@
 		)
 		(uuid "6dbd1c16-8510-4cc3-8bf5-4d982ab4fc86")
 	)
-	(label "MIPI1_D0_P"
+	(label "LVDS1_D0_P"
 		(at 57.15 124.46 180)
 		(effects
 			(font
@@ -5209,7 +5209,7 @@
 		)
 		(uuid "81263d0b-9029-4282-bd3e-d5ea825fe31f")
 	)
-	(label "MIPI1_D0_N"
+	(label "LVDS1_D0_N"
 		(at 57.15 121.92 180)
 		(effects
 			(font
@@ -5219,7 +5219,7 @@
 		)
 		(uuid "83087055-a0e4-4525-aed6-64acc16977bd")
 	)
-	(label "MIPI0_C_N"
+	(label "LVDS0_C_N"
 		(at 57.15 60.96 180)
 		(effects
 			(font
@@ -5249,7 +5249,7 @@
 		)
 		(uuid "8a806715-ed0f-4adf-bd1b-b8ce3f2387da")
 	)
-	(label "MIPI1_D2_P"
+	(label "LVDS1_D2_P"
 		(at 57.15 147.32 180)
 		(effects
 			(font
@@ -5259,7 +5259,7 @@
 		)
 		(uuid "8d183110-8d8d-4b70-b334-a8405e2cdb7c")
 	)
-	(label "MIPI0_D1_P"
+	(label "LVDS0_D1_P"
 		(at 57.15 55.88 180)
 		(effects
 			(font
@@ -5289,7 +5289,7 @@
 		)
 		(uuid "9a9bd451-cfb1-4955-a513-4d435034189a")
 	)
-	(label "MIPI0_D1_N"
+	(label "LVDS0_D1_N"
 		(at 57.15 53.34 180)
 		(effects
 			(font
@@ -5299,7 +5299,7 @@
 		)
 		(uuid "9ed871d4-d84f-4a1c-b55b-4f14bd0dc442")
 	)
-	(label "MIPI1_D2_N"
+	(label "LVDS1_D2_N"
 		(at 57.15 144.78 180)
 		(effects
 			(font
@@ -5329,7 +5329,7 @@
 		)
 		(uuid "aa0479f4-b683-4308-b33b-fdbe3ed3e9e2")
 	)
-	(label "MIPI1_D1_N"
+	(label "LVDS1_D1_N"
 		(at 57.15 129.54 180)
 		(effects
 			(font
@@ -5359,7 +5359,7 @@
 		)
 		(uuid "c8cab4f7-ca4e-4edb-90e2-ebbaa8385f7b")
 	)
-	(label "MIPI1_C_N"
+	(label "LVDS1_C_N"
 		(at 57.15 137.16 180)
 		(effects
 			(font
@@ -5409,7 +5409,7 @@
 		)
 		(uuid "dd247950-e708-43dc-8e75-6f334cf71f1c")
 	)
-	(label "MIPI0_D3_N"
+	(label "LVDS0_D3_N"
 		(at 57.15 76.2 180)
 		(effects
 			(font
@@ -5520,7 +5520,7 @@
 		)
 		(uuid "045f1df3-ffea-4e28-b40c-ed1d370996cc")
 	)
-	(hierarchical_label "{MIPI1}"
+	(hierarchical_label "{LVDS1}"
 		(shape bidirectional)
 		(at 110.49 149.86 0)
 		(effects
@@ -5575,7 +5575,7 @@
 		)
 		(uuid "9637a246-dab3-4e94-9485-0ac51371c69c")
 	)
-	(hierarchical_label "{MIPI1}"
+	(hierarchical_label "{LVDS1}"
 		(shape bidirectional)
 		(at 39.37 149.86 180)
 		(effects
@@ -5608,7 +5608,7 @@
 		)
 		(uuid "ec479532-2b71-4146-9850-75cb8af845d8")
 	)
-	(hierarchical_label "{MIPI0}"
+	(hierarchical_label "{LVDS0}"
 		(shape input)
 		(at 39.37 81.28 180)
 		(effects

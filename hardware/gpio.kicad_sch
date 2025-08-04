@@ -9081,6 +9081,17 @@
 		)
 		(uuid "f329690b-ddd0-451d-9d19-b5b039cb253a")
 	)
+	(hierarchical_label "GPIO_VREF"
+		(shape output)
+		(at 57.15 72.39 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "ff14cc48-b60f-4cbd-b53c-bfa5caf8847f")
+	)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 190.5 38.1 90)
@@ -9629,7 +9640,7 @@
 		(fields_autoplaced yes)
 		(uuid "77e90431-678e-4ef6-b9ef-3cfc32f66c72")
 		(property "Reference" "C91"
-			(at 177.8 40.6463 0)
+			(at 177.8 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,8 +9648,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 177.8 43.1863 0)
+		(property "Value" "220n"
+			(at 177.8 43.1862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11343,7 @@
 		(fields_autoplaced yes)
 		(uuid "cabc5065-4117-4b0b-9b38-3636104dc3dd")
 		(property "Reference" "C87"
-			(at 121.92 40.6463 0)
+			(at 121.92 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,8 +11351,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 121.92 43.1863 0)
+		(property "Value" "220n"
+			(at 121.92 43.1862 0)
 			(effects
 				(font
 					(size 1.27 1.27)

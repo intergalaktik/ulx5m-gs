@@ -8856,7 +8856,7 @@
 	)
 	(text "1277AS-H-2R2M=P2"
 		(exclude_from_sim no)
-		(at 67.31 74.422 0)
+		(at 63.5 77.724 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15374,7 +15374,7 @@
 				)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "DFE322512F-2R2M=P2"
 			(at 54.61 172.72 90)
 			(effects
 				(font
@@ -15859,7 +15859,7 @@
 				)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "DFE322512F-2R2M=P2"
 			(at 54.61 106.68 90)
 			(effects
 				(font
@@ -23184,7 +23184,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc152923-139a-45c4-8cc4-02658ea3a5db")
 		(property "Reference" "L1"
 			(at 54.61 71.12 90)
@@ -23194,8 +23193,8 @@
 				)
 			)
 		)
-		(property "Value" "2u2"
-			(at 54.61 73.66 90)
+		(property "Value" "DFE322512F-2R2M=P2"
+			(at 61.976 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23604,7 +23603,7 @@
 				)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "DFE322512F-2R2M=P2"
 			(at 54.61 139.7 90)
 			(effects
 				(font

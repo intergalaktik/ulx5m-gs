@@ -18121,7 +18121,7 @@
 		(fields_autoplaced yes)
 		(uuid "08eb6d98-4289-44ab-acd8-20ec1a0f9eea")
 		(property "Reference" "C95"
-			(at 43.18 29.2163 0)
+			(at 43.18 29.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18129,8 +18129,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
-			(at 43.18 31.7563 0)
+		(property "Value" "220n"
+			(at 43.18 31.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18546,14 +18546,14 @@
 		(dnp no)
 		(uuid "1039d588-2300-45df-ae14-6de49d6382d5")
 		(property "Reference" "R93"
-			(at 99.06 53.34 90)
+			(at 103.886 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "27R"
 			(at 109.22 53.34 90)
 			(effects
 				(font
@@ -18621,8 +18621,8 @@
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 165.1 110.49 90)
+		(property "Value" "27R"
+			(at 160.02 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19933,8 +19933,8 @@
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 165.1 107.95 90)
+		(property "Value" "27R"
+			(at 160.02 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22681,7 +22681,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "R300"
 			(at 44.45 151.13 90)
 			(effects
 				(font
@@ -22748,7 +22748,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "27R"
 			(at 114.3 73.66 90)
 			(effects
 				(font
@@ -23084,8 +23084,8 @@
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 165.1 115.57 90)
+		(property "Value" "27R"
+			(at 160.02 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23422,7 +23422,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "27R"
 			(at 114.3 71.12 90)
 			(effects
 				(font
@@ -23490,8 +23490,8 @@
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 165.1 113.03 90)
+		(property "Value" "27R"
+			(at 160.02 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23762,7 +23762,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "27R"
 			(at 114.3 68.58 90)
 			(effects
 				(font
@@ -23903,7 +23903,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "27R"
 			(at 114.3 66.04 90)
 			(effects
 				(font
@@ -24379,7 +24379,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "27R"
 			(at 254 134.62 90)
 			(effects
 				(font
@@ -25267,8 +25267,8 @@
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 165.1 118.11 90)
+		(property "Value" "27R"
+			(at 160.02 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25803,8 +25803,8 @@
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 165.1 105.41 90)
+		(property "Value" "27R"
+			(at 160.02 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26513,14 +26513,14 @@
 		(dnp no)
 		(uuid "e6d69208-d928-4528-a8dc-c995d7b1b52f")
 		(property "Reference" "R94"
-			(at 99.06 55.88 90)
+			(at 105.156 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "27R"
 			(at 109.22 55.88 90)
 			(effects
 				(font

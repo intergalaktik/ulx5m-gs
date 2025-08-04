@@ -13422,9 +13422,9 @@
 		)
 		(uuid 172aaf83-f2c4-4d07-9529-5bf32c834d43)
 	)
-	(text "e.g. skyworks 511FCA100M000BAG"
+	(text "511FCA100M000BAG and SiT9365 should work\nIf SiT9365 is used please populate R143"
 		(exclude_from_sim no)
-		(at 36.322 106.426 0)
+		(at 36.83 105.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18077,7 +18077,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a70a7e2c-34e0-4c2d-8e47-df6c240ff5e1")
 		(property "Reference" "R143"
@@ -18428,7 +18428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 MHz LVDS 3.2x2.5"
+		(property "Value" "511FCA100M000BAG"
 			(at 40.64 95.25 0)
 			(effects
 				(font

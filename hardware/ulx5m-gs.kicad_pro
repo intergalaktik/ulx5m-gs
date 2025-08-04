@@ -322,10 +322,6 @@
         ""
       ],
       [
-        "lib_symbol_mismatch|1524000|787400|b53448a8-e757-40dd-976f-12c20b8946d6|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
         "lib_symbol_mismatch|2209800|723900|86f550f3-a259-4698-ab15-ca51be54e2bb|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
@@ -699,7 +695,7 @@
         "diff_pair_width": 0.125,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "MIPI0",
+        "name": "LVDS0",
         "pcb_color": "rgb(0, 0, 194)",
         "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -713,7 +709,7 @@
         "diff_pair_width": 0.125,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "MIPI1",
+        "name": "LVDS1",
         "pcb_color": "rgb(255, 153, 0)",
         "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -841,15 +837,15 @@
         "pattern": "/mipi/DDMI0*"
       },
       {
-        "netclass": "MIPI0",
+        "netclass": "LVDS0",
         "pattern": "/cm4-hsio/MIPI0"
       },
       {
-        "netclass": "MIPI0",
+        "netclass": "LVDS0",
         "pattern": "/cm4-hsio/MIPI0*"
       },
       {
-        "netclass": "MIPI1",
+        "netclass": "LVDS1",
         "pattern": "/cm4-hsio/MIPI1*"
       },
       {
@@ -1304,7 +1300,7 @@
     ],
     [
       "b5a4e16b-0077-47a1-907a-7465e5b4a9ce",
-      "mipi"
+      "lvds"
     ],
     [
       "e7f41e58-8517-469c-9a21-6f6a704f2114",

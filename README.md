@@ -48,20 +48,21 @@ ULX5M with GateMate with SDRAM
   * [X] 8 LEDs ( 8 )
   * [X] 3 BTNs ( 3 )  
   * [X] SD Card (4 data lines)
-  * [X] RPi 26 GPIO + 2 I2C GPIOs
-  * [X] DVI ( 3 diff data lines + diff clock )
-  * [X] CSI/DVI 0 ( 4 diff data lines + diff clock )
-  * [X] CSI/DVI 1 ( 3 diff data lines + diff clock )
+  * [X] RPi 26 GPIO + 2 I2C GPIOs ( 12 diff pairs + 2 routed no diff )
+  * [X] DDMI0 ( 3 diff data lines + diff clock )
+  * [X] LVDS0 ( 4 diff data lines + diff clock )
+  * [X] LVDS1 ( 3 diff data lines + diff clock )
   * [X] USB-C ( 1 diff data line + USBID )
   * [X] PCIe  ( 2 diff data lines + diff clock )
   * [X] SDRAM
   * [X] Gigabit Ethernet
   * [X] FLASH
 
- * Tested and confirmed working ( with patches ) 
+ * Tested and confirmed working ov V002 ( with patches ) 
   * [X] LEDs
   * [X] BTNs
   * [X] Video output ( DVI )
+  * [X] GPIO output
   * [X] TinyDFU USB Bootloader
   * [X] Serial Over GPIO
   * [X] JTAG
