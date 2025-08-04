@@ -8972,12 +8972,6 @@
 		(uuid "fff9ea56-bcae-4c5b-9963-e8db660b72dd")
 	)
 	(junction
-		(at 68.58 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "004af12e-03f9-433c-ae65-b1031595c2a3")
-	)
-	(junction
 		(at 88.9 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9000,12 +8994,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "076c00ce-b906-42fd-aa02-c06cb8e89e1b")
-	)
-	(junction
-		(at 68.58 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "100ee542-19c8-4e94-bb5f-fb1e2430b328")
 	)
 	(junction
 		(at 58.42 109.22)
@@ -9126,12 +9114,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41bb3f1c-79a1-42ac-9b95-ba51e09f274d")
-	)
-	(junction
-		(at 68.58 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43579b2b-15b0-4877-bba6-8ab651e88e8a")
 	)
 	(junction
 		(at 204.47 48.26)
@@ -9366,12 +9348,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a73ddb1d-e1e3-41fc-9bc9-1a9d0eb2e674")
-	)
-	(junction
-		(at 68.58 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aaecde70-dffa-49b9-a50a-3b62a4cc4af6")
 	)
 	(junction
 		(at 138.43 76.2)
@@ -9767,7 +9743,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 78.74 76.2)
+			(xy 58.42 76.2) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -9927,16 +9903,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 68.58 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a40ebbe-dfe3-4da0-912d-3fe70dd100ab")
-	)
-	(wire
-		(pts
 			(xy 204.47 55.88) (xy 204.47 54.61)
 		)
 		(stroke
@@ -10067,16 +10033,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 68.58 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29942391-406d-49ce-8a85-c1b57d72f148")
-	)
-	(wire
-		(pts
 			(xy 214.63 21.59) (xy 224.79 21.59)
 		)
 		(stroke
@@ -10184,16 +10140,6 @@
 			(type default)
 		)
 		(uuid "31dafd0b-2fa4-431a-8d56-0b0183cab302")
-	)
-	(wire
-		(pts
-			(xy 58.42 76.2) (xy 68.58 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3202e13a-19f5-4b1e-80b8-ffd21cf8a920")
 	)
 	(wire
 		(pts
@@ -10457,16 +10403,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 142.24) (xy 68.58 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "469fb0e3-5259-42c7-9ac9-6afd702d5bbf")
-	)
-	(wire
-		(pts
 			(xy 168.91 29.21) (xy 158.75 29.21)
 		)
 		(stroke
@@ -10617,16 +10553,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 116.84) (xy 68.58 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f7f0a01-5033-4a86-bf75-00ec77859399")
-	)
-	(wire
-		(pts
 			(xy 194.31 49.53) (xy 194.31 48.26)
 		)
 		(stroke
@@ -10747,16 +10673,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 182.88) (xy 68.58 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570cb334-5410-4ccf-8686-5caa175aa62a")
-	)
-	(wire
-		(pts
 			(xy 148.59 83.82) (xy 148.59 82.55)
 		)
 		(stroke
@@ -10764,16 +10680,6 @@
 			(type default)
 		)
 		(uuid "57692ca6-9ca2-4603-9ce2-1ea26477f3a4")
-	)
-	(wire
-		(pts
-			(xy 58.42 149.86) (xy 68.58 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577af066-0a6d-4d3d-8899-8e52c696711d")
 	)
 	(wire
 		(pts
@@ -10974,16 +10880,6 @@
 			(type default)
 		)
 		(uuid "6624f81b-283c-46c3-96eb-17444613458c")
-	)
-	(wire
-		(pts
-			(xy 68.58 175.26) (xy 68.58 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "663ea8e9-d10b-420e-a43d-2a15448bba1c")
 	)
 	(wire
 		(pts
@@ -11257,16 +11153,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 78.74 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77730d6a-6a99-4257-a356-d4fd979d9b35")
-	)
-	(wire
-		(pts
 			(xy 260.35 29.21) (xy 270.51 29.21)
 		)
 		(stroke
@@ -11384,16 +11270,6 @@
 			(type default)
 		)
 		(uuid "7fd666c9-64a4-4ea9-833d-42f6eea4785f")
-	)
-	(wire
-		(pts
-			(xy 68.58 182.88) (xy 68.58 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffc3204-7d68-4962-bc64-fd224e80d83d")
 	)
 	(wire
 		(pts
@@ -11987,7 +11863,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 175.26) (xy 68.58 175.26)
+			(xy 58.42 175.26) (xy 78.74 175.26)
 		)
 		(stroke
 			(width 0)
@@ -12167,7 +12043,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 142.24) (xy 78.74 142.24)
+			(xy 58.42 142.24) (xy 78.74 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12457,16 +12333,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 142.24) (xy 68.58 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae4f1d3-5e05-4d8c-86bb-96cddb88f693")
-	)
-	(wire
-		(pts
 			(xy 166.37 138.43) (xy 166.37 142.24)
 		)
 		(stroke
@@ -12474,16 +12340,6 @@
 			(type default)
 		)
 		(uuid "cc25de93-e8d9-439a-bdee-b77918a321ea")
-	)
-	(wire
-		(pts
-			(xy 58.42 83.82) (xy 68.58 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc280aca-a751-4335-ae9f-71464b0be15c")
 	)
 	(wire
 		(pts
@@ -12577,7 +12433,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 109.22) (xy 68.58 109.22)
+			(xy 58.42 109.22) (xy 78.74 109.22)
 		)
 		(stroke
 			(width 0)
@@ -12724,16 +12580,6 @@
 			(type default)
 		)
 		(uuid "d9d9fc1e-7380-4ab9-abc5-a669f927bb1e")
-	)
-	(wire
-		(pts
-			(xy 68.58 109.22) (xy 68.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da5bf375-bf05-4624-9bb9-cbaef3e97d4c")
 	)
 	(wire
 		(pts
@@ -13027,16 +12873,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 175.26) (xy 78.74 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4f1fc8-15de-4668-88fb-5f5a94451552")
-	)
-	(wire
-		(pts
 			(xy 156.21 83.82) (xy 158.75 83.82)
 		)
 		(stroke
@@ -13087,16 +12923,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 68.58 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ae84e7-39da-4882-af4e-5f5a9e52e814")
-	)
-	(wire
-		(pts
 			(xy 58.42 149.86) (xy 58.42 151.13)
 		)
 		(stroke
@@ -13114,16 +12940,6 @@
 			(type default)
 		)
 		(uuid "f31fbb7f-269e-4411-9844-4d3452b51dfa")
-	)
-	(wire
-		(pts
-			(xy 68.58 83.82) (xy 68.58 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3744267-baf8-4b32-86e2-bcb92de40d98")
 	)
 	(wire
 		(pts
@@ -16680,75 +16496,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 68.58 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4de67cfd-9eb1-45c6-877d-b4d3fa668578")
-		(property "Reference" "C5"
-			(at 71.12 111.7663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 71.12 114.3063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d852fc3b-27a7-4cc2-a242-31621f29aa17")
-		)
-		(pin "2"
-			(uuid "565ce795-ae4e-4bbc-af8d-cb3a7b574d8a")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 148.59 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18514,75 +18261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 68.58 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7958a894-fd99-4e58-8c27-3d8d783b8baa")
-		(property "Reference" "C20"
-			(at 71.12 177.8063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 71.12 180.3463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 68.58 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76ad3c32-b3a5-4212-888e-5fcdd664c348")
-		)
-		(pin "2"
-			(uuid "6b6afd67-7cd6-47fe-a02f-b387e8dfe798")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 40.64 189.23 0)
 		(unit 1)
@@ -19936,75 +19614,6 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 68.58 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87ae8a6f-3d83-4269-81e5-ccca9de0f275")
-		(property "Reference" "C4"
-			(at 71.12 78.7463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 71.12 81.2863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 68.58 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac6956e3-6128-4004-a504-fe7158a7f4fc")
-		)
-		(pin "2"
-			(uuid "523d767a-f1c2-4dce-b516-5f7bdd95d997")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -21610,75 +21219,6 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 68.58 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acfd9cd2-2e33-43a3-8dc5-24f16cd25824")
-		(property "Reference" "C19"
-			(at 71.12 144.7863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 71.12 147.3263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 68.58 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5845acd7-79dc-46c3-8162-cf3b770914da")
-		)
-		(pin "2"
-			(uuid "28593503-05d5-4b32-871d-b0f4152e353a")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/3a2aa01e-90a0-4f5c-bc35-5016c4c82a42"
-					(reference "C19")
 					(unit 1)
 				)
 			)

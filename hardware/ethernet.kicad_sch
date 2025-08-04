@@ -11290,6 +11290,16 @@
 		)
 		(uuid "346d0917-7515-4fb7-a29e-515d6cff5383")
 	)
+	(text "Maybe TXS0202YZPR is not needed - \nCurrent ULX5M s working without it, \nbut zener diodes may need to be less then 3.6V"
+		(exclude_from_sim no)
+		(at 59.182 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38b7ddd3-6053-4411-bd2e-30b347015967")
+	)
 	(text "D+ 1.5k pullp for \nfull speed device\nmode USB1.1"
 		(exclude_from_sim no)
 		(at 138.938 201.676 0)
@@ -15956,12 +15966,12 @@
 		(uuid "0ac319ea-45dc-4b03-8acd-4c3b82781776")
 	)
 	(label "USB_P"
-		(at 72.39 231.14 0)
+		(at 35.56 226.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0bce48fa-48a6-4afc-a9df-b1bce319863d")
 	)
@@ -15976,12 +15986,12 @@
 		(uuid "0c76d05d-7de2-450e-a166-6ab80b13b83b")
 	)
 	(label "USB25_P"
-		(at 35.56 226.06 180)
+		(at 72.39 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0d7b78b7-3b94-41ec-824c-24923f46356d")
 	)
@@ -16146,14 +16156,24 @@
 		(uuid "3156af28-3b3b-485f-91bb-01e9ab60f06d")
 	)
 	(label "USB_N"
-		(at 72.39 233.68 0)
+		(at 35.56 228.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "31716f1f-53a3-4e63-9dbb-cca859c48c0d")
+	)
+	(label "USB25_N"
+		(at 50.8 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3227db09-55d0-4c17-bc2c-9bbfb304934a")
 	)
 	(label "ID_SD"
 		(at 50.8 77.47 180)
@@ -16445,6 +16465,16 @@
 		)
 		(uuid "7bc88633-6768-43b3-89f5-bb681ac00173")
 	)
+	(label "USB25_P"
+		(at 50.8 246.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d7ccde5-3ffa-4b29-9115-74ede07b8da5")
+	)
 	(label "RGMII_INT_N"
 		(at 106.68 85.09 180)
 		(effects
@@ -16524,6 +16554,16 @@
 			(justify left bottom)
 		)
 		(uuid "8abf1ed3-05c8-42a0-9dcf-ae1e977ab576")
+	)
+	(label "USB_P"
+		(at 58.42 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd818f1-7dbd-4c37-a40a-c82d778c8706")
 	)
 	(label "ETH2_P"
 		(at 248.92 111.76 180)
@@ -16705,6 +16745,16 @@
 		)
 		(uuid "b4c2c9a0-b776-4977-a03a-5e6f2580541f")
 	)
+	(label "USB_N"
+		(at 58.42 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b688be55-047f-48d3-b658-f23aaaa7da19")
+	)
 	(label "BTN1"
 		(at 74.93 161.29 0)
 		(effects
@@ -16846,12 +16896,12 @@
 		(uuid "da5c3bf1-0465-48f8-93a0-d1fa9f20a3f0")
 	)
 	(label "USB25_N"
-		(at 35.56 228.6 180)
+		(at 72.39 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "db7697be-2577-4d99-b2c9-145469ef2f13")
 	)
@@ -17009,22 +17059,22 @@
 	)
 	(global_label "VDD_CLK"
 		(shape passive)
-		(at 34.29 233.68 180)
+		(at 74.93 226.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eea893e3-0a76-4546-8422-145b238b7365")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.2518 233.68 0)
+			(at 84.9682 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -21409,6 +21459,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 54.61 246.38 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "41de8f79-7d84-4d51-a772-490cc518d2e3")
+		(property "Reference" "R142"
+			(at 54.61 248.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 54.61 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 244.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f551c67-0249-4ba1-bdb9-2a7b43e31b43")
+		)
+		(pin "2"
+			(uuid "491b1a37-b2e2-4c28-b15e-86f0ad532a3e")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "R142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 157.48 59.69 0)
 		(mirror y)
@@ -23259,6 +23376,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 54.61 241.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8f7420e9-743f-4449-9fa7-44e407accef3")
+		(property "Reference" "R141"
+			(at 54.61 243.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 54.61 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 239.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da9234c5-b2fd-471b-83f7-5da86159972c")
+		)
+		(pin "2"
+			(uuid "fb5532d4-5632-407e-a2cc-42aded577910")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 109.22 72.39 270)
 		(mirror x)
@@ -24497,7 +24681,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 74.93 226.06 270)
+		(at 34.29 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24505,7 +24689,7 @@
 		(dnp no)
 		(uuid "b67301f8-382f-4a89-965f-6cf74535bc87")
 		(property "Reference" "#PWR0176"
-			(at 71.12 226.06 0)
+			(at 38.1 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24514,7 +24698,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 80.264 226.06 90)
+			(at 28.956 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24522,7 +24706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 226.06 0)
+			(at 34.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24531,7 +24715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 226.06 0)
+			(at 34.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24540,7 +24724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 74.93 226.06 0)
+			(at 34.29 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

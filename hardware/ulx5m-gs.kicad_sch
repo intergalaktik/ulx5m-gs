@@ -234,7 +234,7 @@
 	)
 	(rectangle
 		(start 16.002 16.002)
-		(end 59.182 27.432)
+		(end 59.182 31.496)
 		(stroke
 			(width 0)
 			(type solid)
@@ -267,7 +267,7 @@
 		)
 		(uuid "74fba986-d4b2-46e8-8bf9-b795a3d7985e")
 	)
-	(text "${project_creator}\nLicense: ${project_license}\nYear: ${project_year}"
+	(text "${project_name} ${project_version}\n${project_creator}\nLicense: ${project_license}\nYear: ${project_year}"
 		(exclude_from_sim no)
 		(at 17.78 17.78 0)
 		(effects
