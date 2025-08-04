@@ -17037,7 +17037,7 @@
 	)
 	(global_label "VDD_CLK"
 		(shape output)
-		(at 24.13 26.67 180)
+		(at 36.83 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17046,6 +17046,28 @@
 			(justify right)
 		)
 		(uuid "2c7e5da8-12b3-4245-93c0-39f27d7e2072")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.6805 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_CLK"
+		(shape output)
+		(at 24.13 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c044644f-588a-44ef-a3ba-af7fd37ba1d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 12.9805 26.67 0)
 			(effects
@@ -20080,74 +20102,6 @@
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 36.83 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c9784da-5f0c-4488-9985-2be638f4ac5c")
-		(property "Reference" "#PWR0159"
-			(at 40.64 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 33.02 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5f02ae8-ac44-498e-874a-2114f09bdf56")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
-					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
