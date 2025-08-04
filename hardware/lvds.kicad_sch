@@ -7326,6 +7326,16 @@
 		)
 		(uuid "ded07e3b-16ac-436a-bdce-e51c9f5a0654")
 	)
+	(text "PWR_BTN\nneeds internal PULL-UP"
+		(exclude_from_sim no)
+		(at 188.214 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0179a0b-7e79-4eb8-8e86-677e01db1ff4")
+	)
 	(junction
 		(at 119.38 38.1)
 		(diameter 0)
