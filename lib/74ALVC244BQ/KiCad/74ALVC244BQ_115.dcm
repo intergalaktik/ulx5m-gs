@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74ALVC244BQ,115
+D 74ALVC244 - Octal buffer/line driver; 3-state@en-us
+K
+F https://componentsearchengine.com/Datasheets/1/74ALVC244BQ,115.pdf
+$ENDCMP
+#
+#End Doc Library

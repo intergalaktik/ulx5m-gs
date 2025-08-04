@@ -18841,7 +18841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "ulx5m-gs:SON80P400X300X60-10N"
 			(at 246.38 97.79 0)
 			(effects
 				(font

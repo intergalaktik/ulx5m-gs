@@ -935,7 +935,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../production/v2/",
+      "plot": "../layers/back/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
