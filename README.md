@@ -29,6 +29,26 @@ ULX5M with GateMate with SDRAM
 
 ![V002](/pic/ULX5M-GS-v002.jpg)
 
+#### SDRAM working with LiteX
+
+![V002 Litex](/pic/LiteX_SDRAM_ULX5M.png)
+
+![V002 Litex full memtest](/pic/LiteX_ULX5M-memtest.png)
+
+#### VGA over GPIO
+
+While testing LVDS I wanted to check if we can have VGA over GPIO and it looks OK 
+
+![V002 VGA](/pic/VGA_LVDS.jpg)
+
+For now only possible over VGA
+
+![V002 Invaders_VGA](/pic/Invaders_ULX5M.jpg)
+
+![V002 ZX_VGA](/pic/ZX_ULX5M.jpg)
+
+![V002 Colevision_VGA](/pic/Colevision_ULX5M.jpg)
+
 * Power regulators
   * [MPM3833C](https://www.monolithicpower.com/en/mpm3833c.html) 0.9V..1.1V V_core, 3A
   * [TI62569](https://www.ti.com/lit/ds/symlink/tlv62569.pdf?ts=1709559273755) 1.2V, 1.8V, 2.5V, 3.3V V_io, 2A
