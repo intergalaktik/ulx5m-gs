@@ -72,7 +72,7 @@ ULX5M with GateMate with SDRAM
   * [X] LVDS - rapicam*
   * [X] DIP SW - they work as FLASH BOOT SELECT
   * [X] FLASH - I can put bitstream in flash and boot from flash
-  * [ ] SDRAM - not tested but should work from V002
+  * [X] SDRAM - tested with LiteX works from V002
   * [ ] Ethernet - not tested - needs V003
   * [ ] PCIe - not tested
   * [ ] SD - not tested        
