@@ -105,6 +105,8 @@ They are proven to be reliable partners that solves problem quickly and on side 
 
 Also big thanks goes to YosysHQ as they are doing miracles with open source tooling, and we now finaly have one that works for GateMate!
 
+From YosysHQ special thanks to Micko and Lofty that are helping in real time on Discord!
+
 Special thanks to Patrick from Cologne, as without him and rest of Cologne team we would not be able to get this project done.
 
 ## Work on this board is financed by NLnet foundation
