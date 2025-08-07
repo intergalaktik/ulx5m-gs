@@ -452,6 +452,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 132 1)
 		)
 		(uuid "00bfbb50-9954-49cf-9b76-5b53a7edcf5a")
 	)
@@ -462,6 +463,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 132 1)
 		)
 		(uuid "0235d233-810d-4a58-9191-9b72945d69c9")
 	)
@@ -482,6 +484,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "0dfd34a3-7341-42ec-b18d-45081722f005")
 	)
@@ -492,6 +495,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 194 1)
 		)
 		(uuid "1eb38b4d-39b7-4681-8c31-fe70ec59734e")
 	)
@@ -502,6 +506,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 0 1)
 		)
 		(uuid "31e7c15f-9fae-4bdd-ae9c-fc2d71a7df39")
 	)
@@ -512,6 +517,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 255 1)
 		)
 		(uuid "3350d292-8044-4bd6-9734-53290e9a6f6f")
 	)
@@ -522,6 +528,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 255 1)
 		)
 		(uuid "34d6e1c1-2f13-4674-9ef8-5c3708ae6d70")
 	)
@@ -542,6 +549,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 255 1)
 		)
 		(uuid "60f5ab54-3f68-48d8-9fb2-1bf59ac95099")
 	)
@@ -552,6 +560,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 132 1)
 		)
 		(uuid "6af18f7d-d28b-4a21-a7c1-3620e2a3e4a3")
 	)
@@ -572,6 +581,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 255 0 1)
 		)
 		(uuid "91ece477-3d2a-49de-bfc1-f593a4fdb969")
 	)
@@ -582,6 +592,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 255 1)
 		)
 		(uuid "b3ad6de2-2655-410d-a2b5-681b5e93ccc1")
 	)
@@ -592,6 +603,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 255 1)
 		)
 		(uuid "b5fd341c-7e31-4213-b9b0-0aa093a12e26")
 	)
@@ -612,6 +624,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 194 194 194 1)
 		)
 		(uuid "f4e22441-406a-4b85-93fb-ed4a01288256")
 	)
@@ -622,6 +635,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 255 0 1)
 		)
 		(uuid "f4e4eed2-3621-46f9-b9d0-1def64ca4a22")
 	)
@@ -632,6 +646,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 0 1)
 		)
 		(uuid "f70ac5ee-c6dd-4e3f-92da-c47612e4f9b9")
 	)
