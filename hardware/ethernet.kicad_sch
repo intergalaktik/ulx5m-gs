@@ -11642,7 +11642,7 @@
 		(uuid "6b01c532-972b-40a5-89ca-01dc845099c6")
 	)
 	(junction
-		(at 50.8 156.21)
+		(at 214.63 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d5521fe-eb61-47d5-a76e-1f37b6d103f4")
@@ -11828,7 +11828,7 @@
 		(uuid "c5e0e94e-ee6f-427a-9137-78381f38fe21")
 	)
 	(junction
-		(at 50.8 151.13)
+		(at 214.63 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cad72fe2-4fa2-4c95-ba19-0732e91d7008")
@@ -12224,6 +12224,16 @@
 		)
 		(uuid "085615e4-6ba3-46ed-bd2b-bc92313d4b06")
 	)
+	(wire
+		(pts
+			(xy 252.73 203.2) (xy 252.73 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f51521-a99d-4c59-a6c5-1fb9f5e2de20")
+	)
 	(bus
 		(pts
 			(xy 38.1 87.63) (xy 38.1 90.17)
@@ -12284,6 +12294,16 @@
 		)
 		(uuid "0cec6a61-2a53-4697-adfc-f6d27bc334af")
 	)
+	(wire
+		(pts
+			(xy 257.81 194.31) (xy 257.81 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d06ebd7-49f3-4c58-9036-b4d408360c41")
+	)
 	(bus
 		(pts
 			(xy 129.54 191.77) (xy 129.54 194.31)
@@ -12333,6 +12353,16 @@
 			(type default)
 		)
 		(uuid "0e1e0659-8f86-4367-a4b0-9fb951a1cb4f")
+	)
+	(wire
+		(pts
+			(xy 252.73 194.31) (xy 252.73 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e821471-2468-4fd4-9b6a-7023d8599acd")
 	)
 	(wire
 		(pts
@@ -12656,7 +12686,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 151.13) (xy 50.8 156.21)
+			(xy 214.63 201.93) (xy 214.63 207.01)
 		)
 		(stroke
 			(width 0)
@@ -12706,7 +12736,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 151.13) (xy 58.42 151.13)
+			(xy 214.63 201.93) (xy 222.25 201.93)
 		)
 		(stroke
 			(width 0)
@@ -12836,7 +12866,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 156.21) (xy 74.93 156.21)
+			(xy 232.41 207.01) (xy 238.76 207.01)
 		)
 		(stroke
 			(width 0)
@@ -13246,7 +13276,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 151.13) (xy 50.8 151.13)
+			(xy 212.09 201.93) (xy 214.63 201.93)
 		)
 		(stroke
 			(width 0)
@@ -13456,7 +13486,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 161.29) (xy 74.93 161.29)
+			(xy 232.41 212.09) (xy 238.76 212.09)
 		)
 		(stroke
 			(width 0)
@@ -14016,7 +14046,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 151.13) (xy 40.64 151.13)
+			(xy 200.66 201.93) (xy 204.47 201.93)
 		)
 		(stroke
 			(width 0)
@@ -14046,7 +14076,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 156.21) (xy 58.42 156.21)
+			(xy 214.63 207.01) (xy 222.25 207.01)
 		)
 		(stroke
 			(width 0)
@@ -14596,6 +14626,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 203.2) (xy 257.81 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b170e5dc-dddb-4400-8a5f-6b2aa86200e2")
+	)
+	(wire
+		(pts
 			(xy 27.94 132.08) (xy 27.94 134.62)
 		)
 		(stroke
@@ -14633,6 +14673,16 @@
 			(type default)
 		)
 		(uuid "b48bb9f8-715f-4197-8112-e209e6087b5e")
+	)
+	(wire
+		(pts
+			(xy 262.89 194.31) (xy 262.89 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b528ed16-a690-4016-9a75-c2928387fb82")
 	)
 	(wire
 		(pts
@@ -14846,7 +14896,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 161.29) (xy 50.8 161.29)
+			(xy 222.25 212.09) (xy 214.63 212.09)
 		)
 		(stroke
 			(width 0)
@@ -15056,7 +15106,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 151.13) (xy 74.93 151.13)
+			(xy 232.41 201.93) (xy 238.76 201.93)
 		)
 		(stroke
 			(width 0)
@@ -15083,6 +15133,16 @@
 			(type default)
 		)
 		(uuid "cf6dfd59-d920-460a-973d-11a2a6c060dc")
+	)
+	(wire
+		(pts
+			(xy 262.89 203.2) (xy 262.89 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb06b62-2627-4fb4-9c51-17a6e7b4f629")
 	)
 	(wire
 		(pts
@@ -15316,7 +15376,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 161.29) (xy 50.8 156.21)
+			(xy 214.63 212.09) (xy 214.63 207.01)
 		)
 		(stroke
 			(width 0)
@@ -16545,7 +16605,7 @@
 		(uuid "889bb5dc-0ede-4627-877f-a10f9f7223e0")
 	)
 	(label "BTN2"
-		(at 74.93 156.21 0)
+		(at 238.76 207.01 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -16714,6 +16774,16 @@
 		)
 		(uuid "af4d2919-a2d5-4da1-8f1c-7f3dcca32ebf")
 	)
+	(label "BTN1"
+		(at 252.73 205.74 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "aff2cbe6-f85e-4ae0-9f10-a6e37979d420")
+	)
 	(label "LEDG"
 		(at 48.26 134.62 0)
 		(effects
@@ -16775,7 +16845,7 @@
 		(uuid "b688be55-047f-48d3-b658-f23aaaa7da19")
 	)
 	(label "BTN1"
-		(at 74.93 161.29 0)
+		(at 238.76 212.09 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -16793,6 +16863,16 @@
 			(justify right bottom)
 		)
 		(uuid "bb53fe4d-1e32-46ee-98d9-d7959fa6fe11")
+	)
+	(label "BTN2"
+		(at 257.81 205.74 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbb8bd0c-6bfc-4ca8-88a7-e8bc137efab6")
 	)
 	(label "RGMII_RXD2"
 		(at 137.16 114.3 0)
@@ -16823,6 +16903,16 @@
 			(justify left bottom)
 		)
 		(uuid "c4fae79b-824d-4e13-be4e-471f9bad17b4")
+	)
+	(label "BTN3"
+		(at 262.89 205.74 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5ac9517-dad6-478e-87e2-666ac977ae64")
 	)
 	(label "SD_DAT6"
 		(at 53.34 87.63 180)
@@ -16865,7 +16955,7 @@
 		(uuid "cb17f127-215e-47ed-886e-a537c532090d")
 	)
 	(label "BTN3"
-		(at 74.93 151.13 0)
+		(at 238.76 201.93 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -17056,22 +17146,66 @@
 	)
 	(global_label "VDD_CLK"
 		(shape output)
-		(at 36.83 151.13 180)
+		(at 252.73 194.31 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2c7e5da8-12b3-4245-93c0-39f27d7e2072")
+		(uuid "7d7152d5-87a7-412e-b6d9-44a5dd08267a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.6805 151.13 0)
+			(at 252.73 183.1605 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_CLK"
+		(shape output)
+		(at 257.81 194.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b024fa94-8377-4f6b-a422-c6d23f8846f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.81 183.1605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_CLK"
+		(shape output)
+		(at 262.89 194.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdfcaad6-ec9e-47fa-9222-5c6a2e189475")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 183.1605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -17465,7 +17599,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 63.5 151.13 0)
+		(at 227.33 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17473,7 +17607,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006256b27f")
 		(property "Reference" "BTN3"
-			(at 68.58 149.86 0)
+			(at 232.41 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17481,7 +17615,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.88 149.86 0)
+			(at 219.71 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17489,7 +17623,7 @@
 			)
 		)
 		(property "Footprint" "Switch_EVPAA:Switch_EVPAA"
-			(at 63.5 146.05 0)
+			(at 227.33 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17498,7 +17632,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf"
-			(at 63.5 146.05 0)
+			(at 227.33 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17507,7 +17641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 151.13 0)
+			(at 227.33 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17516,7 +17650,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww=="
-			(at 63.5 151.13 0)
+			(at 227.33 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17525,7 +17659,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555"
-			(at 63.5 151.13 0)
+			(at 227.33 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17550,7 +17684,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 63.5 156.21 0)
+		(at 227.33 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17558,7 +17692,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006258110e")
 		(property "Reference" "BTN2"
-			(at 68.58 154.94 0)
+			(at 232.41 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17566,7 +17700,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.88 154.94 0)
+			(at 219.71 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17574,7 +17708,7 @@
 			)
 		)
 		(property "Footprint" "Switch_EVPAA:Switch_EVPAA"
-			(at 63.5 151.13 0)
+			(at 227.33 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17583,7 +17717,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf"
-			(at 63.5 151.13 0)
+			(at 227.33 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17592,7 +17726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 156.21 0)
+			(at 227.33 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17601,7 +17735,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww=="
-			(at 63.5 156.21 0)
+			(at 227.33 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17610,7 +17744,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555"
-			(at 63.5 156.21 0)
+			(at 227.33 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17635,7 +17769,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 63.5 161.29 0)
+		(at 227.33 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17643,7 +17777,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000628c84d7")
 		(property "Reference" "BTN1"
-			(at 68.58 160.02 0)
+			(at 232.41 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17651,7 +17785,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.88 160.02 0)
+			(at 219.71 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17659,7 +17793,7 @@
 			)
 		)
 		(property "Footprint" "Switch_EVPAA:Switch_EVPAA"
-			(at 63.5 156.21 0)
+			(at 227.33 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17668,7 +17802,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf"
-			(at 63.5 156.21 0)
+			(at 227.33 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17677,7 +17811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 161.29 0)
+			(at 227.33 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17686,7 +17820,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww=="
-			(at 63.5 161.29 0)
+			(at 227.33 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17695,7 +17829,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555"
-			(at 63.5 161.29 0)
+			(at 227.33 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17713,6 +17847,72 @@
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "BTN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "017c20be-afe0-41bd-b3f6-6edd1170189f")
+		(property "Reference" "R146"
+			(at 260.858 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 262.89 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 261.112 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "461249c8-a9e3-4eb8-8d73-e71513f5b6f5")
+		)
+		(pin "1"
+			(uuid "ab38cda4-fbf9-4ce5-bff9-4e33a59ae0eb")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -22655,7 +22855,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 151.13 270)
+		(at 208.28 201.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22663,7 +22863,7 @@
 		(dnp no)
 		(uuid "7572064a-31cc-4be5-aab4-b536c1fa8a39")
 		(property "Reference" "R118"
-			(at 44.45 153.162 90)
+			(at 208.28 203.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22671,7 +22871,7 @@
 			)
 		)
 		(property "Value" "R300"
-			(at 44.45 151.13 90)
+			(at 208.28 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22679,7 +22879,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 44.45 149.352 90)
+			(at 208.28 200.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22688,7 +22888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 151.13 0)
+			(at 208.28 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22696,7 +22896,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 151.13 0)
+			(at 208.28 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23321,6 +23521,72 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 257.81 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f5f3fc5-2c53-43a3-8b25-f48b70d779c4")
+		(property "Reference" "R145"
+			(at 255.778 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 257.81 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 256.032 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 257.81 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fefaf54c-3e48-4a46-a5e8-1e4617db1d1f")
+		)
+		(pin "1"
+			(uuid "d8c0af08-7e09-4992-be74-e1b01ffa9978")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -24756,6 +25022,73 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 201.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc2e0146-28ab-4a0c-87bd-277f1049db66")
+		(property "Reference" "#PWR076"
+			(at 194.31 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 201.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56411efd-d506-4a14-8177-9ca8bca2ff63")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -27289,6 +27622,72 @@
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb00dbe6-c5e0-4fc9-8846-44fe39acd1ef")
+		(property "Reference" "R144"
+			(at 250.698 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 252.73 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 250.952 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edc9f2d2-1f8d-4c8a-84b7-556ea3c93dc3")
+		)
+		(pin "1"
+			(uuid "30779c7d-d98c-4089-9f5d-4b524389d307")
+		)
+		(instances
+			(project "ulx5m-gs"
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
+					(reference "R144")
 					(unit 1)
 				)
 			)
