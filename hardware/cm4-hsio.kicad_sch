@@ -2417,6 +2417,36 @@
 		)
 		(uuid "243529be-ab85-4cd1-8ac1-9f527266b28c")
 	)
+	(text "Diff tuned to 14mm\nDiff Skew tuned\n"
+		(exclude_from_sim no)
+		(at 38.354 64.516 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "294a3064-8bf5-4d6f-b4c8-517357e9ed0f")
+	)
+	(text "14.6"
+		(exclude_from_sim no)
+		(at 43.18 78.486 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d0d7828-0f02-4b31-baf2-ad034e030940")
+	)
+	(text "14.5"
+		(exclude_from_sim no)
+		(at 42.164 57.658 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f7f0f15-bee3-4ec5-a9f8-86fd1043a255")
+	)
 	(text "DDMI1_HP"
 		(exclude_from_sim no)
 		(at 58.42 81.28 0)
@@ -2438,6 +2468,16 @@
 			(justify right bottom)
 		)
 		(uuid "4b4b9e27-1374-4505-b621-95d98af7f802")
+	)
+	(text "14.5"
+		(exclude_from_sim no)
+		(at 42.672 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fa0842b-3586-4487-b7d1-b9d03a72606c")
 	)
 	(text "DDMI1"
 		(exclude_from_sim no)
@@ -2485,6 +2525,16 @@
 			)
 		)
 		(uuid "6d62edd6-859c-4ddb-8b41-4e5ecca83b85")
+	)
+	(text "14.5"
+		(exclude_from_sim no)
+		(at 42.418 64.262 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f870a14-0636-4b7a-bb8e-0abee25f9a29")
 	)
 	(text "USB3_1_D1_P"
 		(exclude_from_sim no)
@@ -2544,6 +2594,26 @@
 		)
 		(uuid "97a1801f-6069-4d92-8f1e-9c176433b799")
 	)
+	(text "14.5"
+		(exclude_from_sim no)
+		(at 41.91 49.784 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b489200-9ae9-4162-b8f6-abb64234d15a")
+	)
+	(text "Diff tuned to 17mm\nDiff Skew tuned\n"
+		(exclude_from_sim no)
+		(at 41.91 137.414 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b275a6c7-f4c5-453f-8e0a-bf914e74f24c")
+	)
 	(text "LVDS1"
 		(exclude_from_sim no)
 		(at 117.094 160.02 0)
@@ -2577,6 +2647,16 @@
 			(justify right bottom)
 		)
 		(uuid "b433dae1-3081-409d-a3e3-9953918eacd8")
+	)
+	(text "Diff tuned to 28mm\nDiff Skew tuned\n"
+		(exclude_from_sim no)
+		(at 108.712 124.206 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b73d2797-d07e-41fe-93a9-28db960e66e1")
 	)
 	(text "USB3_1_C_P"
 		(exclude_from_sim no)
