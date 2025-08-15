@@ -413,6 +413,12 @@
 		)
 		(uuid "c1dea7e7-fd63-483c-97b2-9e7f9b18c852")
 	)
+	(junction
+		(at 52.07 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5efe426-9040-42db-91d6-245ce38c0a62")
+	)
 	(no_connect
 		(at 45.72 107.95)
 		(uuid "043823b8-42a9-4f92-bd4d-b691c724bfa3")
@@ -479,6 +485,17 @@
 	)
 	(bus
 		(pts
+			(xy 52.07 48.26) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "07941644-99df-427b-bf9a-5a7af61fb13c")
+	)
+	(bus
+		(pts
 			(xy 90.17 106.68) (xy 102.87 106.68)
 		)
 		(stroke
@@ -487,6 +504,17 @@
 			(color 255 153 0 1)
 		)
 		(uuid "0dfd34a3-7341-42ec-b18d-45081722f005")
+	)
+	(bus
+		(pts
+			(xy 52.07 66.04) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "1c06c193-8da8-4510-bbc6-46a03fc50a3f")
 	)
 	(bus
 		(pts
@@ -523,7 +551,7 @@
 	)
 	(bus
 		(pts
-			(xy 45.72 66.04) (xy 58.42 66.04)
+			(xy 45.72 66.04) (xy 52.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -531,6 +559,17 @@
 			(color 255 0 255 1)
 		)
 		(uuid "34d6e1c1-2f13-4674-9ef8-5c3708ae6d70")
+	)
+	(bus
+		(pts
+			(xy 52.07 66.04) (xy 58.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "444a54be-31c3-48e3-a0eb-c02a360a7a30")
 	)
 	(wire
 		(pts
@@ -1332,6 +1371,16 @@
 		(pin "nLED_act" output
 			(at 58.42 45.72 180)
 			(uuid "a2918fbc-73eb-4d61-a372-acc2a6fb6138")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{GPIO}" bidirectional
+			(at 58.42 48.26 180)
+			(uuid "c4db9371-8f87-4f9e-bfdf-c822bf0ec564")
 			(effects
 				(font
 					(size 1.27 1.27)
