@@ -10096,266 +10096,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TXS0202YZPR:TXS0202YZPR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 29.21 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TXS0202YZPR"
-				(at 29.21 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "BGA8C50P2X4_89X189X50"
-				(at 29.21 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/txs0202"
-				(at 29.21 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Voltage-Level Shifter for IC-USB Interface"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.5"
-				(at 29.21 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TXS0202YZPR"
-				(at 29.21 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXS0202YZPR?qs=UlfnwZ2x8nQXRQOkgBH1zw%3D%3D"
-				(at 29.21 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 29.21 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TXS0202YZPR"
-				(at 29.21 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TXS0202YZPR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 27.94 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "D+(B)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "D-(B)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 0 180)
-					(length 5.08)
-					(name "VCCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -5.08 180)
-					(length 5.08)
-					(name "D+(A)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -7.62 180)
-					(length 5.08)
-					(name "D-(A)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(hide yes)
@@ -11279,16 +11019,6 @@
 		)
 		(uuid "346d0917-7515-4fb7-a29e-515d6cff5383")
 	)
-	(text "Maybe TXS0202YZPR is not needed - \nCurrent ULX5M s working without it, \nbut zener diodes may need to be less then 3.6V"
-		(exclude_from_sim no)
-		(at 59.182 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "38b7ddd3-6053-4411-bd2e-30b347015967")
-	)
 	(text "D+ 1.5k pullp for \nfull speed device\nmode USB1.1"
 		(exclude_from_sim no)
 		(at 138.938 201.676 0)
@@ -11310,17 +11040,6 @@
 			(justify left bottom)
 		)
 		(uuid "40201b93-eead-4cd0-bba7-ab4956e154ca")
-	)
-	(text "If you use TXS0202YZPR use 3V6 ZENER\nIf you use just resistor use 2V7 ZENER"
-		(exclude_from_sim no)
-		(at 47.498 216.662 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ef94f6e-7877-4601-a4dd-faa351a0a499")
 	)
 	(text "MODE2"
 		(exclude_from_sim no)
@@ -11846,12 +11565,6 @@
 		(uuid "d2027b23-c2e9-467d-a573-d255863312e6")
 	)
 	(junction
-		(at 73.66 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2ad8378-3e20-406c-aa9f-9c047b411e7b")
-	)
-	(junction
 		(at 138.43 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12363,16 +12076,6 @@
 			(type default)
 		)
 		(uuid "0e821471-2468-4fd4-9b6a-7023d8599acd")
-	)
-	(wire
-		(pts
-			(xy 35.56 228.6) (xy 39.37 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e842d2e-fade-44fd-9fa4-b8e806d541bb")
 	)
 	(wire
 		(pts
@@ -13163,16 +12866,6 @@
 			(type default)
 		)
 		(uuid "45a04499-5580-43e7-805b-955297916950")
-	)
-	(wire
-		(pts
-			(xy 72.39 228.6) (xy 73.66 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "462d40b6-270d-4be0-8a2f-0e3dad15faec")
 	)
 	(wire
 		(pts
@@ -14286,16 +13979,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 226.06) (xy 72.39 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b93513b-6e2a-4ac9-ad0c-b1b3199aa513")
-	)
-	(wire
-		(pts
 			(xy 120.65 219.71) (xy 121.92 219.71)
 		)
 		(stroke
@@ -14593,16 +14276,6 @@
 			(type default)
 		)
 		(uuid "b04cf19b-69cf-4669-ba1e-fe2dc3f180f6")
-	)
-	(wire
-		(pts
-			(xy 35.56 226.06) (xy 39.37 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c06a19-f550-432d-a301-d37a74b3fb0a")
 	)
 	(wire
 		(pts
@@ -14983,16 +14656,6 @@
 			(type default)
 		)
 		(uuid "c8ad17f7-0f6d-49a8-9f67-788703492fe4")
-	)
-	(wire
-		(pts
-			(xy 34.29 233.68) (xy 39.37 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d3f1d1-1025-4b5c-8110-3b32033704d2")
 	)
 	(wire
 		(pts
@@ -15383,16 +15046,6 @@
 			(type default)
 		)
 		(uuid "dd43c967-116b-428f-8113-2a09682d61d7")
-	)
-	(wire
-		(pts
-			(xy 74.93 226.06) (xy 73.66 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de2a25c4-7775-4bc5-8d2c-fd265bf11ea1")
 	)
 	(wire
 		(pts
@@ -15916,16 +15569,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 228.6) (xy 73.66 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8476a5-af93-45e6-badc-6485041ac398")
-	)
-	(wire
-		(pts
 			(xy 208.28 20.32) (xy 208.28 63.5)
 		)
 		(stroke
@@ -16014,16 +15657,6 @@
 		)
 		(uuid "0ac319ea-45dc-4b03-8acd-4c3b82781776")
 	)
-	(label "USB_P"
-		(at 35.56 226.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0bce48fa-48a6-4afc-a9df-b1bce319863d")
-	)
 	(label "ETH0_P"
 		(at 248.92 127 180)
 		(effects
@@ -16033,16 +15666,6 @@
 			(justify right bottom)
 		)
 		(uuid "0c76d05d-7de2-450e-a166-6ab80b13b83b")
-	)
-	(label "USB25_P"
-		(at 72.39 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d7b78b7-3b94-41ec-824c-24923f46356d")
 	)
 	(label "VCC_EA"
 		(at 40.64 26.67 0)
@@ -16204,18 +15827,8 @@
 		)
 		(uuid "3156af28-3b3b-485f-91bb-01e9ab60f06d")
 	)
-	(label "USB_N"
-		(at 35.56 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "31716f1f-53a3-4e63-9dbb-cca859c48c0d")
-	)
 	(label "USB25_N"
-		(at 50.8 241.3 180)
+		(at 74.93 219.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16525,7 +16138,7 @@
 		(uuid "7bc88633-6768-43b3-89f5-bb681ac00173")
 	)
 	(label "USB25_P"
-		(at 50.8 246.38 180)
+		(at 74.93 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16615,7 +16228,7 @@
 		(uuid "8abf1ed3-05c8-42a0-9dcf-ae1e977ab576")
 	)
 	(label "USB_P"
-		(at 58.42 246.38 0)
+		(at 82.55 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16825,7 +16438,7 @@
 		(uuid "b4c2c9a0-b776-4977-a03a-5e6f2580541f")
 	)
 	(label "USB_N"
-		(at 58.42 241.3 0)
+		(at 82.55 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16993,16 +16606,6 @@
 			(justify left bottom)
 		)
 		(uuid "da5c3bf1-0465-48f8-93a0-d1fa9f20a3f0")
-	)
-	(label "USB25_N"
-		(at 72.39 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db7697be-2577-4d99-b2c9-145469ef2f13")
 	)
 	(label "FPD1-"
 		(at 59.69 193.04 0)
@@ -17200,28 +16803,6 @@
 			)
 		)
 	)
-	(global_label "VDD_CLK"
-		(shape passive)
-		(at 74.93 226.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eea893e3-0a76-4546-8422-145b238b7365")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.9682 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "USB_CC2"
 		(shape passive)
 		(at 58.42 207.01 0)
@@ -17316,7 +16897,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7V"
+		(property "Value" "3.6V"
 			(at 76.454 199.39 0)
 			(effects
 				(font
@@ -19528,7 +19109,7 @@
 				)
 			)
 		)
-		(property "Value" "2.7V"
+		(property "Value" "3.6V"
 			(at 83.82 199.39 0)
 			(effects
 				(font
@@ -21579,16 +21160,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 246.38 90)
+		(at 78.74 224.79 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "41de8f79-7d84-4d51-a772-490cc518d2e3")
 		(property "Reference" "R142"
-			(at 54.61 248.412 90)
+			(at 78.74 226.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21596,7 +21177,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 54.61 246.38 90)
+			(at 78.74 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21604,7 +21185,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.61 244.602 90)
+			(at 78.74 223.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21613,7 +21194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 246.38 0)
+			(at 78.74 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21621,7 +21202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 246.38 0)
+			(at 78.74 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23562,16 +23143,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 241.3 90)
+		(at 78.74 219.71 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8f7420e9-743f-4449-9fa7-44e407accef3")
 		(property "Reference" "R141"
-			(at 54.61 243.332 90)
+			(at 78.74 221.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23579,7 +23160,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 54.61 241.3 90)
+			(at 78.74 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23587,7 +23168,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.61 239.522 90)
+			(at 78.74 217.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23596,7 +23177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 241.3 0)
+			(at 78.74 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23604,7 +23185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 241.3 0)
+			(at 78.74 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24931,72 +24512,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 34.29 233.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b67301f8-382f-4a89-965f-6cf74535bc87")
-		(property "Reference" "#PWR0176"
-			(at 38.1 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 28.956 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 34.29 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb1bd82b-6bac-46c8-b1bf-2e1eee5473b2")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
-					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 25.4 35.56 0)
 		(unit 1)
@@ -25324,144 +24839,6 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TXS0202YZPR:TXS0202YZPR")
-		(at 39.37 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c23bd840-a03d-48d8-9dfa-53cea8680a74")
-		(property "Reference" "U11"
-			(at 55.88 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TXS0202YZPR"
-			(at 55.88 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TXS0202YZPR:BGA8C50P2X4_89X189X50"
-			(at 68.58 320.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/txs0202"
-			(at 68.58 420.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage-Level Shifter for IC-USB Interface"
-			(at 39.37 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 68.58 620.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TXS0202YZPR"
-			(at 68.58 720.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXS0202YZPR?qs=UlfnwZ2x8nQXRQOkgBH1zw%3D%3D"
-			(at 68.58 820.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 68.58 920.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TXS0202YZPR"
-			(at 68.58 1020.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "B1"
-			(uuid "cd9f0fb5-8173-4481-9503-7f4d578f248d")
-		)
-		(pin "A2"
-			(uuid "93a8fd1b-2fae-40c6-9e06-d8051a3cefb8")
-		)
-		(pin "A1"
-			(uuid "0afd7615-ba23-4e2b-9b28-d361ba521ff6")
-		)
-		(pin "C2"
-			(uuid "879702d7-225d-457f-84ec-086b224cb20e")
-		)
-		(pin "B2"
-			(uuid "ee764e36-4688-41e6-9623-b774d3e5e0e9")
-		)
-		(pin "D1"
-			(uuid "a4f4c913-3e30-4e18-b045-07ddd355d5a3")
-		)
-		(pin "C1"
-			(uuid "ad100be3-eed5-4d51-bb23-baac8ff8cedf")
-		)
-		(pin "D2"
-			(uuid "ca8fc118-4e6a-4747-a596-40c6cb53178d")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -27590,73 +26967,6 @@
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 231.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa00d288-5503-4537-bb19-1d15942c8f70")
-		(property "Reference" "#PWR0169"
-			(at 33.02 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 231.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88417e49-4ce7-4c1b-a09d-ae857867f3ea")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/5c4580e2-a442-496c-941e-38ded55dcc84"
-					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
