@@ -7326,16 +7326,6 @@
 		)
 		(uuid "ded07e3b-16ac-436a-bdce-e51c9f5a0654")
 	)
-	(text "PWR_BTN\nneeds internal PULL-UP"
-		(exclude_from_sim no)
-		(at 188.214 106.426 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f0179a0b-7e79-4eb8-8e86-677e01db1ff4")
-	)
 	(junction
 		(at 119.38 38.1)
 		(diameter 0)
@@ -11172,6 +11162,28 @@
 			)
 		)
 	)
+	(global_label "RST_N"
+		(shape input)
+		(at 176.53 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfe601cc-939f-409e-a0d9-bcf9de4af70e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.2604 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "{LVDS1}"
 		(shape bidirectional)
 		(at 113.03 76.2 180)
@@ -11204,17 +11216,6 @@
 			(justify right)
 		)
 		(uuid "cc826a56-df27-434c-acb7-b16678e0c7ce")
-	)
-	(hierarchical_label "PWR_BTN"
-		(shape input)
-		(at 176.53 101.6 0)
-		(effects
-			(font
-				(size 1.254 1.254)
-			)
-			(justify left)
-		)
-		(uuid "f52d8662-4559-4e19-af25-63e3f5ab495a")
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")

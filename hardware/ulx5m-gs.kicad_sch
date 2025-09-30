@@ -420,10 +420,6 @@
 		(uuid "e5efe426-9040-42db-91d6-245ce38c0a62")
 	)
 	(no_connect
-		(at 45.72 107.95)
-		(uuid "043823b8-42a9-4f92-bd4d-b691c724bfa3")
-	)
-	(no_connect
 		(at 45.72 118.11)
 		(uuid "2ac3d24f-5139-4b81-a2db-8b507681ee41")
 	)
@@ -580,17 +576,6 @@
 			(type default)
 		)
 		(uuid "49203bcc-36d2-4398-bb6f-dfa7146fd68f")
-	)
-	(wire
-		(pts
-			(xy 45.72 105.41) (xy 58.42 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 255 1)
-		)
-		(uuid "60f5ab54-3f68-48d8-9fb2-1bf59ac95099")
 	)
 	(bus
 		(pts
@@ -1570,16 +1555,6 @@
 				(justify right)
 			)
 		)
-		(pin "PWR_BTN" output
-			(at 45.72 105.41 0)
-			(uuid "789ae12a-45af-4ed4-8ea6-1e734a6db3bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_CC1" passive
 			(at 45.72 83.82 0)
 			(uuid "55bf855e-2ab5-4da1-8e4f-43d43d8dea78")
@@ -1912,16 +1887,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "PWR_BTN" input
-			(at 58.42 105.41 180)
-			(uuid "18e5f759-5c23-4941-8ee1-533858cec45f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "{LVDS0}" input

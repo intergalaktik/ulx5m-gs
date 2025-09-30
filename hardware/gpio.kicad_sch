@@ -7859,7 +7859,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 38.1) (xy 111.76 38.1)
+			(xy 109.22 38.1) (xy 119.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7909,7 +7909,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 38.1) (xy 187.96 38.1)
+			(xy 185.42 38.1) (xy 195.58 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8166,16 +8166,6 @@
 			(type default)
 		)
 		(uuid "8ddbd362-cc7a-42e1-8a59-ff7ed74e028c")
-	)
-	(wire
-		(pts
-			(xy 193.04 38.1) (xy 195.58 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e58b822-ea55-418d-86d2-d26941209834")
 	)
 	(wire
 		(pts
@@ -8496,16 +8486,6 @@
 			(type default)
 		)
 		(uuid "e8f0e874-fdf5-4559-b45b-0470cc156159")
-	)
-	(wire
-		(pts
-			(xy 116.84 38.1) (xy 119.38 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb49e630-7500-4b90-bb27-82318dea15de")
 	)
 	(bus
 		(pts
@@ -9049,73 +9029,6 @@
 			(justify left)
 		)
 		(uuid "ff14cc48-b60f-4cbd-b53c-bfa5caf8847f")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 190.5 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "106472cc-ca6e-46a6-947e-c97bde5af868")
-		(property "Reference" "R127"
-			(at 190.5 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4R7"
-			(at 190.5 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 190.5 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07df391f-458c-4778-8516-57402f5409b3")
-		)
-		(pin "2"
-			(uuid "06ff7b14-5473-4a7c-bca0-fb56a58c5926")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/a29a432d-2cca-4e45-9947-735d9a1918bd"
-					(reference "R127")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -10685,73 +10598,6 @@
 			(project ""
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/a29a432d-2cca-4e45-9947-735d9a1918bd"
 					(reference "#FLG016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 114.3 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1e51f4c-d15e-44f5-b6f2-3920c50a3268")
-		(property "Reference" "R126"
-			(at 114.3 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4R7"
-			(at 114.3 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 114.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d90bb9e6-b4f6-4e3f-81cb-9deaaee57d74")
-		)
-		(pin "2"
-			(uuid "bda4c3d3-7cf7-4967-8d3d-0541680ee99d")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/a29a432d-2cca-4e45-9947-735d9a1918bd"
-					(reference "R126")
 					(unit 1)
 				)
 			)

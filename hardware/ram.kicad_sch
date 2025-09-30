@@ -291,131 +291,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FPGA_CologneChip_GateMate:CCGM1A1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8143,16 +8018,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 31.75) (xy 163.83 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f33d21-0808-412d-8ab6-6e6390e86229")
-	)
-	(wire
-		(pts
 			(xy 219.71 38.1) (xy 219.71 39.37)
 		)
 		(stroke
@@ -8220,16 +8085,6 @@
 			(type default)
 		)
 		(uuid "1e9d244f-c98d-4737-8398-79571d4b824d")
-	)
-	(wire
-		(pts
-			(xy 241.3 31.75) (xy 245.11 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "204e3290-10da-439b-85be-9cbb41d037a0")
 	)
 	(wire
 		(pts
@@ -8473,7 +8328,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 31.75) (xy 154.94 31.75)
+			(xy 148.59 31.75) (xy 163.83 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8733,7 +8588,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 31.75) (xy 236.22 31.75)
+			(xy 229.87 31.75) (xy 245.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -10495,73 +10350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 238.76 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d582ace-79c7-4fbe-903f-60b5f5afd12d")
-		(property "Reference" "R119"
-			(at 238.76 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4R7"
-			(at 238.76 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 238.76 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7ad9840-ba23-4e59-a763-5ee4233143f3")
-		)
-		(pin "2"
-			(uuid "dfa3336d-e579-477a-927d-75309421f760")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "R119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 78.74 127 0)
 		(unit 1)
@@ -11293,73 +11081,6 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 157.48 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "370bbca7-07f2-4acd-a278-e046d5fb05ac")
-		(property "Reference" "R120"
-			(at 157.48 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4R7"
-			(at 157.48 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 157.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 157.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b74c47a5-0c59-456d-afa2-c43a573b906c")
-		)
-		(pin "2"
-			(uuid "42993999-b62d-4dc7-befd-a34bb6519116")
-		)
-		(instances
-			(project "gatemate-plm"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/e7f41e58-8517-469c-9a21-6f6a704f2114"
-					(reference "R120")
 					(unit 1)
 				)
 			)
