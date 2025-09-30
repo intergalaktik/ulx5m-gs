@@ -7709,16 +7709,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 80.01) (xy 96.52 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b66f60-8958-4f89-8b98-ff176a9acad4")
-	)
-	(wire
-		(pts
 			(xy 124.46 68.58) (xy 134.62 68.58)
 		)
 		(stroke
@@ -8276,16 +8266,6 @@
 			(type default)
 		)
 		(uuid "ab4bd135-e997-4992-8ae0-1bb5a1ba1685")
-	)
-	(wire
-		(pts
-			(xy 96.52 69.85) (xy 96.52 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac20b941-8932-40e7-94ae-e5aeb98e01a7")
 	)
 	(bus
 		(pts
@@ -8949,28 +8929,6 @@
 			)
 		)
 	)
-	(global_label "VDD_CLK"
-		(shape passive)
-		(at 96.52 69.85 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "76844c09-3e75-431c-8cd6-375ba58242ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 59.8118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDRAM_A10"
 		(shape input)
 		(at 132.08 63.5 180)
@@ -9220,138 +9178,6 @@
 			(project "ulx5m-gs"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/a29a432d-2cca-4e45-9947-735d9a1918bd"
 					(reference "#FLG017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 96.52 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44f4bf0b-eac5-4066-b1d3-137148b0fc5e")
-		(property "Reference" "R117"
-			(at 93.98 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "dnp"
-			(at 96.52 77.47 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 96.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 96.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f501189-3fd8-4e59-92ba-f6158e8039fe")
-		)
-		(pin "2"
-			(uuid "807c7381-cfc9-41ac-8dc7-6d6c241d2c2e")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/a29a432d-2cca-4e45-9947-735d9a1918bd"
-					(reference "R117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 96.52 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ba68ec1-1081-4334-b130-5153f4cbc662")
-		(property "Reference" "#PWR0152"
-			(at 96.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SDRAM_VCC"
-			(at 94.234 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 96.52 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a630e874-9a11-49bd-bcfb-b4a03ba9022f")
-		)
-		(instances
-			(project "ulx5m-gs"
-				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/a29a432d-2cca-4e45-9947-735d9a1918bd"
-					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
