@@ -11078,7 +11078,7 @@
 		)
 		(uuid "ec2b88f5-af5f-4145-9ed8-29907e67c195")
 	)
-	(label "+2V5_SB"
+	(label "+1V8_SB"
 		(at 175.26 30.48 0)
 		(effects
 			(font
@@ -14307,7 +14307,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 104.14 29.21 0)
 			(effects
 				(font
