@@ -118,10 +118,10 @@ https://www.chili-chips.xyz/open-cologne
 
 ## Acknowledgements
 
-This project was done in colaboration with Chili Chips*Ba team. 
-They have put enormes effort in making all cores to work on GateMate even before we have out own board!
+This project was done in collaboration with Chili Chips*Ba team. 
+They have put enormes effort in making all cores to work on GateMate even before we have our own board!
 Thanks to them now we have big set of cores that can be used to check and improve opensource toolchain!
-They are proven to be reliable partners that solves problem quickly and on side works on educating junger generations!
+They are proven to be reliable partners that solves problem quickly and on side works on educating younger generations!
 
 Also big thanks goes to YosysHQ as they are doing miracles with open source tooling, and we now finaly have one that works for GateMate!
 
