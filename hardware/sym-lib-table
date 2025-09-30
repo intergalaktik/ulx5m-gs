@@ -4,4 +4,6 @@
   (lib (name "DF40C-100DP-0.4V_51_")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/DF40C-100DP-0.4V_51_.kicad_sym")(options "")(descr ""))
   (lib (name "SparkFun-Connector")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/SparkFun-Connector.kicad_sym")(options "")(descr ""))
   (lib (name "TXS0202YZPR")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/LIB_TXS0202YZPR/KiCad/TXS0202YZPR.kicad_sym")(options "")(descr ""))
+  (lib (name "74LVC1G04GM_115")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/74LVC1G04GM,115/KiCad/74LVC1G04GM_115.kicad_sym")(options "")(descr ""))
+  (lib (name "74LVC2G00HK3-7")(type "KiCad")(uri "/home/goran/projects/ulx5m-gs/lib/74LVC2G00HK3-7/KiCad/74LVC2G00HK3-7.kicad_sym")(options "")(descr ""))
 )

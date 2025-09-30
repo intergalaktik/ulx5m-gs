@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC2G00HK3-7
+D NAND Gate IC 2 Channel X2-DFN1410-8 Logic Gates Logic LVC 2 Gate 1.95mm x 1.0mm x 0.4mm. 0.5 mm lead pitch
+K
+F https://www.diodes.com//assets/Datasheets/74LVC2G00.pdf
+$ENDCMP
+#
+#End Doc Library

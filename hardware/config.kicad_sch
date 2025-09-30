@@ -887,6 +887,490 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "74LVC1G04GM_115:74LVC1G04GM,115"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "74LVC1G04GM,115"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PESD3V3L5UF115"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "74LVC1G04 - Single inverter@en-us"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-LVC1G04GM115"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G04GM115?qs=me8TqzrmIYXvgrQ5OHD1Cw%3D%3D"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74LVC1G04GM,115"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G04GM,115_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "n.c._1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "n.c._2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74LVC2G00HK3-7:74LVC2G00HK3-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "74LVC2G00HK3-7"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "74LVC2G00HK37"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC2G00.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "NAND Gate IC 2 Channel X2-DFN1410-8 Logic Gates Logic LVC 2 Gate 1.95mm x 1.0mm x 0.4mm. 0.5 mm lead pitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.35"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-74LVC2G00HK3-7"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC2G00HK3-7?qs=b%252B2mHxW%2Fy4VUCdXIdoS1CQ%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74LVC2G00HK3-7"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC2G00HK3-7_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -9147,7 +9631,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 113.03) (xy 55.88 116.84)
+			(xy 104.14 165.1) (xy 104.14 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9307,7 +9791,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 100.33) (xy 55.88 101.6)
+			(xy 104.14 152.4) (xy 104.14 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9387,7 +9871,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 113.03) (xy 49.53 114.3)
+			(xy 97.79 165.1) (xy 97.79 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9617,7 +10101,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 105.41) (xy 49.53 107.95)
+			(xy 97.79 157.48) (xy 97.79 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9987,7 +10471,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 107.95) (xy 55.88 106.68)
+			(xy 104.14 160.02) (xy 104.14 158.75)
 		)
 		(stroke
 			(width 0)
@@ -18019,7 +18503,7 @@
 		(uuid "2a304af9-acec-4623-93d5-d3b899f081f2")
 	)
 	(label "~{CFG_FAIL}"
-		(at 55.88 116.84 270)
+		(at 104.14 168.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18089,7 +18573,7 @@
 		(uuid "67414f02-b6f5-49a2-bb3b-58c99cc3a15d")
 	)
 	(label "CFG_DONE"
-		(at 49.53 105.41 90)
+		(at 97.79 157.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18378,7 +18862,7 @@
 	(symbol
 		(lib_name "+1V8_7")
 		(lib_id "power:+1V8")
-		(at 55.88 100.33 0)
+		(at 104.14 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18387,7 +18871,7 @@
 		(fields_autoplaced yes)
 		(uuid "02538d87-b246-41c0-b46b-38371ca4c275")
 		(property "Reference" "#PWR058"
-			(at 55.88 104.14 0)
+			(at 104.14 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18396,7 +18880,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 55.88 95.25 0)
+			(at 104.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18404,7 +18888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 100.33 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18413,7 +18897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 100.33 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18422,7 +18906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 55.88 100.33 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18779,7 +19263,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 55.88 104.14 90)
+		(at 104.14 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18787,7 +19271,7 @@
 		(dnp no)
 		(uuid "15f772b3-8ad9-4299-abc1-b52eacda920d")
 		(property "Reference" "D2"
-			(at 56.134 102.362 90)
+			(at 104.394 154.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18796,7 +19280,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 53.34 102.362 0)
+			(at 101.6 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18805,7 +19289,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 55.88 104.14 90)
+			(at 104.14 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18814,7 +19298,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 104.14 90)
+			(at 104.14 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18823,7 +19307,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 55.88 104.14 0)
+			(at 104.14 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18832,7 +19316,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 55.88 104.14 0)
+			(at 104.14 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18850,6 +19334,138 @@
 			(project "gatemate-plm"
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1fc2f15e-8369-4c6d-a2f1-3c85144bfcff"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74LVC1G04GM_115:74LVC1G04GM,115")
+		(at 39.37 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bccde1a-d608-4aab-a61b-0119683b7910")
+		(property "Reference" "IC1"
+			(at 55.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G04GM,115"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "74LVC1G04GM,115:PESD3V3L5UF115"
+			(at 68.58 244.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf"
+			(at 68.58 344.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "74LVC1G04 - Single inverter@en-us"
+			(at 39.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 68.58 544.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-LVC1G04GM115"
+			(at 68.58 644.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G04GM115?qs=me8TqzrmIYXvgrQ5OHD1Cw%3D%3D"
+			(at 68.58 744.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 68.58 844.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC1G04GM,115"
+			(at 68.58 944.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "280d20b1-5d52-4ba9-8397-a30b5e0185ca")
+		)
+		(pin "1"
+			(uuid "dc174364-7c62-4c0a-9964-eecbf757ac21")
+		)
+		(pin "2"
+			(uuid "4efb07d3-e686-4f96-9666-d34c5569ec90")
+		)
+		(pin "5"
+			(uuid "b7405e5c-0264-4b5d-bd9e-3fe102d54f77")
+		)
+		(pin "6"
+			(uuid "430dfd23-f11a-4725-8089-cbfa2ee5501a")
+		)
+		(pin "3"
+			(uuid "709df881-3902-4244-a87e-2416e873d48c")
+		)
+		(instances
+			(project ""
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1fc2f15e-8369-4c6d-a2f1-3c85144bfcff"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -19419,7 +20035,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 119.38 0)
+		(at 97.79 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19428,7 +20044,7 @@
 		(fields_autoplaced yes)
 		(uuid "42127160-7625-471b-a0d0-7aa96853bb6e")
 		(property "Reference" "#PWR057"
-			(at 49.53 125.73 0)
+			(at 97.79 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19437,7 +20053,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 124.46 0)
+			(at 97.79 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19445,7 +20061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 119.38 0)
+			(at 97.79 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19454,7 +20070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 119.38 0)
+			(at 97.79 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19463,7 +20079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 119.38 0)
+			(at 97.79 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19892,7 +20508,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 49.53 110.49 0)
+		(at 97.79 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19900,7 +20516,7 @@
 		(dnp no)
 		(uuid "79474e8d-98fb-4f63-8bac-a7d80743d6e7")
 		(property "Reference" "R31"
-			(at 51.308 112.522 90)
+			(at 99.568 164.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19909,7 +20525,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 49.53 111.506 90)
+			(at 97.79 163.576 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -19918,7 +20534,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 110.49 0)
+			(at 97.79 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19927,7 +20543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 110.49 0)
+			(at 97.79 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19936,7 +20552,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 49.53 110.49 0)
+			(at 97.79 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20170,7 +20786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 55.88 110.49 0)
+		(at 104.14 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20178,7 +20794,7 @@
 		(dnp no)
 		(uuid "8571c508-c1ec-4643-b6d2-bb141177f72c")
 		(property "Reference" "R32"
-			(at 57.658 112.522 90)
+			(at 105.918 164.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20187,7 +20803,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 55.88 111.506 90)
+			(at 104.14 163.576 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -20196,7 +20812,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.88 110.49 0)
+			(at 104.14 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20205,7 +20821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 110.49 0)
+			(at 104.14 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20214,7 +20830,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 55.88 110.49 0)
+			(at 104.14 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21401,6 +22017,144 @@
 				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1fc2f15e-8369-4c6d-a2f1-3c85144bfcff"
 					(reference "U4")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74LVC2G00HK3-7:74LVC2G00HK3-7")
+		(at 43.18 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982c6166-e948-4739-bc5e-dcd66a34d2a6")
+		(property "Reference" "IC2"
+			(at 55.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G00HK3-7"
+			(at 55.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "74LVC2G00HK3-7:74LVC2G00HK37"
+			(at 64.77 265.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC2G00.pdf"
+			(at 64.77 365.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "NAND Gate IC 2 Channel X2-DFN1410-8 Logic Gates Logic LVC 2 Gate 1.95mm x 1.0mm x 0.4mm. 0.5 mm lead pitch"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.35"
+			(at 64.77 565.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-74LVC2G00HK3-7"
+			(at 64.77 665.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC2G00HK3-7?qs=b%252B2mHxW%2Fy4VUCdXIdoS1CQ%3D%3D"
+			(at 64.77 765.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 64.77 865.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC2G00HK3-7"
+			(at 64.77 965.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "307f020b-e8a1-495d-b393-8a08c38fe2f3")
+		)
+		(pin "1"
+			(uuid "46485862-b0e9-44c9-8862-cf93e2f9979c")
+		)
+		(pin "4"
+			(uuid "12877e00-bbd7-4359-893c-adc66dc4c191")
+		)
+		(pin "5"
+			(uuid "7bcf19a9-6aea-41db-ad3d-7f6f7f521d51")
+		)
+		(pin "2"
+			(uuid "16376ad2-55a4-4cf4-8791-b5a0cb5594e5")
+		)
+		(pin "3"
+			(uuid "c7819513-2c02-4e85-8859-2810fbff0751")
+		)
+		(pin "7"
+			(uuid "ce27699f-4ee4-4721-8e6d-21e0aa7ab21f")
+		)
+		(pin "8"
+			(uuid "38d193bf-9418-454c-8d5a-46ce7fcf4adc")
+		)
+		(instances
+			(project ""
+				(path "/9e5cbfd6-8186-4817-919e-acd256336bc8/1fc2f15e-8369-4c6d-a2f1-3c85144bfcff"
+					(reference "IC2")
+					(unit 1)
 				)
 			)
 		)
@@ -22916,7 +23670,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 49.53 116.84 90)
+		(at 97.79 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22924,7 +23678,7 @@
 		(dnp no)
 		(uuid "fa17d21e-56d2-42d9-a15f-c8704be8461f")
 		(property "Reference" "D1"
-			(at 49.784 114.808 90)
+			(at 98.044 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22933,7 +23687,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 46.99 114.046 0)
+			(at 95.25 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22942,7 +23696,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 49.53 116.84 90)
+			(at 97.79 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22951,7 +23705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 116.84 90)
+			(at 97.79 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22960,7 +23714,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 49.53 116.84 0)
+			(at 97.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22969,7 +23723,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 47.244 116.84 0)
+			(at 95.504 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

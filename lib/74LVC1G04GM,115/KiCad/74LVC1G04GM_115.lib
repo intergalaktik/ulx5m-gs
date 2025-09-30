@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 74LVC1G04GM,115
+#/645898/88823/2.50/6/2/Integrated Circuit
+DEF 74LVC1G04GM,115 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "74LVC1G04GM,115" 1150 200 50 H V L CNN
+F2 "PESD3V3L5UF115" 1150 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf" 1150 0 50 H I L CNN
+F4 "74LVC1G04 - Single inverter@en-us" 1150 -100 50 H I L CNN "Description"
+F5 "0.5" 1150 -200 50 H I L CNN "Height"
+F6 "771-LVC1G04GM115" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G04GM115?qs=me8TqzrmIYXvgrQ5OHD1Cw%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "74LVC1G04GM,115" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X n.c._1 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X Y 4 1300 -200 200 L 50 50 0 0 P
+X n.c._2 5 1300 -100 200 L 50 50 0 0 P
+X VCC 6 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
