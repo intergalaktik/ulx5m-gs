@@ -84,9 +84,9 @@ For now only possible over VGA
   * [X] Gigabit Ethernet
   * [X] FLASH
 
- * Tested and confirmed working ov V002 ( with patches ) 
+ * Tested and confirmed working from V004 
   * [X] LEDs
-  * [X] BTNs - work on v002 but better use v003
+  * [X] BTNs
   * [X] Video output ( DVI )
   * [X] GPIO output
   * [X] USB-C TinyDFU USB Bootloader
@@ -96,11 +96,11 @@ For now only possible over VGA
   * [X] LVDS - rapicam*
   * [X] DIP SW - they work as FLASH BOOT SELECT
   * [X] FLASH - I can put bitstream in flash and boot from flash
-  * [X] SDRAM - tested with LiteX works from v002
-  * [X] SD - tested with LiteX works from v002
-  * [ ] DVI - tested and works from v003
+  * [X] SDRAM - tested and working with LiteX
+  * [X] SD - tested and working with LiteX
+  * [X] DVI - tested and works
   * [X] Ethernet - confirmed on v004 - v005 is not tested
-  * [ ] PCIe - not tested
+  * [ ] PCIe (SerDes) - internal test works - externaly not tested
    
 *LVDS I can get cam stream not to trow any error but without and output 
   if I add output cam trows errors - there are some timming issues in the core... 
