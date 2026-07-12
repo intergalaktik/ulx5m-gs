@@ -1,10 +1,14 @@
 # Work in progress!!! 
 
-# V003 should be good enough for all experiments you need!
+# Please use v005
 
 # Please check the list of confirmed working
 
-# ULX5M-GS
+# DEFAULT VOLTAGE FOR GPIO IS SET TO 1.8V!!!
+
+# SDRAM PART is 1.8V
+
+# ULX5M-GS v005
 ULX5M with GateMate with SDRAM
 
 ![Layers_v001](/pic/ulx5m-gs-routed.png)
@@ -64,7 +68,7 @@ For now only possible over VGA
 * Gigabit Ethernet
   * KSZ9031RNXCA
 
-* SDRAM 1V8/2.5V/3.3V selectable in production
+* SDRAM 1V8/2.5V/3.3V selectable in production - default version is 1.8V
 
 * Interfaces
   * [X] 8 LEDs ( 8 )
@@ -94,10 +98,9 @@ For now only possible over VGA
   * [X] FLASH - I can put bitstream in flash and boot from flash
   * [X] SDRAM - tested with LiteX works from v002
   * [X] SD - tested with LiteX works from v002
-  * [ ] Ethernet - not tested - needs V003
+  * [ ] DVI - tested and works from v003
+  * [X] Ethernet - confirmed on v004 - v005 is not tested
   * [ ] PCIe - not tested
-
-*DVI - only with nextpnr and with many tries with SEED= - so HW is OK but we have timming issues
    
 *LVDS I can get cam stream not to trow any error but without and output 
   if I add output cam trows errors - there are some timming issues in the core... 
