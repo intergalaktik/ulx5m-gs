@@ -10232,7 +10232,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -10241,7 +10241,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CX0603MRX7R8BB223"
+		(property "MPN" "GRM155R60J223KA01D"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -10250,7 +10250,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP_COPY" ""
+		(property "Mouser" "https://www.mouser.in/ProductDetail/Pulse-Electronics/CX0603MRX7R8BB223?qs=kZZeweBRAORg3Jn90SoDaA%3D%3D"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -10259,7 +10259,16 @@
 				(hide yes)
 			)
 		)
-		(property "PLACE" ""
+		(property "Mouser Part Number" "81-GRM155R60J223KA1D"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5340014"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -10460,12 +10469,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 209.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A226MQ5N6J8"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A226MQ5N6J8?qs=xZ%2FP%252Ba9zWqYMP1DLwL5akw%3D%3D"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05A226MQ5N6J8"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10500,7 +10546,7 @@
 				)
 			)
 		)
-		(property "Value" "IS42S16320D-6BLI"
+		(property "Value" "IS42VM16320E-75BLI"
 			(at 102.87 96.52 0)
 			(effects
 				(font
@@ -10536,7 +10582,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP_COPY" ""
+		(property "MPN" "IS42VM16320E-75BLI"
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -10545,7 +10591,25 @@
 				(hide yes)
 			)
 		)
-		(property "PLACE" ""
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/ISSI/IS42VM16320E-75BLI?qs=ScTHCgOnmkJmiEh1idqZ8g%3D%3D"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "870-I42VM16320E75BLI"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -10766,7 +10830,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -10775,7 +10839,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CX0603MRX7R8BB223"
+		(property "MPN" "GRM155R60J223KA01D"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -10784,7 +10848,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP_COPY" ""
+		(property "Mouser" "https://www.mouser.in/ProductDetail/Pulse-Electronics/CX0603MRX7R8BB223?qs=kZZeweBRAORg3Jn90SoDaA%3D%3D"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -10793,7 +10857,16 @@
 				(hide yes)
 			)
 		)
-		(property "PLACE" ""
+		(property "Mouser Part Number" "81-GRM155R60J223KA1D"
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5340014"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -10863,12 +10936,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 219.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A225MQ5NSNC"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10932,12 +11042,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 229.87 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R60J104KA01D "
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/GRM155R60J104KA01D?qs=y02iAgv9n61m8Pn0CFWDBQ%3D%3D"
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R60J104KA1D"
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11457,7 +11604,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -11466,7 +11613,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CX0603MRX7R8BB223"
+		(property "MPN" "GRM155R60J223KA01D"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -11475,7 +11622,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP_COPY" ""
+		(property "Mouser" "https://www.mouser.in/ProductDetail/Pulse-Electronics/CX0603MRX7R8BB223?qs=kZZeweBRAORg3Jn90SoDaA%3D%3D"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -11484,7 +11631,16 @@
 				(hide yes)
 			)
 		)
-		(property "PLACE" ""
+		(property "Mouser Part Number" "81-GRM155R60J223KA1D"
+			(at 93.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5340014"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -11552,7 +11708,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 69.85 130.81 0)
 			(effects
 				(font
@@ -11561,7 +11717,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP_COPY" ""
+		(property "MPN" "CL05A225MQ5NSNC"
 			(at 69.85 130.81 0)
 			(effects
 				(font
@@ -11570,7 +11726,25 @@
 				(hide yes)
 			)
 		)
-		(property "PLACE" ""
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+			(at 69.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+			(at 69.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
 			(at 69.85 130.81 0)
 			(effects
 				(font
@@ -11837,12 +12011,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 245.11 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R60J104KA01D "
+			(at 245.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/GRM155R60J104KA01D?qs=y02iAgv9n61m8Pn0CFWDBQ%3D%3D"
+			(at 245.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R60J104KA1D"
+			(at 245.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 245.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11912,6 +12123,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CCGM1A1-BGA324"
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "CCGM1A1-BGA324"
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "U11"
@@ -12941,12 +13170,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 173.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A225MQ5NSNC"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13010,12 +13276,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 163.83 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A226MQ5N6J8"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05A226MQ5N6J8?qs=xZ%2FP%252Ba9zWqYMP1DLwL5akw%3D%3D"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05A226MQ5N6J8"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13142,7 +13445,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 101.6 130.81 0)
 			(effects
 				(font
@@ -13151,7 +13454,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CX0603MRX7R8BB223"
+		(property "MPN" "GRM155R60J223KA01D"
 			(at 101.6 130.81 0)
 			(effects
 				(font
@@ -13160,7 +13463,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNP_COPY" ""
+		(property "Mouser" "https://www.mouser.in/ProductDetail/Pulse-Electronics/CX0603MRX7R8BB223?qs=kZZeweBRAORg3Jn90SoDaA%3D%3D"
 			(at 101.6 130.81 0)
 			(effects
 				(font
@@ -13169,7 +13472,16 @@
 				(hide yes)
 			)
 		)
-		(property "PLACE" ""
+		(property "Mouser Part Number" "81-GRM155R60J223KA1D"
+			(at 101.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5340014"
 			(at 101.6 130.81 0)
 			(effects
 				(font
@@ -13436,12 +13748,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 184.15 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R60J104KA01D "
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/GRM155R60J104KA01D?qs=y02iAgv9n61m8Pn0CFWDBQ%3D%3D"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R60J104KA1D"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13834,12 +14183,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol 0402"
 			(at 148.59 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R60J104KA01D "
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://hr.mouser.com/ProductDetail/Murata-Electronics/GRM155R60J104KA01D?qs=y02iAgv9n61m8Pn0CFWDBQ%3D%3D"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R60J104KA1D"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
