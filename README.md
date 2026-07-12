@@ -6,7 +6,11 @@
 
 # DEFAULT VOLTAGE FOR GPIO IS SET TO 1.8V!!!
 
-# SDRAM PART is 1.8V
+# DEFAULT SDRAM PART is 1.8V
+
+# DEFAULT VCC CORE is 0.9V - if you use SerDes this needs to be higher
+
+# Most of our tests are done with VCC CORE 1.1V 
 
 # ULX5M-GS v005
 ULX5M with GateMate with SDRAM
@@ -58,7 +62,7 @@ For now only possible over VGA
   * [TI62569](https://www.ti.com/lit/ds/symlink/tlv62569.pdf?ts=1709559273755) 1.2V, 1.8V, 2.5V, 3.3V V_io, 2A
 
 * GateMate
-  * compatibility to A1
+  * compatibility to A1 - A2 is not tested
   * ext. clock: 100 MHz lvds (can be used for both serdes and pll)
   * ext. clock: 25MHz
   * programmer interface
