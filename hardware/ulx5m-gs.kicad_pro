@@ -103,6 +103,18 @@
         [
           "clearance|69176602|68823000|617c8209-11ec-4ad4-906f-ad434bf0bf2f|71d58ed1-e579-4a14-a5db-31d4f7039ee1",
           ""
+        ],
+        [
+          "solder_mask_bridge|109700250|90023157|332b693a-a68c-4b12-abce-af25c5df1b66|075e89d7-8ee6-4374-ad75-742587be0b7d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|67012156|59967836|bcc87af4-f046-4109-b304-64180960167f|efe149b2-effe-4e7d-8e6a-7b80af0d1990",
+          ""
+        ],
+        [
+          "solder_mask_bridge|67460250|59373157|5b0708aa-3d90-4960-adf0-d67062177fb2|075e89d7-8ee6-4374-ad75-742587be0b7d",
+          ""
         ]
       ],
       "meta": {
