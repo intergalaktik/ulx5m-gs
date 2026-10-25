@@ -10,7 +10,9 @@
 
 ## Most of our tests are done with VCC CORE 1.1V 
 
-## We are using 3V3 on some banks per this reasearch - https://github.com/pu-cc/gm_gpio_ringosc
+## We are using 3V3 on some banks 
+
+per this reasearch - https://github.com/pu-cc/gm_gpio_ringosc
 
 ## ULX5M-GS v005
 
@@ -23,6 +25,8 @@ ULX5M with GateMate with SDRAM
 ### ULX5M-GS V005
 
 ![Assembled](/pic/ulx5m-gs-assembled.png)
+
+### Promo Video ULX5M-GS <-> ULX5M-M2
 
 [![Promo Video ULX5M-GS <-> ULX5M-M2](/pic/youtube_video.png)](https://youtu.be/-nHi7P7oT04?is=5Uu8N1QdXlBL5vJz)
 
