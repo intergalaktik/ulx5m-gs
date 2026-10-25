@@ -1,16 +1,16 @@
-# Work in progress!!! 
+# ULX5M-GS 
 
-# Please use v005
+## Please check the list of confirmed working
 
-# Please check the list of confirmed working
+## DEFAULT VOLTAGE FOR GPIO IS SET TO 1.8V!!!
 
-# DEFAULT VOLTAGE FOR GPIO IS SET TO 1.8V!!!
+## DEFAULT SDRAM PART is 1.8V
 
-# DEFAULT SDRAM PART is 1.8V
+## DEFAULT VCC CORE is 0.9V - if you use SerDes this needs to be higher
 
-# DEFAULT VCC CORE is 0.9V - if you use SerDes this needs to be higher
+## Most of our tests are done with VCC CORE 1.1V 
 
-# Most of our tests are done with VCC CORE 1.1V 
+## We are using 3V3 on some banks per this reasearch - https://github.com/pu-cc/gm_gpio_ringosc
 
 # ULX5M-GS v005
 ULX5M with GateMate with SDRAM
@@ -19,9 +19,11 @@ ULX5M with GateMate with SDRAM
 ![TOP](/pic/ulx5m-gs-top.png)
 ![BOTTOM](/pic/ulx5m-gs-bottom.png)
 
-#### ULX5M-GS V001
+#### ULX5M-GS V005
 
-![Assembled](/pic/v1-assembled.jpg)
+![Assembled](/pic/ulx5m-gs-assembled.png)
+
+[![Promo Video ULX5M-GS <-> ULX5M-M2](youtube_video.png)](https://youtu.be/-nHi7P7oT04?is=5Uu8N1QdXlBL5vJz)
 
 #### V001 LED ON
 
@@ -43,6 +45,21 @@ ULX5M with GateMate with SDRAM
 
 ![V002 Litex full memtest](/pic/LiteX_ULX5M-memtest.png)
 
+#### Litex Linux with Ethernet, DVI, and USB HOST on A1
+
+![V005 LitexLinux](/pic/LiteX_Linux_ULX5M.png)
+
+| Resource | Used / Available | % |
+|---|---|---|
+| Logic (CPE_LT) | 30 818 / 40 960 | 75 % |
+| Flip-flops (CPE_FF) | 10 689 / 40 960 | 26 % |
+| RAM I/O (CPE_RAMIO) | 2 988 / 40 960 | 7 % |
+| Block RAM (RAM_HALF) | 50 / 64 | 78 % |
+| PLL | 3 / 4 | 75 % |
+| GPIO / IOSEL | 73 / 162 | 45 % |
+| Global clock nets | 4 / 4 | 100 % |
+| SerDes | 0 / 1 | 0 % |
+
 #### VGA over GPIO
 
 While testing LVDS I wanted to check if we can have VGA over GPIO and it looks OK 
@@ -62,7 +79,7 @@ For now only possible over VGA
   * [TI62569](https://www.ti.com/lit/ds/symlink/tlv62569.pdf?ts=1709559273755) 1.2V, 1.8V, 2.5V, 3.3V V_io, 2A
 
 * GateMate
-  * compatibility to A1 - A2 is not tested
+  * compatibility to A1 and A2
   * ext. clock: 100 MHz lvds (can be used for both serdes and pll)
   * ext. clock: 25MHz
   * programmer interface
@@ -105,6 +122,7 @@ For now only possible over VGA
   * [X] DVI - tested and works
   * [X] Ethernet - confirmed on v004 - v005 is not tested
   * [ ] PCIe (SerDes) - internal test works - externaly not tested
+    * [x] SerDes is confirmed working with our ULX5M-M2 v0.1 but for now only 1.25Gbit/s
    
 *LVDS I can get cam stream not to trow any error but without and output 
   if I add output cam trows errors - there are some timming issues in the core... 
