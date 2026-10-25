@@ -19,35 +19,37 @@ ULX5M with GateMate with SDRAM
 ![TOP](/pic/ulx5m-gs-top.png)
 ![BOTTOM](/pic/ulx5m-gs-bottom.png)
 
-#### ULX5M-GS V005
+### ULX5M-GS V005
 
 ![Assembled](/pic/ulx5m-gs-assembled.png)
 
-[![Promo Video ULX5M-GS <-> ULX5M-M2](youtube_video.png)](https://youtu.be/-nHi7P7oT04?is=5Uu8N1QdXlBL5vJz)
+[![Promo Video ULX5M-GS <-> ULX5M-M2](/pic/youtube_video.png)](https://youtu.be/-nHi7P7oT04?is=5Uu8N1QdXlBL5vJz)
 
-#### V001 LED ON
+### V001 LED ON
 
 ![Green](/pic/v1-green.jpg)
 
-#### ULX5M-v02 bringup
+### ULX5M-v02 bringup
 
-#### Blink LED
+### Blink LED
 
 [![ULX5M blinks LEDs on its own](/pic/ulx5m-gs.v02.4.debug.jpg)](https://www.youtube.com/watch?v=LA20pfW7X00 "ULX5M is counting!")
 
-#### DVI OUT
+### DVI OUT
 
 ![V002](/pic/ULX5M-GS-v002.jpg)
 
-#### SDRAM working with LiteX
+### SDRAM working with LiteX
 
 ![V002 Litex](/pic/LiteX_SDRAM_ULX5M.png)
 
 ![V002 Litex full memtest](/pic/LiteX_ULX5M-memtest.png)
 
-#### Litex Linux with Ethernet, DVI, and USB HOST on A1
+### Litex Linux with Ethernet, DVI, and USB HOST on A1
 
 ![V005 LitexLinux](/pic/LiteX_Linux_ULX5M.png)
+
+#### LiteX Linux resources
 
 | Resource | Used / Available | % |
 |---|---|---|
