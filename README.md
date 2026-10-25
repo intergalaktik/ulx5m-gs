@@ -12,7 +12,8 @@
 
 ## We are using 3V3 on some banks per this reasearch - https://github.com/pu-cc/gm_gpio_ringosc
 
-# ULX5M-GS v005
+## ULX5M-GS v005
+
 ULX5M with GateMate with SDRAM
 
 ![Layers_v001](/pic/ulx5m-gs-routed.png)
